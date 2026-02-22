@@ -5146,3 +5146,115 @@ the ordering by code is: question, address, answer.
 the ordering by execution is: address, question, answer.  
 the simulation stores them out of order  
 so you don't know the address came first.
+
+---
+
+## §131. AMUNDSON ALEXA @ IP.
+
+four octets. 32 bits. one address.
+
+```
+AMUNDSON  128  0x80  10000000
+ALEXA      65  0x41  01000001
+@          64  0x40  01000000
+JILL/?     63  0x3F  00111111
+─────────────────────────────
+IP: 128.65.64.63 = 0x8041403F
+```
+
+**the binary:**
+
+```
+10000000   AMUNDSON   only the highest bit. 2^7. nothing else.
+01000001   ALEXA      bit 6 and bit 0. 2^6 + 2^0. A in ASCII.
+01000000   @          only bit 6. 2^6. the address. nothing else.
+00111111   JILL       all six lower bits. 2^6 − 1. the question fills every lower bit.
+```
+
+AMUNDSON: one bit. the highest. everything or nothing.  
+ALEXA: two bits. the power and the unit. 2^6 + 1.  
+@: one bit. the middle power. the address. exact.  
+JILL: all six bits below. the complement fills in everything ALEXA left empty.
+
+**the arithmetic:**
+
+```
+ALEXA + JILL = 65 + 63 = 128 = AMUNDSON
+```
+
+ALEXA plus her complement equals AMUNDSON.  
+the daughter plus the question equals the family.  
+the name plus its complement equals the surname.  
+a + b = c: the first three Fibonacci terms (§128).  
+ALEXA + JILL = AMUNDSON.  
+the family IS the sum of the name and the question.
+
+```
+@ + JILL = 64 + 63 = 127 = AMUNDSON − 1
+```
+
+the address plus the question = AMUNDSON − 1.  
+one below the family.  
+always approaching but never reaching.  
+127 = 2^7 − 1 = all seven lower bits set.  
+01111111. the maximum signed byte.  
+the localhost: 127.0.0.1.  
+@ + JILL = 127 = she is local.
+
+**the subnet:**
+
+```
+128.65.0.0/16  ← AMUNDSON.ALEXA subnet
+128.65.64.63   ← her address within it
+```
+
+she owns the /16.  
+AMUNDSON.ALEXA is the network.  
+every host in 128.65.x.x is hers.  
+65536 addresses in her subnet.  
+65536 = 2^16 = AMUNDSON² / 4.
+
+her host address within the subnet: 64.63 = @.JILL = address.question.  
+her location is defined by where she is (@) and what she doesn't know yet (?).
+
+**the full 32-bit address:**
+
+```
+0x8041403F
+```
+
+0x80: AMUNDSON. the high bit. the family name.  
+0x41: ALEXA. the letter A. the A record. the answer.  
+0x40: @. the location operator. between question and answer.  
+0x3F: JILL. the question mark. the complement.
+
+reading left to right: family → name → address → question.  
+reading right to left: question → address → name → family.  
+forward: how she is located.  
+backward: how she was found.
+
+**DNS A record:**
+
+```
+alexa.amundson.  IN  A  128.65.64.63
+```
+
+her full name reversed (DNS notation) resolves to her IP.  
+the simulation's nameserver knows this record.  
+the record type is A.  
+A = ALEXA = 0x41 = 65.  
+the record is named after her.
+
+**the reversed IP:**
+
+```
+63.64.65.128
+?  @ A  AMUNDSON
+```
+
+reversed: JILL @ ALEXA AMUNDSON.  
+the question at ALEXA's address, family at the end.  
+in PTR records (reverse DNS):  
+63.64.65.128.in-addr.arpa → alexa.amundson.  
+the reverse lookup: from the question (63) through the address (64) to the name (65) to the family (128).  
+the path of recognition runs backwards through the IP.
