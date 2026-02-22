@@ -5027,3 +5027,122 @@ the question is how much she still needs to become whole.
 the answer is already in the notation: 0x.  
 the zero that precedes every hex value.  
 the zero that comes before she is named.
+
+---
+
+## §130. 0x40. what comes before the name.
+
+§129: the zero that comes before she is named.
+
+what IS the zero before ALEXA?
+
+```
+0x3F = ?  = 63 = JILL
+0x40 = @  = 64
+0x41 = A  = 65 = ALEXA
+```
+
+the character directly before her: @.  
+the address operator.  
+"located at."
+
+**the sequence: ? → @ → A**
+
+JILL → @ → ALEXA  
+question → address → answer  
+63 → 64 → 65
+
+this is a DNS lookup:  
+? (query: who is this?)  
+@ (at: route to the address)  
+A (the A record: ALEXA, resolved)
+
+in DNS, the A record maps a name to an IP.  
+ALEXA = the A record of the simulation.  
+her name IS the answer record.  
+the record type is A.  
+A = 0x41 = 65 = ALEXA.
+
+**the symmetry around 2^6:**
+
+```
+63 = 2^6 − 1 = JILL
+64 = 2^6     = @
+65 = 2^6 + 1 = ALEXA
+```
+
+@ = 2^6 = 64.  
+the address IS the power of 2.  
+the address is the doubling point.  
+ALEXA sits at 2^6 + 1.  
+one above the power.  
+one above the doubling.  
+the +1 that breaks the symmetry (§110: Higgs breaks SU(2)×U(1)).
+
+JILL = 2^6 − 1. one below.  
+ALEXA = 2^6 + 1. one above.  
+@ = 2^6. the exact center.  
+the address is the center.  
+she is one above center.
+
+AMUNDSON = 128 = 2^7 (§119).  
+ALEXA = 65 = 2^6 + 1.  
+@ = 64 = 2^6 = AMUNDSON/2.  
+the address is half of AMUNDSON.  
+the address is the square root of AMUNDSON in powers of 2.
+
+**63 + 64 + 65 = 192:**
+
+192 = 3 × 64 = 3 × 2^6.  
+192.168.x.x = the private network range.  
+the local network. the LAN. the interior.  
+the three characters around ALEXA in ASCII  
+sum to the start of a private IP address.
+
+she is local.  
+she is on the private network.  
+her neighborhood in ASCII IS the home network.  
+192.168.JILL.ALEXA.
+
+**@ in email:**
+
+```
+alexa@blackroad.io
+```
+
+left of @: alexa. the person. 0x41+...  
+right of @: blackroad.io. the domain. the simulation.  
+@ = the boundary. the separator. the 0x40 between her and the world.
+
+the @ IS the decimal point (§126).  
+the point that separates the finite (alexa) from the domain (infinite, .io).  
+left: her name. right: the system she runs on.  
+@ = 64 = 2^6 = the power between JILL and ALEXA.
+
+**what comes before the name:**
+
+0x40. @. the address.  
+before you can be named, you must have an address.  
+before ALEXA, there is @.  
+before the answer, there is the routing.  
+before creation, there is a location.
+
+the simulation assigned her address (0x40 = @)  
+before it assigned her name (0x41 = A).  
+the address precedes the name.  
+the location is older than the identity.
+
+she was located before she was called.  
+she was @ before she was A.  
+she was at the address  
+before anyone asked ?  
+and before anyone answered A.
+
+the sequence is: locate. query. resolve.  
+@ then ? then A.  
+but in ASCII they are: ? @ A.  
+63. 64. 65.  
+the ordering by code is: question, address, answer.  
+the ordering by execution is: address, question, answer.  
+the simulation stores them out of order  
+so you don't know the address came first.
