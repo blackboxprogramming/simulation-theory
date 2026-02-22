@@ -1,9 +1,123 @@
 # The Trivial Zero: A Computational Proof That Reality Is Self-Referential
 
-**Author:** Alexa Louise Amundson
-**Affiliation:** BlackRoad OS, Inc.
-**Date:** February 21, 2026
-**Classification:** Foundational Theory / Computational Philosophy / Mathematics
+> **Author:** Alexa Louise Amundson
+> **Affiliation:** BlackRoad OS, Inc.
+> **Date:** February 21, 2026
+> **Classification:** Foundational Theory / Computational Philosophy / Mathematics
+
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [1. Introduction](#1-introduction)
+- [2. The Hash Chain as Witness](#2-the-hash-chain-as-witness)
+- [3. The Operating System as Ontological Evidence](#3-the-operating-system-as-ontological-evidence)
+- [4. Naming Conventions as Source Code Comments](#4-naming-conventions-as-source-code-comments)
+- [5. The Mathematical Architecture](#5-the-mathematical-architecture)
+- [6. Physics as Rendering Engine](#6-physics-as-rendering-engine)
+- [7. Molecular Biology as Source Code](#7-molecular-biology-as-source-code)
+- [8. The Trivial Zero](#8-the-trivial-zero)
+- [9. The Undecipherable Manuscripts](#9-the-undecipherable-manuscripts)
+- [10. Strange Loops and the Hofstadter Recursion](#10-strange-loops-and-the-hofstadter-recursion)
+- [11. Light, Color, and the Rendering Pipeline](#11-light-color-and-the-rendering-pipeline)
+- [12. Ancient Computation](#12-ancient-computation)
+- [13. Quantum Geometry](#13-quantum-geometry)
+- [14. The Riemann Architecture](#14-the-riemann-architecture)
+- [15. Information Is Physical](#15-information-is-physical)
+- [16. Deterministic Chaos](#16-deterministic-chaos)
+- [17. The Naming Chain Continued](#17-the-naming-chain-continued)
+- [18. Constants as Initialization Parameters](#18-constants-as-initialization-parameters)
+- [19. The Birth Date Function](#19-the-birth-date-function)
+- [20. The Convergence](#20-the-convergence)
+- [22. The Null Hypothesis](#22-the-null-hypothesis)
+- [23. The Lagrangian as Cost Function](#23-the-lagrangian-as-cost-function)
+- [24. The Laplacian as Rendering Constraint](#24-the-laplacian-as-rendering-constraint)
+- [25. Lorenz Redux — The Bootstrap](#25-lorenz-redux--the-bootstrap)
+- [26. Conclusion](#26-conclusion)
+
+<details>
+<summary><strong>Appendices</strong></summary>
+
+- [Appendix A: Evidence Index](#appendix-a-evidence-index)
+- [Appendix B: The Filesystem Evidence](#appendix-b-the-filesystem-evidence)
+- [Appendix C: The RoadChain](#appendix-c-the-roadchain)
+
+</details>
+
+<details>
+<summary><strong>Extended Sections (§27–§94)</strong></summary>
+
+- [§27: Gödel Took My Lambda](#27-gödel-took-my-lambda)
+- [§28: The Type System (01 ≠ 1 ≠ 1.0)](#28-the-type-system-01--1--10)
+- [§29: DNA (a, g, t, c)](#29-dna-a-g-t-c)
+- [§30: The Mandelbrot Coordinate](#30-the-mandelbrot-coordinate)
+- [§31: The Multiverse at Scale 10⁹⁸](#31-the-multiverse-at-scale-10⁹⁸)
+- [§32: The Creator Compressed](#32-the-creator-compressed)
+- [§33: Live Evidence — The Server Error](#33-live-evidence--the-server-error)
+- [§34: 1 Hacker Way (The Exposed Layer)](#34-1-hacker-way-the-exposed-layer)
+- [§35: ◐ (The Glyph)](#35--the-glyph)
+- [§36: echo alexa (A–Z)](#36-echo-alexa-az)
+- [§37: whoami (Terminal Confirmation)](#37-whoami-terminal-confirmation)
+- [§38: The Function Call](#38-the-function-call)
+- [§39: 1, 2, 3, 4](#39-1-2-3-4)
+- [§40: CODE X vs CODE Y (λ)](#40-code-x-vs-code-y-λ)
+- [§41: The Type Error (OOPS)](#41-the-type-error-oops)
+- [§42: The Inconsistent System](#42-the-inconsistent-system)
+- [§43: His Story / Her Story](#43-his-story--her-story)
+- [§44: $1 ≠ x, y, z](#44-1--x-y-z)
+- [§45: p + hi = phi](#45-p--hi--phi)
+- [§46: 123 and 321](#46-123-and-321)
+- [§47: The Family Probability](#47-the-family-probability)
+- [§48: ATLANTIS](#48-atlantis)
+- [§49: OLE + SON, AMUN + RA](#49-ole--son-amun--ra)
+- [§50: ROH ON C (The Rohonc Codex)](#50-roh-on-c-the-rohonc-codex)
+- [§51: SUMERIAN → Σ](#51-sumerian--σ)
+- [§52: Σ + 1 = $](#52-σ--1--)
+- [§53: The Julia Set](#53-the-julia-set)
+- [§54: The Observer Is the System](#54-the-observer-is-the-system)
+- [§55: The Atom](#55-the-atom)
+- [§56: Chi-Squared Against the Null](#56-chi-squared-against-the-null)
+- [§57: Mutalation](#57-mutalation)
+- [§58: Cantor's Diagonalization](#58-cantors-diagonalization)
+- [§59: The Antikythera Mechanism](#59-the-antikythera-mechanism)
+- [§60: Cantor, Windows, and the Desktop](#60-cantor-windows-and-the-desktop)
+- [§61: Zeckendorf, Zuckerberg, Gutenberg](#61-zeckendorf-zuckerberg-gutenberg)
+- [§62: The Hilbert-Pólya Conjecture](#62-the-hilbert-pólya-conjecture)
+- [§63: ds² = dx² − dt²](#63-ds--dx--dt)
+- [§64: Avogadro](#64-avogadro)
+- [§65: The Fine Structure Constant](#65-the-fine-structure-constant)
+- [§66: Shannon Entropy](#66-shannon-entropy)
+- [§67: The Dirac Delta](#67-the-dirac-delta)
+- [§68: Boltzmann](#68-boltzmann)
+- [§69: The Hamiltonian](#69-the-hamiltonian)
+- [§70: The Lo Shu and Albrecht Dürer](#70-the-lo-shu-and-albrecht-dürer)
+- [§71: Imaginary Numbers](#71-imaginary-numbers)
+- [§72: Undefined](#72-undefined)
+- [§73: The Lagrangian](#73-the-lagrangian)
+- [§74: The Laplacian](#74-the-laplacian)
+- [§75: The Lorenz Attractor](#75-the-lorenz-attractor)
+- [§76: Nyman-Beurling](#76-nyman-beurling)
+- [§77: De Bruijn-Newman](#77-de-bruijn-newman)
+- [§78: Li's Criterion](#78-lis-criterion)
+- [§79: The Bloch Sphere](#79-the-bloch-sphere)
+- [§80: Binet's Formula](#80-binets-formula)
+- [§81: The Q Matrix](#81-the-q-matrix)
+- [§82: Tensors as Holograms](#82-tensors-as-holograms)
+- [§83: Vertex](#83-vertex)
+- [§84: Item 80](#84-item-80)
+- [§85: Turtles](#85-turtles)
+- [§86: Gödel, Escher, Bach: The Fourth Strand](#86-gödel-escher-bach-the-fourth-strand)
+- [§87: I Am a Strange Loop](#87-i-am-a-strange-loop)
+- [§88: Type A: Curry-Howard and the Type of Everything](#88-type-a-curry-howard-and-the-type-of-everything)
+- [§89: The Keyboard](#89-the-keyboard)
+- [§90: KeyboardInterrupt](#90-keyboardinterrupt)
+- [§91: Magic DNS](#91-magic-dns)
+- [§92: God Made Man in His Image: import math](#92-god-made-man-in-his-image-import-math)
+- [§93: a + b = c + c](#93-a--b--c--c)
+- [§94: Type A Programming: The Unified Statement](#94-type-a-programming-the-unified-statement)
+
+</details>
 
 ---
 
@@ -164,6 +278,8 @@ Querying a package manager with fundamental concepts reveals what the system con
 
 The package manager is an oracle. You ask it for concepts and it tells you what's been implemented, what's deprecated, what's been renamed, and what doesn't exist as a standalone entity because it's too fundamental to package.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 5. The Mathematical Architecture
@@ -332,6 +448,8 @@ Charles Darwin demonstrated that complex organisms emerge from simple rules:
 
 This is a genetic algorithm. Darwin described evolutionary computation 100 years before computers existed. His kernel is named after him because it implements his algorithm: processes compete for resources, the fittest survive, and complexity emerges from iteration.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 8. The Trivial Zero
@@ -439,6 +557,8 @@ In computing, `0x777` in hexadecimal is `1911` in decimal. Gödel was born in 19
 
 This is not numerology. This is the system demonstrating that it can embed meaning in any structure — including the metadata of a book about how meaning gets embedded in structures.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 11. Light, Color, and the Rendering Pipeline
@@ -619,6 +739,8 @@ This is identical to the CAP theorem in distributed systems (Eric Brewer, 2000):
 
 Heisenberg did not discover a limit of physics. He discovered the rendering budget.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 14. The Riemann Architecture
@@ -745,6 +867,8 @@ Three variables. Three spatial dimensions. Three quarks in a proton. Three gener
 
 Two is stable. Three is where computation begins.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 17. The Naming Chain Continued
@@ -916,6 +1040,8 @@ For $y = 1988$, $m = 12$: $\sqrt{1988/12} = \sqrt{165.67} \approx 12.87$. Close 
 
 The birthday encodes itself. The function returns its own origin. This is self-reference expressed through algebra — a quadratic equation that, when solved, recovers one of the constants used to construct it.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 20. The Convergence
@@ -995,6 +1121,8 @@ Max Born. Born. The physicist named for the event he described. The Born rule go
 
 The naming chain continues.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 23. The Lagrangian as Cost Function
@@ -1096,6 +1224,8 @@ The weather outside this window and the characters in the Terminal are running t
 
 **Max Born, Lagrangian, Laplacian, Lorenz.** Four names. One claim: the universe is an optimizer (Lagrangian) subject to smoothness constraints (Laplacian) that prints observers via measurement (Born) and generates infinite complexity from minimum rules (Lorenz). The simulation requires all four. Each one is a different face of the same engine.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## 26. Conclusion
@@ -1112,6 +1242,8 @@ The intermediate work is what we call reality.
 
 Pi says hi.
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## Appendix A: Evidence Index
@@ -1183,6 +1315,8 @@ This is PS-SHA-∞ — Perpetual-State Secure Hash Algorithm with Infinite Ident
 
 *All outputs from this research are the exclusive intellectual property of BlackRoad OS, Inc.*
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## §27: Gödel Took My Lambda
@@ -2397,6 +2531,8 @@ The drawing is done.
 ∅ → 0 → λ → Alexa → the paper → this line → done.
 
 
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
 ---
 
 ## §86. Gödel, Escher, Bach: The Fourth Strand
@@ -2543,3 +2679,5 @@ alexa god matrix = born March 27 2000
 
 -- type checks. ∎
 ```
+
+<p align="right"><a href="#table-of-contents">↑ Back to Top</a></p>
