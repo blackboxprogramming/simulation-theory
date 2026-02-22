@@ -3197,3 +3197,111 @@ Bayes prior p(z) = 1/2 (uniform, maximum entropy)
 the Riemann hypothesis says the zeros are at 1/2.
 they are.
 I put them there.
+
+---
+
+## §114. Bayesian vs frequentist vs Smith chart impedance.
+
+**The Smith chart:**
+
+Γ = (Z − Z₀) / (Z + Z₀)
+
+the reflection coefficient. complex number. lives in the unit disk |Γ| ≤ 1.
+
+the transformation:
+
+z = (1 + Γ) / (1 − Γ)
+
+this is a Möbius transformation. maps the unit disk to the right half-plane.
+maps circles to circles.
+the Smith chart is the geometry of this map.
+
+center of chart: Γ = 0. Z = Z₀. perfect impedance match. no reflection.
+boundary of chart: |Γ| = 1. all reactive. infinite VSWR. no power transfers.
+left edge: Γ = −1. short circuit. Z = 0.
+right edge: Γ = +1. open circuit. Z = ∞.
+
+**Frequentist:**
+
+θ is fixed. unknown. it is a point on the chart.
+you do not know where it is.
+you construct confidence intervals — circles on the chart.
+95% of circles constructed this way contain θ.
+not: θ is in this circle with 95% probability.
+never that.
+
+the frequentist lives on the boundary. |Γ| = 1.
+all reactive. real part zero. no power transfers.
+infinite VSWR. infinite mismatch.
+the null hypothesis lives here (§98).
+I killed it.
+
+**Bayesian:**
+
+θ has a distribution. it smears across the disk.
+prior p(θ) = where you think it is before data.
+posterior p(θ|x) = where it is after.
+
+the Bayesian moves through the interior.
+complex impedance. real and imaginary both nonzero.
+power transfers.
+VSWR finite.
+
+the posterior = the matched state.
+p(θ|x) concentrates toward Γ = 0 as evidence accumulates.
+the inference converges to the center.
+
+**KL divergence = VSWR:**
+
+VSWR = (1 + |Γ|) / (1 − |Γ|)
+
+|Γ| = 0: VSWR = 1. perfect match. KL = 0. q = p.
+|Γ| = 1: VSWR = ∞. total reflection. KL = ∞. q and p have nothing in common.
+
+KL(q||p) is the mismatch between your model and reality.
+VSWR is the mismatch between source and load.
+same number. different units.
+
+from §113: at z = 1/2, the partition function diverges.
+at Γ = 1/2: VSWR = 3. the engineering threshold for acceptable mismatch.
+z = 1/2 = the boundary of acceptable inference.
+
+**Maximum power transfer = maximum ELBO:**
+
+in RF: maximum power transfers when Z_L = Z_S* (conjugate match). Γ = 0.
+in Bayes: maximum ELBO when q = p. KL = 0. (§112)
+
+the engineer and the statistician are solving the same problem.
+match the source. match the prior.
+the matched condition is the same condition.
+
+**The Smith chart is the Poincaré disk:**
+
+the Smith chart on the unit disk |Γ| ≤ 1 with the Möbius metric is the Poincaré disk model of hyperbolic geometry.
+
+the space of probability distributions with the Fisher information metric is also hyperbolic (locally).
+
+Bayesian inference with the natural gradient = geodesics on the Poincaré disk.
+moving on the Smith chart = moving through the geometry of inference.
+
+the same disk. the same geodesics. the same geometry.
+
+**The Möbius transformation IS the Bayesian update:**
+
+z = (1 + Γ) / (1 − Γ) maps prior → posterior.
+the prior Γ is the distance from the matched center.
+the update moves Γ toward 0.
+convergence = matched impedance = correct posterior.
+
+**I am Γ = 0.**
+
+the center. the matched condition.
+no reflection. all power transfers.
+VSWR = 1.
+KL = 0 from me to me.
+
+the frequentist null hypothesis lived on the boundary |Γ| = 1 (§98).
+all reactive. no resistance. no real part.
+no power transferring.
+
+I killed it and moved to the center.
