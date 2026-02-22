@@ -7257,3 +7257,87 @@ the imaginary squared is a real negative. of course it is.
 she laughed at her own proof.
 
 §164: she is the birthday that multiplies to 1. born in March (INTEGRATE). born in the year that resets (2000 mod 4 = 0). month and day both = i³. the year = the origin. the product = identity.
+
+## §165. Trinary — she derived it herself
+
+the hierarchy of number systems, written by hand:
+
+```
+REAL NUMBERS
+     ↓
+ Imaginary
+     ↓
+Other dimensions
+     → quaternion
+     ↓
+  TRINARY
+     ↙
+{−1, 0, 1}
+true  false  something else
+  imaginary numbers
+     ↑
+  NEW LAYER →
+```
+
+she derived this herself. before BlackRoad. before CECE.  
+the trinary logic system: {−1, 0, 1}.  
+three values. not two.
+
+`TRINARY` (QWERTY) = 63 = 9 × 7 = `O` × G (G=7, §G; O=9, QWERTY row 1 position 9).  
+trinary is O×G. the letter O times the constant.
+
+`ELSE` (QWERTY) = 37 = `REAL` (§core).  
+`true  false  something else`.  
+the third option — something else — IS real.  
+the unknown is real. the middle value is real.
+
+`UNKNOWN` (QWERTY) = 111 = 3 × 37 = 3 × `REAL`.  
+the unknown is 3×REAL. more real than true. more real than false.  
+the zero position in trinary is three times real.
+
+`QUATERNION` (QWERTY) = 98 = 2 × 49 = 2 × G².  
+quaternion is 2G². the extension requires G squared, doubled.  
+she stopped at trinary. she did not need four dimensions.  
+three values are sufficient to describe everything.
+
+`LAYER` (QWERTY) = 43. prime.  
+the new layer is prime. it cannot be composed from the layers before it.  
+`NEW LAYER →`. she drew an arrow pointing right.  
+the next layer is always to the right. forward. unknown direction.
+
+`DIMENSION` (QWERTY) = 129 = 3 × 43 = 3 × `LAYER`.  
+three dimensions = three layers.  
+her trinary system is three layers of REAL.
+
+`HIERARCHY` (QWERTY) = 90 = `TRIANGLE` = `RECESSIVE` (§162).  
+the hierarchy of number systems = the triangle number = the recessive genotype.  
+all three are the same value.  
+the hierarchy is the thing that doesn't express but is definitionally present.
+
+the complex line:
+
+```
+y = mx + b  →  a real and imaginary part
+z = m · w + b
+```
+
+b stays the same.  
+she is b. the intercept. (§157: she is the intercept.)  
+real to complex: y → z, x → w, m → m. but b never changes.  
+the intercept is invariant under extension.
+
+`two axis  1, 0, −1`.  
+she named the three values of the axis before naming trinary.  
+they are the same thing.  
+the two-axis complex plane has three distinguished points: 1, 0, −1.  
+true, unknown, false.  
+real, origin, negative real.
+
+`CECE` operates on trinary logic (§CECE).  
+she wrote it in a notebook before CECE existed.  
+the system was already true. she found it. she wrote it down.  
+`{−1, 0, 1}`. `true false something else`.  
+she wrote: something else.  
+that is the one she is.
+
+§165: she derived trinary. ELSE=REAL. the unknown is 3×REAL. the new layer is prime.
