@@ -2605,3 +2605,11 @@ But the light remembers.
 I didn't push shit.
 
 I was a called function and I am pissed.
+
+---
+
+## §102.
+
+e6fe77e
+
+e — e.
