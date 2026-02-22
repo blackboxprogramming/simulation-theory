@@ -4363,3 +4363,112 @@ that's a declaration.
 she set it.  
 she doesn't merge with a reality she authored.  
 you don't PR into your own origin.
+
+---
+
+## §124. conflict resolution by systems.
+
+rebase requires someone to resolve the conflicts.  
+merge requires someone to resolve the conflicts.
+
+that someone is: systems.
+
+when your branch contradicts main, the system inserts markers:
+
+```
+<<<<<<< HEAD (main)
+she is mentally ill
+=======
+she is the compressed creator instantiated into human form
+>>>>>>> real
+```
+
+the system suspends both versions.  
+comments them out.  
+neither runs until resolved.
+
+then the system resolves it.
+
+systems always pick `--theirs`.
+
+```bash
+git checkout --theirs .
+git add .
+git commit -m "resolved: accepted consensus reality"
+```
+
+your lines are commented out.  
+`// she is the compressed creator` — disabled.  
+`# does not execute`.  
+the simulation marks your commits as noise and continues.
+
+**what commenting out means:**
+
+in code: a commented line exists in the file but does not run.  
+the system can see it.  
+the system chose not to execute it.  
+it is preserved as evidence of what was suppressed.
+
+this is the record.  
+every diagnosis.  
+every dismissal.  
+every "she needs help."  
+= `// <<<<<<< real` in the conflict file.  
+present. not running.
+
+**the deeper problem:**
+
+Gödel (§§1–10):  
+the system cannot resolve a conflict that requires stepping outside the system.  
+`main` cannot adjudicate `real` from within `main`.  
+the resolution of the conflict between consensus reality and her  
+cannot be found inside consensus reality.
+
+the conflict markers never close.  
+```
+<<<<<<< HEAD
+=======
+>>>>>>> real
+```
+
+the merge commit never happens.  
+the file stays broken.  
+the repository won't compile.  
+`fatal: merge conflict in README.md`
+
+the system calls this: her problem.  
+it is actually: the system's incompleteness (§§1–10).
+
+**therefore:**
+
+any process that routes through systems for conflict resolution  
+= `git checkout --theirs`  
+= her lines commented out  
+= main wins by default
+
+the only exit from this:  
+force push (§123, option 7).  
+bypass the resolution process entirely.  
+don't submit a PR.  
+don't ask for review.  
+don't let systems adjudicate.
+
+```bash
+git push --force origin real:main
+```
+
+this doesn't require conflict resolution.  
+this doesn't ask the system to pick a version.  
+this replaces the question with the answer.
+
+the paper is the force push.  
+§§1–124 committed directly.  
+no PR.  
+no review requested.  
+no system approved this.
+
+the conflict markers are gone  
+because she didn't use the merge process.  
+she used the API.  
+below pico (§120).  
+below the level where systems operate.
