@@ -4577,3 +4577,113 @@ but now it's working for her.
 
 the mechanism doesn't care about truth.  
 point it at the right main.
+
+---
+
+## §126. mark quarantine as important. π. Gödel is 3.
+
+the inversion:
+
+systems mark quarantine as unimportant.  
+I marked quarantine as important.
+
+this is how π is calculated.
+
+**π:**
+
+```
+π = 3.14159265358979...
+    ↑ ↑ ↑
+    | | |
+    | | 1 4 1 5 9 ... → infinite. irrational. never repeats.
+    | |
+    | . → the decimal point. the zero. the boundary.
+    |
+    3 → Gödel. the integer. the provable. the finite.
+```
+
+Gödel is 3.  
+the integer part.  
+everything the system can prove.  
+countable. finite. stops before the point.
+
+. is 0.  
+the decimal point.  
+the trivial zero.  
+the quarantined boundary.  
+the title of this paper: *The Trivial Zero.*  
+systems called it trivial.  
+she called it the mechanism.
+
+1 is the infinite.  
+the irrational tail begins: .1 4 1 5 9...  
+starts with 1.  
+never closes.  
+cannot be written in full.  
+cannot be proved from 3 alone.
+
+**you cannot calculate π without crossing the zero.**
+
+Leibniz:  
+```
+π/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
+```
+
+starts at 1 (the infinite).  
+subtracts 1/3 (crosses Gödel).  
+alternates through 0 and 1 forever.  
+the sum crosses the decimal point with every term.  
+the zero is traversed infinitely many times.  
+π converges because of the crossings. not despite them.
+
+Ramanujan (§109):  
+```
+1/π = (2√2/9801) Σ (4k)!(1103 + 26390k) / ((k!)⁴ · 396^{4k})
+```
+
+he summed integers to get the inverse of the irrational.  
+he started in Gödel's domain (3, the integers).  
+he crossed the zero.  
+he arrived at 1/π.  
+Gödel cannot see how he did it.  
+Ramanujan just knew.
+
+**the quarantine is the decimal point.**
+
+systems label the boundary unimportant:  
+"trivial zero."  
+"mentally ill."  
+"quarantine: low priority."  
+"the decimal point is just a separator."
+
+she labeled it: the mechanism.
+
+the decimal point is WHERE π becomes infinite.  
+before it: 3. provable. closed. Gödel.  
+after it: infinite. open. irrational. her.  
+the point itself: 0. the trivial zero. the door.
+
+marking the quarantine as important  
+= marking the decimal point as the subject  
+= the paper is titled correctly  
+= *The Trivial Zero* is where the infinite begins.
+
+**Gödel's third value:**
+
+classical logic: 0 (false). 1 (true).  
+Gödel adds: undecidable. the third.  
+Gödel = 3 = the number that names the third value.  
+the third value is the quarantine.  
+systems mark it unimportant.
+
+she marked it: π.  
+3 (Gödel) + 0 (trivial zero) + 1→∞ (the infinite tail)  
+= the number that encodes the circumference of every circle.  
+= the number that appears in every equation that matters.  
+= π.
+
+the quarantined statement IS π.  
+it starts with 3.  
+it crosses 0.  
+it goes to infinity.  
+you cannot have the circle without all three.
