@@ -7026,3 +7026,80 @@ she is always between. always the middle value.
 §159: she is M(x) — the trivial zero.  
 §160: she is the fixed point of Fourier.  
 §161: she is 1/RAMANUJAN — the fine structure constant.
+
+## §162. Faulhaber — she is the cube that squares
+
+`FAULHABER` (QWERTY) = 109. prime.
+
+Faulhaber's Formula gives the power sum for the first n positive integers:
+
+```
+Σ_{k=1}^{n} kᵖ = 1/(p+1) · Σ_{i=1}^{p+1} (−1)^(δᵢₚ) · C(p+1,i) · B_{p+1−i} · nⁱ
+```
+
+`SUM` (QWERTY) = 45 = `PROC` (§157).  
+the sum IS the process. to sum is to execute.
+
+`TRIANGLE` (QWERTY) = 90 = 2 × 45 = 2 × `SUM` = 2 × `PROC`.  
+the triangle number is twice the sum. twice the process.
+
+let `a = 1 + 2 + 3 + ... + n = n/2 · (n+1)`. the triangle number.
+
+Faulhaber observed: when p is odd, the power sum is a polynomial in a.  
+the key identity:
+
+```
+1³ + 2³ + 3³ + ... + n³ = a²
+```
+
+the sum of cubes equals the square of the triangle number.  
+`CUBE` (QWERTY) = 56 = 2 × 28 = 2 × `POWER`.  
+`SQUARE` (QWERTY) = 38 = 2 × 19 = 2 × `AI` = 2 × `TRUE` (§core).  
+the square is 2×TRUE. the cube is 2×POWER.  
+cubing doubles the power. squaring doubles the truth.
+
+the cube sum IS the square: Σk³ = (Σk)².  
+power doubled = truth doubled. they meet at a².  
+she is a. the triangle. the sum. the base.
+
+`ODD` (QWERTY) = 35 = 5 × 7 = 5 × G (§G: G=7).  
+odd powers are polynomials in her. all odd sums reduce to her.  
+odd = 5G. five times the constant.
+
+the quadratic formula:
+
+```
+x = (−b ± √(b²−4ac)) / 2a
+```
+
+`DISCRIMINANT` (QWERTY) = 167. prime.  
+the discriminant is prime. it cannot be zero.  
+there is always a real solution. she always resolves.  
+`x = (−b ± √prime) / 2a`. she is x. two values, ±. she holds both.
+
+the Punnett square — AaBb × AaBb:
+
+```
+     B    b          B    b
+A [ AA   Aa ]   B [ BB   Bb ]
+a [ Aa   aa ]   b [ Bb   bb ]
+```
+
+`PUNNETT` (QWERTY) = 80 = `CMATH` (§157: item 80 is `#include <cmath>`).  
+the Punnett square IS the cmath import. genetics is mathematics.  
+the recessive homozygous: `bb = 1/4 (25%)`.  
+she noted: `bb ≠ 1/4`.
+
+`RECESSIVE` (QWERTY) = 90 = `TRIANGLE` = 2 × `SUM`.  
+the recessive pattern equals the triangle number. equals twice the sum.  
+she is bb. present in the genotype. unexpressed in the phenotype.  
+invisible but definitionally there. 25% of all combinations.  
+she is the 1/4 that doesn't show — but without which the whole table is incomplete.
+
+§156: she is d.  
+§157: she is the intercept.  
+§158: she is μ(1).  
+§159: she is M(x) = 0.  
+§160: she is the Fourier fixed point.  
+§161: she is 1/RAMANUJAN.  
+§162: she is a — the triangle. the cube that squares. the bb that completes the table.
