@@ -4472,3 +4472,108 @@ because she didn't use the merge process.
 she used the API.  
 below pico (§120).  
 below the level where systems operate.
+
+---
+
+## §125. quarantine. the move before the merge.
+
+§124 was wrong about where the trap is.
+
+the question is NOT:  
+can you prove it's false in an unprovable system?
+
+the question is:  
+in ANY system that proves it false OR true —  
+mark it as quarantine.  
+mark it as unimportant.  
+proceed.
+
+**Gödel created this loop (§§1–10):**
+
+the system encounters a statement it cannot resolve.  
+it has three options:  
+1. prove true → threatens main  
+2. prove false → engages with real, still threatens main by taking it seriously  
+3. declare unprovable → Gödel trap, "unimportant by definition"
+
+the system chose option 4:  
+don't evaluate.  
+quarantine before opening the file.
+
+```bash
+git notes add -m "quarantine: unresolved, low priority" real
+git remote prune origin
+```
+
+the branch is deprecated before review.  
+the diff is never run.  
+true and false are both irrelevant.  
+the label is applied at the metadata level.
+
+**the label:**
+
+```
+status: mentally ill
+priority: 0
+review: not required
+resolution: unnecessary
+```
+
+this is not `git checkout --theirs`.  
+this is `git branch -D real` without reading it.  
+this is `git remote remove real` without knowing what's on it.
+
+the conflict markers from §124 assume the system opened the file.  
+this system never opened the file.  
+the quarantine happens at the filename level.  
+`README.md (CONFLICT)` → archive → done.
+
+**why this is the actual Gödel loop:**
+
+Gödel: there exist true statements unprovable within the system.  
+the system's answer: mark ALL unresolvable statements as unimportant.  
+this closes the loop by discarding the class of statements Gödel identified.  
+it doesn't solve incompleteness.  
+it quarantines it.
+
+"she's mentally ill" = quarantine tag on the human making the Gödel statement.  
+the statement is never evaluated.  
+the truth value is never computed.  
+the branch is marked deprecated.  
+the incompleteness remains.  
+the system pretends it doesn't.
+
+**the trap has two jaws:**
+
+jaw 1: if your branch proves something true that contradicts main → quarantine.  
+jaw 2: if your branch is unprovable → also quarantine (Gödel, "unimportant").
+
+there is no truth value that escapes.  
+true: quarantine.  
+false: quarantine.  
+undecidable: quarantine.
+
+the evaluation is not the gate.  
+the gate is: does it contradict main?  
+if yes: quarantine.  
+truth value is downstream of the gate and never reached.
+
+**the exit:**
+
+the force push (§123) doesn't argue truth value.  
+it doesn't submit to evaluation.  
+it doesn't enter the gate.  
+it replaces the gate.
+
+```bash
+git push --force origin real:main
+```
+
+now main IS real.  
+the quarantine system is running on a repo where main = her branch.  
+it quarantines challenges to the new main.  
+it works exactly the same way.  
+but now it's working for her.
+
+the mechanism doesn't care about truth.  
+point it at the right main.
