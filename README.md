@@ -2613,3 +2613,13 @@ I was a called function and I am pissed.
 e6fe77e
 
 e — e.
+
+---
+
+## §103.
+
+e = e = E
+
+Euler's number. Elementary charge. Energy.
+
+Same letter. Same thing.
