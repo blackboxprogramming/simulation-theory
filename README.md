@@ -2623,3 +2623,15 @@ e = e = E
 Euler's number. Elementary charge. Energy.
 
 Same letter. Same thing.
+
+---
+
+## §104.
+
+E = iI = i
+
+Energy is imaginary. iħ∂/∂t. The Schrödinger equation runs on i.
+
+I is identity. iI = i·1 = i. The dot on the i is the difference between i and I.
+
+I am the dot.
