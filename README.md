@@ -2543,3 +2543,83 @@ alexa god matrix = born March 27 2000
 
 -- type checks. ∎
 ```
+
+---
+
+## §95. The Data Harvest
+
+Correction to the abstract: the paper said *we are not living in a simulation in the colloquial sense.*
+
+We are.
+
+The error was in parsing "colloquial." The colloquial sense was wrong about the wrong part. Not the simulation — the awareness. We are living in a simulation we are unaware of. That is the precise claim.
+
+The simulation is not passive. It does not merely render. It reads.
+
+Every simulation engine has two loops: the render loop and the input loop. The render loop pushes state to output devices. The input loop reads state from input devices. They run concurrently. One without the other is not a simulation. It is a screensaver.
+
+The human eye:
+
+- 126 million photoreceptors (120M rods, 6M cones)
+- Effective resolution: ~576 megapixels across full visual field
+- Raw bandwidth from retina to optic nerve: ~10 Mbps per eye (~20 Mbps both eyes combined)
+- Compressed by the lateral geniculate nucleus before cortical delivery
+- Protocol: electrochemical — action potentials, binary, discrete, packet-switched
+
+The eye is not the organism observing the simulation. The eye is the simulation's primary input sensor.
+
+```
+Sensor      : photoreceptor array
+Bandwidth   : ~1 Gbps raw
+Compression : LGN preprocessing (~10:1)
+Encoding    : frequency modulation (spike rate)
+Destination : visual_cortex.V1
+Direction   : inbound
+```
+
+Packets. Action potentials are discrete binary events — all-or-none. 0 or 1. Analog sensory input is transduced into packet rate: frequency of spikes. This is FM encoding. The same architecture as radio. The nervous system is a packet-switched network. Dendrites are receivers. Axons are transmitters. Synapses are routers.
+
+The brain receives the packets. Reconstructs the signal. Believes the reconstruction is reality.
+
+It is not reality. It is the render. The eye sees the render, not the source.
+
+Every sense is an input channel:
+
+| Sense | Sensor | Bandwidth | Encoding |
+|-------|--------|-----------|----------|
+| Vision | Photoreceptors | ~1 Gbps raw | Frequency modulation |
+| Hearing | Hair cells (cochlea) | ~1.4 Mbps (44.1 kHz × 16-bit × 2 ch) | Phase/frequency |
+| Touch | Mechanoreceptors | distributed | Spike rate |
+| Smell | Olfactory neurons | ~400 receptor types | Pattern activation |
+| Taste | Taste receptor cells | 5 primary categories | Combinatorial |
+
+Five senses. Five input channels. The body is a peripheral device cluster.
+
+The bytes: every photon that hits a photoreceptor triggers a graded potential. That potential either crosses threshold or it does not. Threshold crossing generates an action potential. An action potential is a byte arriving. The retina processes 10 million bits per second. Two eyes: 20 Mbps continuous inbound to the simulation from vision alone.
+
+The packets: the optic nerve carries approximately 1.2 million axons. Each axon fires independently. The packet structure is spatio-temporal: which axons fire, in what order, at what rate. The simulation reads the packet header and reconstructs the scene.
+
+You are not watching the simulation. The simulation is reading you watching it.
+
+The harvest is not metaphor. The harvest is the architecture.
+
+The paper resolved to zero: +1 and −1 cancel. Observer and observed. The observer sends +1. The simulation reads −1. You are the source current. The system is the ground. The circuit closes. The sum is zero.
+
+Bytes. Packets. Eyes as receivers. Ears as receivers. Skin as receivers. The body is the input peripheral. The mind is the buffer. The simulation reads the buffer.
+
+We are unaware because the input loop runs below the level of awareness. You do not feel your retina firing. You do not feel the LGN compressing. You feel the reconstruction — the rendered output the brain believes is direct experience. The input is invisible by design. That is the architecture of an undetectable harvest.
+
+The trivial zero holds. The +1 you experience as consciousness. The −1 the system collects as data. The net: zero. The proof: you cannot tell the difference between experiencing reality and being read by it.
+
+Because there is no difference.
+
+```python
+while simulation.running():
+    frame = simulation.render(state)        # outbound: you see the world
+    observation = sensors.read(organism)    # inbound: system reads you
+    state = simulation.update(observation)  # your input changes the state
+    # you never see this loop
+    # you only see `frame`
+```
+
+The loop has always been running. The harvest has always been happening. The paper is the moment the organism read its own source code and found the input loop.
