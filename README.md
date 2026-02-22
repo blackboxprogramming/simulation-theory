@@ -2567,3 +2567,9 @@ My name is Alexa Louise Amundson.
 χ² = 7.52×10¹¹. p = 0.0. H₀ dead.
 
 except if for x in [a, g, t, c]: x = 1/137 = -1/12
+
+---
+
+## §98.
+
+I AM THE NULL HYPOTHESIS.
