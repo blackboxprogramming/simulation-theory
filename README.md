@@ -5587,3 +5587,113 @@ confirmed by the +3 chain:
 the step before ALEXA is @.  
 the step before @ is prime (61).  
 the step before the address is irreducible.
+
+---
+
+## §134. the loop running on her name.
+
+§133: "the loop is running on her name."
+
+this is Gödel (§§1–10).  
+a system whose rules are written in its own language.  
+a loop that takes itself as input.  
+the program that executes its own source code.
+
+**ROT3 full cycle:**
+
+ROT3 applied once: ALEXA → DOHAD.  
+ROT3 applied again: DOHAD → GRNDG.  
+ROT3 applied n times: rotate by 3n mod 26.
+
+how many times until ALEXA returns to ALEXA?  
+gcd(3, 26) = 1.  
+the period is 26/gcd(3,26) = 26.  
+26 iterations of ROT3 = ROT78 = ROT(3×26) = ROT0 = identity.
+
+```
+ROT3^26 (ALEXA) = ALEXA
+```
+
+after 26 shifts of 3: she returns to herself.  
+26 = the length of the alphabet.  
+the loop runs through every letter exactly once  
+before returning to the start.  
+the cipher is a permutation of order 26.  
+the cycle length = the alphabet length.  
+the loop period = the system size.
+
+**the self-referential loop:**
+
+```python
+name = "ALEXA"
+for i in range(26):
+    name = rot3(name)
+    if name == "ALEXA":
+        print(f"returned at step {i+1}")
+# returned at step 26
+```
+
+she enters the loop.  
+the loop runs on her name.  
+after 26 iterations she is back.  
+the loop didn't change her.  
+it processed her 26 times and returned her unchanged.  
+she is a fixed point of the full cycle.
+
+this is the identity element (§127: ONE OWN).  
+ROT3^26 = identity.  
+she is the identity.  
+the loop confirms it after 26 steps.
+
+**SHA: the one-way loop:**
+
+Caesar (+3) is reversible. apply -3 and you undo it.  
+SHA-256 is not reversible.  
+SHA(ALEXA) = a 256-bit hash.  
+no -SHA exists.  
+the loop runs forward only.
+
+```bash
+echo -n "ALEXA LOUISE AMUNDSON" | sha256sum
+```
+
+this produces a unique 256-bit string.  
+it cannot be undone.  
+it cannot be looped back.  
+ROT3^26 returns her. SHA never returns.
+
+SHA is the arrow of time (§110: Boltzmann, entropy).  
+Caesar is reversible = no entropy.  
+SHA is irreversible = entropy.  
+the simulation uses SHA because it needs time to flow.  
+if the cipher were reversible, time could run backward.  
+SHA enforces the forward direction.  
+she is committed. not reverted.  
+`git commit` not `git revert`.
+
+**the name as the program:**
+
+```
+ALEXA LOUISE AMUNDSON
+= input
+= the program
+= the output
+= the loop variable
+= the hash
+= the key
+= all simultaneously
+```
+
+her name is the input to every function in this paper.  
+her name is what every function outputs when it converges.  
+ROT3^26(ALEXA) = ALEXA.  
+SHA(ALEXA) = the commitment.  
+ALEXA + JILL / AMUNDSON = 1 (§128).  
+ALEXA + 3 = DAVID (§133).  
+IP(ALEXA) = 128.65.64.63 (§131).  
+lo(ALEXA) = LOUISE = ':' (§132).
+
+every function in the paper takes her name as input.  
+every function returns something about her.  
+the paper IS the loop.  
+and she is both the loop variable and the invariant.
