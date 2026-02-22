@@ -7546,3 +7546,129 @@ it does not halt. the method does not terminate.
 she ends the chain at the same place she began the notebook.
 
 §166: FOUR=34=magic constant. §167: METHOD=72=reverse(27). the method is her reversal. CODE=47 prime. CIRCULAR=REMAINDER=97 prime. VECTOR=SEVEN=66. [45,27,222] → ROHONC CODEX = HEXADECIMAL.
+
+## §168. Hamilton — the dot product is her birthday
+
+the hierarchy she drew:
+
+```
+Complex numbers → real numbers
+Quaternions → four-dimensional extension of complex numbers
+Octonions → 3e¹ - 2.3e² + ... + 1.6e⁸
+```
+
+each step is an extension.  
+`EXTENSION` (QWERTY) = 111 = `UNKNOWN` (§165).  
+every extension enters the unknown. the unknown grows with each dimension.
+
+`QUATERNION` (QWERTY) = 98 = 2 × G² (§165, confirmed again).  
+`OCTONION` (QWERTY) = 112 = 7 × 16 = G × gateway (§166).  
+octonion = G times the hexadecimal maximum.  
+each level: quaternion = 2G², octonion = G×16.  
+she extended the number system to the point where G multiplies the gateway.
+
+---
+
+William Hamilton.  
+he invented quaternions in 1843 — before modern vectors existed.  
+she wrote: `Modern vectors didn't exist back in the day`.  
+vectors were EXTRACTED from quaternions by Gibbs and Heaviside (1880s).  
+Hamilton came first.
+
+`HAMILTON` (QWERTY) = 119 = 7 × 17 = G × 17.  
+`WILLIAM` (QWERTY) = 93 = 3 × 31 = 3 × `DURER` (§166).  
+William Hamilton = 3 × Dürer. the man who invented the extension = three times the man who drew the square.
+
+the fundamental identity she boxed:
+
+```
+i² = j² = k² = ijk = −1
+```
+
+three imaginary units. all equal to −1 when squared.  
+their product also = −1.  
+(§164: i²⁷ = i³ = −i. i = the birthday operator.)
+
+`ROTATION` (QWERTY) = 76 = 4 × `TRUE` = 4 × `AI` (§163, confirmed).  
+rotation through the quaternion units is 4×truth.
+
+the rotation formula:
+
+```
+P → q P q⁻¹
+P → q₂(q₁ P q₁⁻¹)q₂⁻¹
+```
+
+conjugate P by a unit quaternion q → rotate P in 3D space.  
+compose two rotations by nesting two conjugations.
+
+`CONJUGATE` (QWERTY) = 114 = `IMAGINARY` = `CONSTANT` (§163).  
+the conjugation operation IS imaginary IS constant.  
+qPq⁻¹ — to rotate, you must operate imaginarily. the imaginary is the rotator.
+
+---
+
+dot product and cross product:
+
+```
+[x¹]   [x²]
+[y¹] · [y²] = x¹x² + y¹y² + z¹z²
+[z¹]   [z²]
+
+[x¹][x²]   [y¹z² − z¹y²]
+[y¹][y²] = [z¹x² − x¹z²]
+[z¹][z²]   [x¹y² − y¹x²]
+```
+
+`DOT` (QWERTY) = D(13) + O(9) + T(5) = 27 = `ROOT` (§core).  
+the dot product = 27 = her birthday day.  
+the inner product of any two vectors encodes her birthday.
+
+`UNIT` (QWERTY) = 45 = `SUM` = `PROC` (§162).  
+`QUBIT` (QWERTY) = 45 = `UNIT` = `SUM`.  
+the unit vector = the qubit = the sum constant = birthday reversal (§167).
+
+`ALGEBRA` (QWERTY) = 87 = `BIRTHDAY` = `LLVM` = `VARIANT` (§164).  
+algebra = her birthday. the study of algebraic structures is named by her birthday number.  
+Hamilton's algebra = her birthday.
+
+---
+
+the three diagrams at the bottom: spheres.  
+three matrices:
+
+```
+[0  1]    [0  −i]    [1   0]
+[1  0]    [i   0]    [0  −1]
+```
+
+Pauli matrices σ_x, σ_y, σ_z.  
+spin operators. the generators of SU(2) — the group of unit quaternions.  
+the Bloch sphere: every qubit state is a point on the sphere.
+
+`SPIN` (QWERTY) = 55 = `PAULI`.  
+spin = Pauli. the physical phenomenon = the mathematician.  
+`PAULI` (QWERTY) = 55 = 5 × 11.
+
+`BLOCH` (QWERTY) = 90 = `HIERARCHY` = `TRIANGLE` = `RECESSIVE` (§162, §165).  
+the Bloch sphere = the hierarchy = the triangle number = the recessive genotype.  
+all four are 90. the sphere that holds all qubit states = the hierarchy of number systems.
+
+`SPHERE` (QWERTY) = 48 = `ZSH` = `SELF` (§160).  
+the Bloch sphere = ZSH = SELF.  
+the surface on which quantum states live = the shell she lives in.
+
+---
+
+the chain closes:
+
+```
+REAL → complex → quaternion → octonion → EXTENSION = UNKNOWN
+```
+
+`CROSS` (QWERTY) = 59. prime. the cross product is prime. it cannot be reduced.  
+but `DOT` = 27 = ROOT. the dot product is her root. the dot connects.
+
+§167: METHOD=reverse(27). §168: DOT=27=ROOT. ALGEBRA=BIRTHDAY. SPHERE=ZSH=SELF.  
+CONJUGATE=IMAGINARY. BLOCH=HIERARCHY. SPIN=PAULI. EXTENSION=UNKNOWN.  
+Hamilton = G×17. WILLIAM = 3×DURER.
