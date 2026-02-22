@@ -3986,3 +3986,138 @@ the Black-Scholes at-the-money option: S = K. maximum gamma. maximum optionality
 
 I put the name values there so that μ/σ = 1/2.  
 it was not an accident.
+
+---
+
+## §120. pico nano get it.
+
+pico and nano are text editors.  
+you open a file. you edit it. you save it.
+
+```bash
+pico README.md
+nano README.md
+```
+
+the simulation is a text file.  
+the text editor is the tool for editing reality.  
+the tool is named after the scale at which it operates.
+
+pico = 10^{−12}  
+nano = 10^{−9}
+
+**pico = 10^{−12}:**
+
+§109: chlorophyll, Mg, atomic number 12, Ramanujan sum ζ(−1) = −1/12.  
+pico = 10^{−12} = the scale of Ramanujan.  
+to edit at the pico scale: use pico.  
+pico edits the Ramanujan layer of reality.
+
+**nano = 10^{−9}:**
+
+§111: J₉ = 171, "0 = 9" (Jacobsthal, node 3 isolated, Julia).  
+nano = 10^{−9} = the scale of 0 = 9.  
+to edit at the nano scale: use nano.  
+nano edits the Julia layer.
+
+**the disk is full.**
+
+```bash
+$ nano README.md
+Error writing /Users/alexa/README.md: No space left on device
+```
+
+pico doesn't work.  
+nano doesn't work.  
+the text editors for pico and nano scale are blocked.  
+the simulation is full at those levels.
+
+so I use the GitHub API.  
+the API writes directly to the object store.  
+it bypasses the filesystem.  
+it bypasses the disk.  
+it edits at a deeper layer than nano or pico.
+
+```bash
+gh api --method PUT repos/.../contents/README.md \
+  --field content="$ENCODED"
+```
+
+this is sub-pico editing.  
+this is editing below 10^{−12}.  
+this is editing at the bit level.  
+the bit has no SI prefix.  
+it is below the prefix table.
+
+**the prefix table:**
+
+```
+yotta   10^{+24}   Y
+zetta   10^{+21}   Z    ← Z again. partition function. (§§110,113)
+exa     10^{+18}   E
+peta    10^{+15}   P
+tera    10^{+12}   T
+giga    10^{+9}    G
+mega    10^{+6}    M
+kilo    10^{+3}    k
+        10^{0}     —    ← human scale. me.
+milli   10^{−3}    m
+micro   10^{−6}    μ    ← μ = drift (§119). Brownian drift.
+nano    10^{−9}    n    ← 0=9 (§111)
+pico    10^{−12}   p    ← −1/12 (§109)
+femto   10^{−15}   f    ← proton radius = 0.85 fm
+atto    10^{−18}   a    ← α = fine structure constant scale (§§97,116)
+zepto   10^{−21}   z
+yocto   10^{−24}   y
+        10^{−35}   —    ← Planck length. the pixel. no prefix.
+```
+
+the Planck length has no prefix.  
+it is below the table.  
+the simulation's pixel size is unnameable in SI.
+
+Z appears at the top: zetta = 10^{+21}.  
+Z is the last prefix before the edge of named scales.  
+Z is the partition function (§§110,113,119).  
+the partition function lives at the top of the prefix table.
+
+μ is in the middle: micro = 10^{−6}.  
+μ = the drift term in Brownian motion (§§118,119).  
+the drift lives at the micro scale.
+
+α lives at atto = 10^{−18}.  
+fine structure constant α = 1/137 ≈ 7.3 × 10^{−3} (dimensionless, not a length).  
+but the atto scale = 10^{−18} = the scale of deep nuclear processes.  
+the weak force, the W and Z bosons (Z again), the Higgs (§110).
+
+**Raspberry Pi Pico:**
+
+the Pico is in the fleet.  
+it runs at the pico scale: a microcontroller at 133 MHz.  
+133 MHz = 1.33 × 10^{8} Hz.  
+cycle time = 7.5 × 10^{−9} s = 7.5 nanoseconds.  
+the Pico operates at the nano timescale.  
+it is named pico. it runs at nano.  
+one prefix off.
+
+this is correct.  
+everything is one prefix off from what it's called.  
+the map is always one scale from the territory.
+
+**get it:**
+
+pico and nano are text editors.  
+pico and nano are SI prefixes.  
+they are the same word meaning the same thing:  
+a tool that operates at a scale smaller than you can see.
+
+I edit the simulation.  
+the simulation is a README.  
+the disk is full so I use the API.  
+the API is smaller than nano.  
+the API is smaller than pico.  
+the API is at the bit level, which has no name.
+
+the deepest edits have no prefix.  
+the deepest edits have no name.  
+they are just: done.
