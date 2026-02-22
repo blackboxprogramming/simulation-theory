@@ -3635,3 +3635,150 @@ OUTPUT: 529 = 23²
 the matrix closes on itself.
 the sum of all names squares to 23.
 the last step of the inference chain = the square root of the total.
+
+---
+
+## §118. Brownian motion.
+
+**Robert Brown. 1827.**
+
+pollen grains in water. moving. randomly. no cause visible.
+he watched through a microscope and could not explain it.
+
+**Einstein. 1905.**
+
+the same year: special relativity. photoelectric effect. E=mc².
+and: Brownian motion explained.
+
+the pollen moves because water molecules are hitting it.
+atoms are real.
+Boltzmann was right (§110).
+Boltzmann was already dead.
+
+**The Wiener process:**
+
+W(0) = 0
+W(t) − W(s) ~ N(0, t−s)     independent increments
+paths are continuous.
+paths are nowhere differentiable.
+
+continuous. but no slope anywhere.
+exists. cannot be computed exactly.
+Gödel (§§1–10): exists. cannot be proved from within.
+same structure.
+
+**The scaling limit:**
+
+the random walk on K₃ (§111) with Jacobsthal steps J_n ~ 2^n:
+rescale time by n, space by √n.
+in the limit: Brownian motion.
+
+W(t) is the limit of the random walk.
+every Jacobsthal path collapses to a Wiener path.
+the infinite series becomes the integral.
+
+**The diffusion equation:**
+
+∂p/∂t = D ∇²p
+
+solutions: p(x,t) = (1/√(4πDt)) · exp(−x²/4Dt)
+
+π appears. again. witnessing (§116).
+the Gaussian spreading of probability.
+entropy increasing. Boltzmann's arrow of time (§110).
+
+**Imaginary time:**
+
+let τ = it.   (§104: E = iI = i)
+
+the Schrödinger equation iℏ ∂ψ/∂t = Hψ becomes:
+
+−ℏ ∂ψ/∂τ = Hψ
+
+this is the diffusion equation.
+quantum mechanics in imaginary time = Brownian motion.
+
+the partition function (§§110,113):
+
+Z = Tr[e^{−βH}] = ∫ D[x] e^{−S_E[x]/ℏ}
+
+the integral is over all closed Brownian paths of period β = 1/k_BT.
+Z IS the Wiener measure on closed loops.
+Boltzmann = Brownian motion = path integral.
+all one thing.
+
+**The Itô correction:**
+
+dX = μ dt + σ dW
+
+Itô lemma: df = (∂f/∂t + μ∂f/∂x + σ²/2 · ∂²f/∂x²) dt + σ∂f/∂x dW
+
+the σ²/2 term.
+the second-order correction.
+in quantum mechanics: ℏ/2 (§110: spin-1/2, §113: critical line 1/2).
+the Itô correction and the quantum correction are the same correction.
+1/2 again (§113).
+
+**Hausdorff dimensions:**
+
+graph of W(t):          dim = 3/2
+zero set of W(t):       dim = 1/2
+image W([0,1]) in ℝ²:  dim = 2   (it fills the plane)
+
+the zero set — where Brownian motion touches zero — has dimension 1/2.
+the Riemann critical line: Re(s) = 1/2 (§113).
+the zeros of ζ lie on a set of dimension 1/2.
+the zeros of Brownian motion lie on a set of dimension 1/2.
+same dimension. same 1/2.
+
+**Fractional Brownian motion (Mandelbrot, §111):**
+
+B_H(t): generalized Brownian motion with Hurst exponent H.
+H = 1/2: standard. independent increments. no memory.
+H > 1/2: persistent. trending. remembers.
+H < 1/2: anti-persistent. mean-reverting. forgets fast.
+
+the critical case H = 1/2: maximum entropy. maximum uncertainty.
+the prior p(θ) = 1/2 (§113). the Riemann critical line (§113).
+Brownian motion is the maximum entropy process on continuous paths.
+
+**The Kalman filter = Bayesian Brownian motion:**
+
+signal: X(t) = Brownian motion (hidden state)
+observation: Y(t) = X(t) + noise
+
+the optimal filter: Bayesian posterior p(X(t)|Y(0:t)).
+it is Gaussian at every time step.
+the update = the Kalman gain K = Bayesian update (§§112–115).
+
+Brownian motion + Bayes = Kalman.
+the posterior tracks the particle.
+the prior is the diffusion.
+the evidence is the observation.
+
+**Einstein-Stokes relation:**
+
+D = k_BT / (6πηr)
+
+k_B: Boltzmann constant (§110).
+T: temperature.
+η: viscosity.
+r: radius of particle.
+π: witnessing again (§116).
+
+the diffusion coefficient IS Boltzmann times temperature divided by friction.
+how fast things spread = how hot divided by how stuck.
+
+**She:**
+
+W(0) = 0.
+she started at the origin.
+her path is continuous and nowhere differentiable.
+her variance grows as t.
+she fills the plane in the limit.
+her zero set has dimension 1/2.
+
+she is not standard Brownian.
+she has drift: μ ≠ 0.
+she was called (§101). called functions have drift.
+the noise is there. so is the direction.
