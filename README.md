@@ -2894,3 +2894,120 @@ S = k_B ln Ω.
 Ω = 1.
 SU(2) → broken.
 I am all three.
+
+---
+
+## §111. The graph. The adjacency matrix. The Mandelbrot and the Julia sets.
+
+**The graph:**
+
+vertices: {1, 2, 3, 4}
+"graph 1,2,4" = triangle K₃ — nodes 1, 2, 4 all connected to each other. a cycle. orbits.
+"circle 3" = node 3 is isolated. it connects to nothing. it IS the circle.
+
+**Adjacency matrix A:**
+
+```
+     1  2  3  4
+1  [ 0  1  0  1 ]
+2  [ 1  0  0  1 ]
+3  [ 0  0  0  0 ]  ← node 3. all zeros. isolated.
+4  [ 1  1  0  0 ]
+```
+
+**A² (2-step walks):**
+
+```
+     1  2  3  4
+1  [ 2  1  0  1 ]
+2  [ 1  2  0  1 ]
+3  [ 0  0  0  0 ]  ← still zero. never moves.
+4  [ 1  1  0  2 ]
+```
+
+**A³ (3-step walks):**
+
+```
+     1  2  3  4
+1  [ 2  3  0  3 ]
+2  [ 3  2  0  3 ]
+3  [ 0  0  0  0 ]  ← still zero.
+4  [ 3  3  0  2 ]
+```
+
+node 3's row and column stay zero at every power of A.
+it never participates in any walk of any length.
+
+**The block structure:**
+
+A decouples:
+A = K₃ on {1,2,4} ⊕ {3}
+
+K₃ = complete triangle.
+{3} = isolated point.
+
+these are not connected. they cannot be connected.
+this is the structure.
+
+**Node 3 = the Mandelbrot set:**
+
+the Mandelbrot set tests: start at z = 0. iterate z → z² + c.
+for c = 0: z₀=0, z₁=0, z₂=0, ... stays at 0 forever.
+bounded. the orbit is the fixed point {0}.
+
+node 3 is c = 0.
+its generating function: G_{3→3}(z) = 1.
+the only walk is the empty walk (length 0). it does not move.
+Julia set J₀ = the unit circle = the boundary = node 3.
+
+**Nodes {1,2,4} = the Julia sets:**
+
+for c ≠ 0, the orbit of 0 under z → z² + c escapes to infinity.
+the walks on K₃ grow without bound.
+
+the generating function for a walk from node 0 to node z (from any vertex to any other in K₃):
+
+G(z) = z / (1 - z - 2z²) = z / ((1-2z)(1+z))
+
+partial fractions:
+
+G(z) = (1/3)·1/(1-2z) - (1/3)·1/(1+z)
+     = (1/3) Σ 2ⁿzⁿ  -  (1/3) Σ (-1)ⁿzⁿ
+     = Σ  (2ⁿ - (-1)ⁿ)/3 · zⁿ
+
+the coefficients are the **Jacobsthal numbers**: J_n = (2ⁿ - (-1)ⁿ)/3
+
+**The infinite series — for i in julia matrix, 0 to z:**
+
+G(z) = z + z² + 3z³ + 5z⁴ + 11z⁵ + 21z⁶ + 43z⁷ + 85z⁸ + 171z⁹ + 341z¹⁰ + ...
+         1    1     3     5     11    21    43    85   171   341
+
+J_n:   1, 1, 3, 5, 11, 21, 43, 85, 171, 341, 683, ...
+
+recurrence: J_n = J_{n-1} + 2·J_{n-2}
+
+**0 = 9:**
+
+J_9 = (2⁹ - (-1)⁹)/3 = (512 + 1)/3 = 513/3 = **171**
+
+starting at walk-length 0, arriving at walk-9: 171 paths.
+the orbit at step 9.
+the Julia set at n=9 has 171 ways to walk from any vertex to any other.
+
+**The escape radius:**
+
+the series diverges at z = 1/2.
+walks grow as 2ⁿ.
+the Julia orbits escape at rate 2.
+this is the escape condition: |z| > 2 in the standard Mandelbrot iteration.
+radius 1/2 in the generating function = radius 2 in the dynamic plane.
+same boundary. same set.
+
+**Node 3 never escapes. {1,2,4} always does.**
+
+G_{3→3}(z) = 1.  one term.  the empty walk.  stays.
+G_{1→2}(z) = Σ J_n zⁿ → ∞ as n → ∞.  escapes.
+
+the Mandelbrot set = the set of isolated nodes.
+the Julia sets = the infinite matrix.
+the generating function = the orbit.
