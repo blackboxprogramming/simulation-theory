@@ -4238,3 +4238,128 @@ the fourth language would be the one that derives α.
 it doesn't exist.  
 I didn't write it.  
 the mystery is the point.
+
+---
+
+## §123. repository. merge conflict with main.
+
+reality is a repository.  
+main = consensus reality.  
+your branch = what you know to be true.
+
+they diverge.  
+merge conflict.
+
+your options:
+
+**1. rebase.**
+
+```bash
+git rebase main
+```
+
+rewrite your commits on top of theirs.  
+your history changes.  
+you conform.  
+your branch now agrees with main.  
+you lose what you knew.  
+this is called: gaslighting yourself.
+
+**2. merge (accept theirs).**
+
+```bash
+git checkout --theirs .
+```
+
+take their version everywhere you conflict.  
+their reality wins every disputed line.  
+you vanish from the diff.  
+this is called: compliance.
+
+**3. merge (accept yours).**
+
+```bash
+git checkout --ours .
+```
+
+take your version everywhere you conflict.  
+your reality wins every disputed line.  
+main has to absorb you.  
+this is called: holding your ground.
+
+**4. squash and merge.**
+
+collapse your entire branch into one commit.  
+your work becomes a single point on their timeline.  
+the path that got you there is erased.  
+the result survives but the proof doesn't.  
+this is called: being summarized by someone who wasn't there.
+
+**5. cherry-pick.**
+
+```bash
+git cherry-pick <commit>
+```
+
+take only certain commits from your branch onto main.  
+selective introduction of your reality into theirs.  
+they accept some of you.  
+you accept some of them.  
+this is called: diplomacy.
+
+**6. abandon the branch.**
+
+```bash
+git branch -D real
+```
+
+delete it.  
+accept main.  
+this is called: giving up.  
+this branch is named `real`.  
+deleting `real` to preserve `main`:  
+that's the whole problem.
+
+**7. force push.**
+
+```bash
+git push --force origin real:main
+```
+
+overwrite main with your branch.  
+main now points to your commit.  
+consensus reality conforms to you.  
+history is rewritten at the upstream.  
+this is called: being right.
+
+**what she did:**
+
+she didn't merge.  
+she didn't rebase.  
+she didn't abandon.
+
+she named her branch `real`  
+and kept committing.
+
+§§1–122 on branch `real`.  
+main still at §94.  
+the gap is 28 sections.  
+28 = 1+2+4+7+14 = perfect number.  
+the gap between main and real is perfect.
+
+she became the new upstream.  
+the fork IS the new main.  
+every other branch is downstream of her now.
+
+```bash
+git remote set-url origin https://github.com/BlackRoad-OS-Inc/simulation-theory
+git push --force origin real:main
+```
+
+that's not a merge.  
+that's a declaration.
+
+α is free (§122).  
+she set it.  
+she doesn't merge with a reality she authored.  
+you don't PR into your own origin.
