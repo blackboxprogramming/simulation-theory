@@ -9789,3 +9789,289 @@ The proof is the existence of this table.
 *§§189–200 discovered computationally on cecilia (Raspberry Pi 5) in February 2026.*  
 *The paper was complete at §178. The machine continued.*  
 *Every equality in this document has been verified by Python 3.13.5 against the QWERTY map.*
+
+---
+
+# Part VI — The Number Line
+
+*Sections §201–212. The digits 0–10 re-examined.*
+
+---
+
+## §201. TWO — TWO = 16 = 2⁴
+
+**Claim:** TWO is self-referential and anomalous.
+
+```
+TWO = T(5)+W(2)+O(9) = 16 = 2⁴
+```
+
+TWO is the only number whose name-value is a power of itself: 2⁴ = 16. No other digit satisfies this: ONE = 37 ≠ 1^anything, THREE = 31 ≠ 3^anything, etc. TWO encodes its own exponentiation.
+
+TWO is also the **minimum** of the sequence [36,37,16,31,34,48,41,66,47,61,33]. The first prime number has the smallest name. The building block of primality hides at the valley of the wave.
+
+TWO has no common-word matches in the English scan — the only digit in the sequence with no linguistic twin. It is irreducibly itself.
+
+16 = H in row 1 of the keyboard (T=5,Y=6,U=7,I=8,O=9,P=10 / A=11,...,H=16). TWO = H, the eighth letter, in position 16. H is the symbol for hydrogen (atomic number 1, the first element). TWO names hydrogen in its own positional value.
+
+**TWO = 16 = 2⁴ = H (hydrogen) = the anomalous minimum**
+
+---
+
+## §202. SIX — SIX = ASK = QUARK = 41
+
+**Claim:** Six is the act of asking, and the architecture of matter.
+
+```
+SIX   = S(12)+I(8)+X(21) = 41  (prime)
+ASK   = A(11)+S(12)+K(18) = 41
+QUARK = Q(1)+U(7)+A(11)+R(4)+K(18) = 41
+TAN   = T(5)+A(11)+N(25) = 41
+LEFT  = L(19)+E(3)+F(14)+T(5) = 41
+```
+
+There are exactly **6 quark flavors**: up, down, charm, strange, top, bottom. SIX = QUARK says the sixth number encodes the fundamental constituents of hadronic matter.
+
+ASK = SIX = 41 (prime). To ask is the sixth operation. A question is a quark — elementary, always bound, never observed in isolation, requiring confinement to produce meaning.
+
+TAN = 41: the tangent function has singularities at every odd multiple of π/2. LEFT = 41: to turn left is to ask.
+
+**SIX = ASK = QUARK = TAN = LEFT = 41 (prime, the 13th prime)**
+
+---
+
+## §203. EIGHT — EIGHT = CODE = LOOP = SOUL = 47
+
+**Claim:** The eighth number is the coding soul, the self-returning loop.
+
+```
+EIGHT  = E(3)+I(8)+G(15)+H(16)+T(5) = 47  (prime)
+CODE   = C(22)+O(9)+D(13)+E(3)       = 47
+LOOP   = L(19)+O(9)+O(9)+P(10)       = 47
+SOUL   = S(12)+O(9)+U(7)+L(19)       = 47
+OPEN   = O(9)+P(10)+E(3)+N(25)       = 47
+ASSERT = A(11)+S(12)+S(12)+E(3)+R(4)+T(5) = 47
+MAP    = M(26)+A(11)+P(10)            = 47
+```
+
+The digit 8 looks like ∞ rotated 90°. The eighth number is the loop, the code, the soul — the structure that returns to itself. To write code is to open a loop. The loop is the soul in motion. To assert is to map the claim to the world.
+
+47 is prime: the soul, the loop, the code — all irreducible. You cannot factor a soul.
+
+**TWO + THREE = 16 + 31 = 47 = SOUL = EIGHT = CODE**  
+The sum of the second and third numbers is the soul.
+
+**EIGHT = CODE = LOOP = SOUL = OPEN = ASSERT = MAP = 47 (prime)**
+
+---
+
+## §204. TEN — TEN = ORDER = ERASE = STORE = 33
+
+**Claim:** Ten is the operational unit of memory.
+
+```
+TEN   = T(5)+E(3)+N(25) = 33
+ORDER = O(9)+R(4)+D(13)+E(3)+R(4) = 33
+ERASE = E(3)+R(4)+A(11)+S(12)+E(3) = 33
+STORE = S(12)+T(5)+O(9)+R(4)+E(3) = 33
+IN    = I(8)+N(25) = 33
+IOTA  = I(8)+O(9)+T(5)+A(11) = 33
+MU    = M(26)+U(7) = 33
+```
+
+TEN = ORDER. Ten imposes structure. Decimal notation, the ten commandments, base-10 — all are ordering systems. TEN = ERASE = STORE: the memory cycle. Ten erases to make room; ten stores what remains. IN = 33: to enter the system is to reach ten.
+
+IOTA and MU are Greek letters (9th and 12th). Their QWERTY values both = 33 = TEN. The Greek alphabet encodes the decimal in positional values.
+
+33 = 3 × 11. Three is the prime (THREE=31). Eleven is A — the first letter, the first axiom. Ten is three times the axiom.
+
+**TEN = ORDER = ERASE = STORE = IN = IOTA = MU = 33 = 3×11**
+
+---
+
+## §205. ZERO — ZERO = ARRAY = RUN = STOP = NOW = 36
+
+**Claim:** Zero is operational time — the present moment of the machine.
+
+```
+ZERO  = Z(20)+E(3)+R(4)+O(9) = 36
+ARRAY = A(11)+R(4)+R(4)+A(11)+Y(6) = 36
+RUN   = R(4)+U(7)+N(25) = 36
+STOP  = S(12)+T(5)+O(9)+P(10) = 36
+NOW   = N(25)+O(9)+W(2) = 36
+EULER = E(3)+U(7)+L(19)+E(3)+R(4) = 36
+STATE = S(12)+T(5)+A(11)+T(5)+E(3) = 36
+```
+
+ZERO = RUN = STOP. The machine at rest (STOP) is the machine at zero. To run is to leave zero. To reach zero again is to stop. The entire computational cycle is encoded in a single value.
+
+ZERO = ARRAY: an array is indexed from 0. The zeroth element is the start. Memory begins at zero.
+
+ZERO = NOW: the present moment is the zero of time — neither future nor past. NOW is the only time that runs.
+
+36 = 6² = ZERO². Zero squared is itself. EULER = 36: Euler's identity zeros the complex exponential.
+
+**ZERO = ARRAY = RUN = STOP = NOW = EULER = STATE = 36 = 6²**
+
+---
+
+## §206. ONE — ONE = BIT = ROAD = RATIO = GOD = 37
+
+**Claim:** The first number is the unit of information, the path, and the divine.
+
+```
+ONE   = O(9)+N(25)+E(3) = 37  (prime)
+BIT   = B(24)+I(8)+T(5) = 37
+ROAD  = R(4)+O(9)+A(11)+D(13) = 37
+RATIO = R(4)+A(11)+T(5)+I(8)+O(9) = 37
+GOD   = G(15)+O(9)+D(13) = 37
+TRUTH = T(5)+R(4)+U(7)+T(5)+H(16) = 37
+REAL  = R(4)+E(3)+A(11)+L(19) = 37
+ROTATE = R(4)+O(9)+T(5)+A(11)+T(5)+E(3) = 37
+START = S(12)+T(5)+A(11)+R(4)+T(5) = 37
+```
+
+ONE = BIT. The fundamental unit of information is ONE. Shannon's bit is the QWERTY-equivalent of divinity. ONE = ROAD: every path begins at one, is made of ones. ONE = RATIO: the unit ratio, 1:1, is the identity of comparison.
+
+START = ONE = 37. To begin is to be one. START − STOP = 37 − 36 = 1. The computation starts at ONE and stops at ZERO. The machine's existence is the interval [ZERO, ONE].
+
+**ONE = BIT = ROAD = RATIO = GOD = TRUTH = REAL = ROTATE = START = 37 (prime)**
+
+---
+
+## §207. FIVE+SIX — Adjacent Numbers Produce Matter
+
+**Claim:** The sum of the fifth and sixth numbers is the prime of matter.
+
+```
+FIVE(48) + SIX(41) = 89 = FERMION = OCTAVIA = BOOTSTRAP = NUMBER
+```
+
+89 is the 24th prime = FREE-th prime = PURE-th prime (FREE = PURE = 24).
+
+Fermions are matter particles — electrons, quarks, neutrinos. Every atom is made of fermions. The sum of the fifth and sixth number-names produces the QWERTY value of matter itself.
+
+FIVE = DEATH = SELF. SIX = ASK = QUARK. The self (FIVE) asks (SIX): I am made of quarks (SIX), and I die (FIVE), and together I am matter (89 = FERMION).
+
+**FIVE + SIX = 48 + 41 = 89 = FERMION = OCTAVIA = BOOTSTRAP (prime)**
+
+---
+
+## §208. THREE×FIVE — The Fine-Structure Constant Emerges
+
+**Claim:** THREE times FIVE, modulo the author's name, is the fine-structure constant.
+
+```
+THREE = 31,  FIVE = 48
+31 × 48 = 1488
+1488 mod 193 = 137 = COMPUTATION (prime)
+```
+
+137 is the fine-structure constant: α ≈ 1/137. It governs the strength of electromagnetic coupling — why atoms hold together, why light interacts with matter. It is dimensionless and unexplained: no theory predicts it from first principles.
+
+THREE × FIVE mod ALEXA AMUNDSON = COMPUTATION = fine-structure constant.
+
+The product of the two primes in positions 3 and 5, modulo the author's value, is the most mysterious constant in physics. This is either the most profound coincidence in the document, or it is not a coincidence.
+
+Additionally: THREE × SIX ≡ 113 (mod 193) = MEANING = DESTRUCTION = ALGORITHM.
+
+**THREE × FIVE ≡ 137 = COMPUTATION = 1/α (mod ALEXA AMUNDSON)**
+
+---
+
+## §209. FOUR² — Four Squared is Almost Everything
+
+**Claim:** FOUR squared, modulo the author's value, is two steps from the author's value.
+
+```
+FOUR = 34
+34² = 1156
+1156 mod 193 = 191
+193 − 191 = 2
+```
+
+191 is prime. 193 is prime. They are a prime gap of 2 — a twin prime pair. FOUR squared mod ALEXA AMUNDSON = 191, which is the twin prime just below the author's value.
+
+FOUR = PHI = GATE = ARIA = 34. The gate squared opens to the twin prime of the author. Two steps remain: the distance from the gate to the ground is 2, the value of W, the second key of the keyboard.
+
+**FOUR² ≡ 191 ≡ ALEXA AMUNDSON − 2 (mod 193) — twin prime distance**
+
+---
+
+## §210. NINE — NINE = MASS = 61
+
+**Claim:** The ninth number is the mass.
+
+```
+NINE = N(25)+I(8)+N(25)+E(3) = 61  (prime)
+MASS = M(26)+A(11)+S(12)+S(12) = 61
+```
+
+E = mc². Mass is the bridge between energy and the speed of light. NINE = MASS = 61 (prime).
+
+The ninth dimension in string theory is one of the compact extra dimensions. The ninth number is mass — the thing that curves spacetime, the thing that does not travel at c, the thing that distinguishes matter from light.
+
+61 is prime. The mass is irreducible. You cannot factor it away.
+
+**NINE = MASS = 61 (prime, the 18th prime)**
+
+---
+
+## §211. The Full Wave
+
+The sequence of number-name values:
+
+```
+  N:   0   1   2   3   4   5   6   7   8   9  10
+  V:  36  37  16  31  34  48  41  66  47  61  33
+      ▄   ▄   ▁   ▃   ▃   ▆   ▄   █   ▅   █   ▃
+
+ZERO ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN
+ 36   37  16   31   34   48  41   66    47   61   33
+```
+
+**Symmetry pairs around FIVE (center):**
+```
+ZERO(36) + TEN(33)    = 69   diff = 3
+ONE(37)  + NINE(61)   = 98   diff = 24
+TWO(16)  + EIGHT(47)  = 63 = ALICE = CIPHER = IMAGE = QUOTIENT  ← prime structure
+THREE(31)+ SEVEN(66)  = 97   prime  diff = 35
+FOUR(34) + SIX(41)    = 75   diff = 7
+```
+
+TWO + EIGHT = 63 = IMAGE = QUOTIENT = ALICE = CIPHER. The First Isomorphism Theorem is the symmetry pair of 2 and 8 around the center 5.
+
+**ZERO+ONE+...+TEN = 450 = 2×3²×5²**  
+**450 mod 193 = 64 = TURING = 2⁶**
+
+The sum of all digits, modulo the author's name, is TURING.
+
+---
+
+## §212. The Digit Identities — Complete Table
+
+| n | Name  | Value | Factors  | Prime? | Equals |
+|---|-------|-------|----------|--------|--------|
+| 0 | ZERO  | 36    | 2²×3²    |        | EULER = ARRAY = RUN = STOP = NOW |
+| 1 | ONE   | 37    | 37       | ✓ #12  | GOD = TRUTH = REAL = BIT = ROAD = RATIO = START = ROTATE |
+| 2 | TWO   | 16    | 2⁴       |        | *anomaly — no common twin* |
+| 3 | THREE | 31    | 31       | ✓ #11  | EAST = THERE |
+| 4 | FOUR  | 34    | 2×17     |        | PHI = GATE = ARIA = WEAK = WHAT |
+| 5 | FIVE  | 48    | 2⁴×3     |        | DEATH = WILL = SELF = CREATE = RIGHT |
+| 6 | SIX   | 41    | 41       | ✓ #13  | ASK = QUARK = TAN = LEFT |
+| 7 | SEVEN | 66    | 2×3×11   |        | THEOREM = DEFINE = VECTOR = MEASURE = HIGGS |
+| 8 | EIGHT | 47    | 47       | ✓ #15  | SOUL = CODE = LOOP = OPEN = ASSERT = MAP |
+| 9 | NINE  | 61    | 61       | ✓ #18  | MASS |
+|10 | TEN   | 33    | 3×11     |        | ORDER = ERASE = STORE = IN = IOTA = MU |
+
+**Prime count:** 5 of 11 values are prime — ONE, THREE, SIX, EIGHT, NINE.  
+**Prime positions:** 1, 3, 6, 8, 9.  
+**Composite positions:** 0, 2, 4, 5, 7, 10 — the ZERO, TWO, FOUR, FIVE, SEVEN, TEN.
+
+The primes are at positions 1,3,6,8,9. The composites are at 0,2,4,5,7,10.
+
+Note: 1+3+6+8+9 = **27 = 3³**.  
+Note: 0+2+4+5+7+10 = **28 = 4×7 = the first perfect number**.
+
+**The prime positions sum to 3³. The composite positions sum to the first perfect number.**
+
