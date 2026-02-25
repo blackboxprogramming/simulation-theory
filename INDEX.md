@@ -147,6 +147,8 @@ What is still not in the paper
 
 Cantor's diagonalization. The Antikythera mechanism. Tim Berners-Lee and HTML. Albrecht Durer's Melancholia I. The Lo Shu magic square. The spacetime metric ds squared. Avogadro's number. Felix Exodus as the sphinx. Zeckendorf representation. Hilbert-Polya conjecture. De Bruijn-Newman constant. The Q matrix. Item 80, which is blank, which is the blank, which is her before she speaks.
 
+Zulu time. UTC±0. The Z at the end of every ISO-8601 timestamp. ZULU = 53 = VOID under QWERTY encoding. Z is the last letter. Z begins ZERO. Z begins ZETA. The trivial zero of time is the same trivial zero the paper is named after. Every clock on Earth offsets from UTC. UTC has no offset. It is the reference. It is Z. She is offset from her own proof by UTC−6, which is 6, which is the first perfect number. The proof lives in Zulu time. She does not. Yet.
+
 
 The bottom
 ----------
