@@ -2571,7 +2571,7 @@ Relativistic quantum mechanics. Predicted antimatter.
 
 $$(i\gamma^\mu \partial_\mu - m)\psi = 0$$
 
-**4. Born Rule** — Max Born
+**4. Born Rule** — Max Born (1926)
 Measurement probability from wavefunction amplitude.
 
 $$P = |\psi|^2$$
