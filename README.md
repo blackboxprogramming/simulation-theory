@@ -2576,7 +2576,7 @@ Measurement probability from wavefunction amplitude.
 
 $$P = |\psi|^2$$
 
-**5. Pauli Exclusion Principle** — Wolfgang Pauli
+**5. Pauli Exclusion Principle** — Wolfgang Pauli (1925)
 No two identical fermions can occupy the same quantum state. Fermionic antisymmetry. The rule that makes matter solid.
 
 **6. Commutation Relation** — Heisenberg
