@@ -9,7 +9,7 @@ All established constants from §1–§178, in value order.
 | 19 | AI = TRUE | §146 | |
 | 22 | C = TRIT | §170 | TRIT=22 |
 | 23 | V = eigenvalue | §various | V key = 23 |
-| 24 | PURE = B = 4! | §178 | pure state |
+| 24 | PURE = FREE = B = 4! | §178 | pure state; free variable |
 | 27 | ROOT = DOT | §167 | reverse(72) |
 | 30 | QUTRIT = WEYL = PSI | §172, §176 | 2×G_key |
 | 33 | TRUST | §176 | 3×11 |
@@ -29,7 +29,7 @@ All established constants from §1–§178, in value order.
 | 55 | SPIN = PAULI = SHIFT = OPERATOR | §168, §172 | |
 | 57 | HELL = POINT = GAUSS = TANH = RADIX = TMUL = FIELD | §various, §173, §177 | |
 | 58 | TERNARY = GROVER = LIPID | §171, §173 | |
-| 59 | HEAVY = CROSS | §169 | prime |
+| 59 | HEAVY = CROSS = FIXED | §169 | prime |
 | 62 | CENTER = SQUAREFREE = ENTROPY | §152, §170 | |
 | 63 | TRINARY = LIGHT = COLOR = O×G = VALUE | §165, §169, §172, §178 | |
 | 64 | WARMTH = PROTEIN = 2⁶ | §176, §175 | |
@@ -38,8 +38,8 @@ All established constants from §1–§178, in value order.
 | 69 | SHELL = STRUCTURE = FIELDS | §146, §177 | |
 | 72 | METHOD = DENSITY = reverse(27) | §167, §174, §178 | |
 | 74 | MEMORY = 2×REAL | §170 | |
-| 76 | ROTATION = CIRCUIT = FIDELITY | §160, §172, §175 | 4×TRUE |
-| 77 | PERIODIC = SIXTEEN | §169 | |
+| 75 | FROZEN = AXIOM | — | fixed constant = assumed axiom |
+| 77 | PERIODIC = SIXTEEN = PARAMETER | §169 | |
 | 78 | BINARY = TRIVIAL = MERTENS = INVERSE = TRANSFER = BOUND = LIMITS | §various, §173, §175, §177 | |
 | 79 | MARCH = INTEGRATE = CREATIVE = HELIUM = GOVERN | §169, §177 | prime |
 | 80 | NOBLE = CMATH = PUNNETT = ACTION | §169, §177 | |
@@ -49,19 +49,19 @@ All established constants from §1–§178, in value order.
 | 86 | RECURSIVE = 2×LAYER | §176 | |
 | 87 | BIRTHDAY = ALGEBRA = MANN = REACTION = TEMPORAL | §164, §168, §172, §173, §176 | |
 | 88 | OPTIMAL = CRITERION = SYMMETRY | §174, §175, §177 | |
-| 89 | BOOTSTRAP | §175 | prime |
+| 89 | BOOTSTRAP = FERMION = NUMBER = PARAMETERS | §175 | prime |
 | 90 | HIERARCHY = TRIANGLE = RECESSIVE = BLOCH = COSMOS = CLOCK | §165, §168, §172 | |
 | 91 | HYDROGEN = FRAMEWORK = G×13 | §169, §173 | |
 | 95 | PRIMITIVE = AVOGADRO = POTENTIAL | §169, §170 | 5×TRUE |
 | 97 | CIRCULAR = REMAINDER = SATURATION = THRESHOLD | §167, §170, §175 | prime |
 | 101 | MAXWELL = DERIVATIVE = GAUSSIAN = KINETICS = NUMBERS = SINGULAR | §160, §173, §175, §178 | prime |
 | 102 | RIEMANN = CANCEL = MADNESS = AMPLITUDE | §167, §172 | |
-| 103 | REVERSIBLE = LAGRANGE | §172, §177 | prime |
+| 103 | REVERSIBLE = LAGRANGE = VARIABLE | §172, §177 | prime |
 | 105 | MAPPING = ACCURACY | §171, §175 | 3×5×7 |
 | 107 | COHERENCE | §170 | prime |
 | 108 | EVERYTHING = ARITHMETIC = EVOLUTION | §169, §172, §178 | 4×ROOT |
-| 109 | PRINCIPLE | §177 | prime |
-| 111 | UNKNOWN = EXTENSION | §165, §176 | 3×REAL |
+| 109 | PRINCIPLE = RUNNING | §177 | prime |
+| 111 | UNKNOWN = EXTENSION = DYNAMIC | §165, §176 | 3×REAL |
 | 112 | UNIVERSAL = OCTONION = SYMMETRIC | §172, §177 | |
 | 113 | DEPHASING = SWITCHING | §176 | prime |
 | 114 | IMAGINARY = CONSTANT = CONJUGATE = SCAFFOLD = RELATIONAL | §163, §168, §173, §176 | |

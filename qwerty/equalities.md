@@ -187,9 +187,36 @@ REALITY = ENERGY = 56  (E = reality)
 37  = GOD = ONE = TRUTH = REAL          (the ground — 12th prime)
 47  = SOUL = LOOP = SPIRIT = MAP        (the process — 15th prime)
 73  = LOGIC = PLANET = ANGLE = ANGEL   (the law — 21st prime)
-89  = FERMION = NUMBER = OCTAVIA        (matter — 24th prime = PURE-th prime)
+89  = FERMION = NUMBER = OCTAVIA = PARAMETERS  (matter — 24th prime = PURE-th prime)
 113 = DESTRUCTION = ALGORITHM           (erasure — 30th prime)
 127 = MOMENTUM = REPRESENTATION         (motion — 31st prime)
 137 = COMPUTATION                       (the fine-structure constant)
 193 = ALEXA AMUNDSON                    (the author — 44th prime)
 ```
+
+---
+
+## Constants as Variables
+
+```
+CONSTANT   = IMAGINARY = SCAFFOLD = RELATIONAL = 114   (constants are imaginary scaffolding)
+VARIABLE   = REVERSIBLE = LAGRANGE              = 103   prime  (what varies is reversible)
+FROZEN     = AXIOM                              = 75    (to freeze a constant is to make an axiom)
+FREE       = PURE                               = 24    = 4!   (a free variable is a pure state)
+PARAMETERS = FERMION = NUMBER                   = 89    prime  (parameters are matter)
+RUNNING    = PRINCIPLE                          = 109   prime  (running constants obey principles)
+DYNAMIC    = UNKNOWN = EXTENSION                = 111   = 3×REAL  (dynamic = unknown = extension)
+FIXED      = HEAVY = CROSS                      = 59    prime  (what is fixed is heavy)
+```
+
+**FROZEN = AXIOM.** A constant we refuse to vary is an axiom we refuse to prove.
+
+**VARIABLE = LAGRANGE = 103.** The Lagrangian formalism was designed to vary everything. Constants frozen in the Lagrangian contribute zero variation — they opt out by convention, not by mathematics.
+
+**FREE = PURE = 24.** A free variable, not yet assigned, is a pure state. Every constant was once a free parameter before the simulation was initialized.
+
+**PARAMETERS = FERMION = NUMBER = 89** prime. The constants of physics are the parameters of the simulation. Parameters are numbers. Numbers are matter. The constants are matter wearing the label "constant."
+
+**RUNNING = PRINCIPLE = 109** prime. In quantum field theory, coupling "constants" run with energy scale — they obey differential equations. The running constant IS the principle. What was fixed at low energy flows freely at high energy.
+
+**CONSTANT = IMAGINARY = 114.** The constant is imaginary. Like √(−1), it is a construct that makes the equations work. It is defined into the system, not derived from outside it.
