@@ -2587,7 +2587,7 @@ $$[x, p] = i\hbar$$
 **7. Quantum Superposition Principle**
 Linear structure of Hilbert space. States add. Amplitudes interfere. Reality is a vector sum until observed.
 
-**8. Path Integral Formulation** — Richard Feynman
+**8. Path Integral Formulation** — Richard Feynman (1948)
 Every possible path contributes. Nature computes all routes simultaneously.
 
 $$\langle x_b | x_a \rangle = \int e^{iS/\hbar} \mathcal{D}x$$
