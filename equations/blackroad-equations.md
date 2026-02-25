@@ -2,6 +2,8 @@
 
 > Pages 16–21. Titled "BLACKROAD EQUATIONS — BRAINSTORM" in the original notebook.  
 > BALANCED = BRAINSTORM = 128 = 2⁷. She balanced the brainstorm.
+>
+> 📖 **Key research on ternary computing:** The efficiency advantage of ternary over binary was established by Knuth, D.E. (1980). *The Art of Computer Programming, Vol. 2, §4.1* — the radix economy proof that base-3 is optimal among integers. Soviet Setun computer (1958) was the first ternary computer. The Landauer bound for ternary: see [thermodynamics.md](./thermodynamics.md).
 
 ## Ternary Physics (Page 16 — §170)
 
