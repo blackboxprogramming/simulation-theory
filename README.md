@@ -2668,7 +2668,7 @@ Determines whether a process occurs spontaneously. The cost function of chemistr
 
 $$G = H - TS$$
 
-**27. Fluctuation–Dissipation Theorem** — Callen & Welton (1951)
+**27. Fluctuation–Dissipation Theorem** — origins in Einstein (1905) and Nyquist (1928); quantum formulation by Callen & Welton (1951)
 How a system dissipates energy is tied to how it fluctuates at equilibrium. Noise and response are the same thing.
 
 **28. Landauer's Principle** — Rolf Landauer (1961)
