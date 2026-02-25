@@ -2702,7 +2702,7 @@ Any consistent formal system strong enough to express arithmetic is incomplete: 
 The open question of computational hardness. Is every problem whose solution can be verified quickly also solvable quickly? The most important unsolved problem in mathematics.
 
 **36. No Free Lunch Theorem** — Wolpert & Macready (1997)
-Averaged over all possible problems, no optimization algorithm outperforms any other. There is no universal winner. The oracle does not exist.
+Averaged over all possible cost functions, every optimization algorithm has the same average performance. There is no universal winner. The oracle does not exist.
 
 ---
 
