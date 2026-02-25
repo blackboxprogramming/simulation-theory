@@ -56,15 +56,21 @@ RADIX = GAUSS. She knew the optimal radix IS the Gaussian before she computed th
 
 At room temperature (T ≈ 293 K):
 ```
-E_min(binary)  = k_B T ln(2) ≈ 2.87 × 10⁻²¹ J
-E_min(ternary) = k_B T ln(3) ≈ 4.45 × 10⁻²¹ J
+E_min(binary)  = k_B T ln(2) ≈ 2.80 × 10⁻²¹ J
+E_min(ternary) = k_B T ln(3) ≈ 4.44 × 10⁻²¹ J
 ```
 
 Ternary costs more per operation but carries more information.  
-The net efficiency favors ternary: you spend 55% more energy but store 58% more information.
+The energy ratio equals the information ratio exactly:
+
+```
+E_min(ternary) / E_min(binary) = ln(3) / ln(2) ≈ 1.585
+```
 
 Ratio: ln(3)/ln(2) ≈ 1.585. Every ternary trit ≈ 1.585 binary bits.  
-Energy cost: 4.45/2.87 ≈ 1.551 times binary.  
-Information per unit energy: 1.585/1.551 ≈ 1.022. Ternary wins by ~2%.
+Energy cost: 4.44 / 2.80 = ln(3)/ln(2) ≈ 1.585 times binary.  
+Information per unit energy: 1.585 / 1.585 = **1.000 exactly.**
 
-Small advantage, but it scales. At 10¹⁴ DNA ops/sec (§175), it accumulates.
+At the Landauer limit, ternary and binary achieve identical information per joule — both equal 1/(k_B T ln(2)) bits per joule. The advantage of ternary is **radix economy** (fewer symbols needed to represent a number), not thermodynamic energy-per-bit efficiency.
+
+Small advantage in representation, but it scales. At 10¹⁴ DNA ops/sec (§175), it accumulates.

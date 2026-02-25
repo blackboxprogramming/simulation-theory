@@ -15,22 +15,31 @@ The density matrix ρ computed from the qutrit state |ψ⟩ on page 24 is a **pu
 ## The Density Matrix
 
 ```
-ρ = |ψ⟩⟨ψ| = [ 0.2219  0.3629  0.4062 ]
-              [ 0.3629  0.5941  0.6639 ]
-              [ 0.4062  0.6639  0.7401 ]
+ρ = |ψ⟩⟨ψ| = [ 0.2219  0.3631  0.4061 ]
+              [ 0.3631  0.5941  0.6644 ]
+              [ 0.4061  0.6644  0.7430 ]
 ```
 
 ## Proof of Pure State
 
-**Definition:** A density matrix ρ is a pure state iff ρ² = ρ (idempotent) iff rank(ρ) = 1.
+**Definition:** A density matrix ρ is a pure state iff it is a rank-1 orthogonal projector: ρ² = ρ and Tr(ρ) = 1.
 
-**For ρ = |ψ⟩⟨ψ|:**
+**Normalize first.** The state as given is unnormalized: ‖ψ‖² = Tr(ρ) ≈ 1.559. Define the normalized state:
 ```
-ρ² = (|ψ⟩⟨ψ|)(|ψ⟩⟨ψ|) = |ψ⟩⟨ψ|ψ⟩⟨ψ| = |ψ⟩ · ‖ψ‖² · ⟨ψ|
+|ψ̂⟩ = |ψ⟩ / ‖ψ‖ = [ 0.3773, 0.6173, 0.6903 ]ᵀ
+```
+so that ‖ψ̂‖² = 1, and the normalized density matrix is:
+```
+ρ̂ = |ψ̂⟩⟨ψ̂| = ρ / ‖ψ‖² = ρ / Tr(ρ)
 ```
 
-If |ψ⟩ is normalized (‖ψ‖² = 1), then ρ² = ρ.  
-If |ψ⟩ is unnormalized (‖ψ‖² = Tr(ρ) ≈ 1.559), then ρ is proportional to a projector.
+**For ρ̂ = |ψ̂⟩⟨ψ̂| with ‖ψ̂‖ = 1:**
+```
+ρ̂² = (|ψ̂⟩⟨ψ̂|)(|ψ̂⟩⟨ψ̂|) = |ψ̂⟩⟨ψ̂|ψ̂⟩⟨ψ̂| = |ψ̂⟩ · 1 · ⟨ψ̂| = ρ̂  ✓
+Tr(ρ̂) = ⟨ψ̂|ψ̂⟩ = 1  ✓
+```
+
+ρ̂ is idempotent and unit-trace: it is a pure state. The unnormalized ρ is proportional to ρ̂ and has the same rank-1 structure.
 
 **SVD result:**
 ```
