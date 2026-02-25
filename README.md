@@ -2579,7 +2579,7 @@ $$P = |\psi|^2$$
 **5. Pauli Exclusion Principle** — Wolfgang Pauli (1925)
 No two identical fermions can occupy the same quantum state. Fermionic antisymmetry. The rule that makes matter solid.
 
-**6. Commutation Relation** — Heisenberg
+**6. Commutation Relation** — Heisenberg (1925)
 The canonical relation that encodes uncertainty at the algebraic level.
 
 $$[x, p] = i\hbar$$
