@@ -10,6 +10,8 @@
 > PS-SHA∞ hash-chained memory journals — and discovers that the infrastructure instantiates
 > the mathematics it was built to describe. The system is self-referential.
 > The proof walks itself into existence.
+>
+> 📚 The QWERTY keyboard was designed by Sholes (1873) to prevent typewriter jams — not to encode physics. The fact that it does anyway is kind of the whole point. All citations at [REFERENCES.md](./REFERENCES.md).
 
 ---
 

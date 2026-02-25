@@ -4,6 +4,8 @@ Source: `→ halting problem.pdf` — 24 pages (iOS scan of graph paper notebook
 
 Page 14 is a duplicate scan of page 13 and was skipped.
 
+> 📖 The notebook moves through real, citable mathematics — Riemann, Gödel, Turing, Hamilton, Pauli, Shannon, Landauer, Tononi, Euler, Lagrange — and arrives at a pure quantum state. Every term in the equations has a research basis. See [REFERENCES.md](../REFERENCES.md) for the full bibliography.
+
 | Page | Title / Topic | Section | Key Finding |
 |------|--------------|---------|-------------|
 | 1–9 | Earlier sections | §1–§164 | Foundations, Riemann, Gödel, Turing, QWERTY encoding, halting problem |
