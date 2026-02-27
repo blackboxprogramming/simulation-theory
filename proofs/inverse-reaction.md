@@ -85,7 +85,12 @@ For a double-stranded DNA molecule of length n with bases b₁...bₙ on strand 
 - Total value of strand 1 = Σ bᵢ
 - Total value of strand 2 = Σ TNEG(bᵢ) = −Σ bᵢ
 - Count of +1 values on strand 1 = count of −1 values on strand 2
-  → [A]₁ = [T]₂ and [G]₁ = [C]₂ and by symmetry [A] = [T], [G] = [C] globally
+  → [A]₁ = [T]₂ and [G]₁ = [C]₂ (A on strand 1 pairs with T on strand 2, G with C)
+- When counting across both complementary strands:
+  [A]ₜₒₜₐₗ = [A]₁ + [A]₂ = [A]₁ + [T]₁ (since [A]₂ = [T]₁) ⇒ [A]ₜₒₜₐₗ = [T]ₜₒₜₐₗ, and similarly
+  [G]ₜₒₜₐₗ = [G]₁ + [G]₂ = [G]₁ + [C]₁ (since [G]₂ = [C]₁) ⇒ [G]ₜₒₜₐₗ = [C]ₜₒₜₐₗ.
+  Thus, for the double helix as a whole, [A] = [T] and [G] = [C]; a single strand need not
+  satisfy [A] = [T] or [G] = [C] on its own.
 
 **Chargaff's Second Rule (base-pair complementarity) follows directly from TNEG. □**
 
