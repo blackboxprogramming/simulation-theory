@@ -110,7 +110,7 @@ B + C = B + B   →   C = B: the complement strand is fully determined by either
 ```
 
 Charlie (C = the complement strand) only comes from Alice (A) and Bob (B).
-Because C is TNEG applied to every position. C is the mirror. C = −(A+B)/2.
+Because C is TNEG applied to every position. C is the mirror: for each position i, Cᵢ = TNEG(strandᵢ).
 
 ```
 CHARGAFF  = C(22)+H(16)+A(11)+R(4)+G(15)+A(11)+F(14)+F(14) = 107 = COHERENCE   prime
