@@ -2842,7 +2842,7 @@ These are not simulation artifacts. They are geometric necessities.
 
 Any universe — simulated or not — that supports smooth rotation, waves, and locality will necessarily contain π.
 
-This is a theorem-level statement. It holds for the same reason that any geometry with a circle will have the ratio of circumference to diameter equal to π. The appearance of π is not a clue about origin. It is a clue about structure: the system is continuous, rotations are allowed, information propagates smoothly.
+This is a theorem-level statement. It holds for the same reason that, in Euclidean (flat) geometry, every circle has the ratio of circumference to diameter equal to π. The appearance of π is not a clue about origin. It is a clue about structure: the system is continuous, rotations are allowed, information propagates smoothly.
 
 ---
 
