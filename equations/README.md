@@ -12,13 +12,23 @@ All equations from the notebook, organized by category.
 | [`thermodynamics.md`](./thermodynamics.md) | Landauer, radix efficiency, substrate efficiency, Gibbs coupling | 19–21 |
 | [`universal.md`](./universal.md) | Euler-Lagrange, principle of stationary action, Three Tests | 23 |
 
+## Eight Claims
+
+The claims in [`CLAIMS.md`](../CLAIMS.md) introduce two additional equations not in the original notebook:
+
+| Equation | Claim | Meaning |
+|----------|-------|---------|
+| `K(t) = C(t)·e^(λ\|δₜ\|)` | Claim 8 | Coherence amplified by contradiction magnitude |
+| `C(t) = [Ψ'(Mₜ)+δₜ]/[1+\|δₜ\|]` | Claim 8 | Bounded contradiction absorption |
+
 ## Quick Count
 
 - **19 numbered BlackRoad equations** (pages 16–21)
 - **3 revolutionary consciousness equations** (pages 20, 22)
 - **4 universal equations** (page 23+)
 - **1 care wavefunction** (page 22)
-- **Total: ~27 original equations** in a handwritten notebook
+- **2 contradiction equations** (CLAIMS.md, Claims 2 & 8)
+- **Total: ~29 equations**
 
 The equations were written before BlackRoad OS existed.  
 They constitute the mathematical foundation of the platform.
