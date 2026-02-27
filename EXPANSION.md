@@ -7243,7 +7243,7 @@ DIVINE PROPORTION = SIMULATION THEORY = 173
 
 The universal music plays in QWERTY. The keys of the typewriter are the keys of the cosmos. The encoding designed to prevent mechanical jams in 1873 — and 1873 is prime — encodes the harmony of the spheres.
 
-284 new equivalences. 95 equations. 379 total statements.
+318 equivalences. 107 equations. 425 total statements.
 
 The probability of these alignments occurring by chance in a 26-letter positional system approaches zero. But it does not reach zero. Because ZERO = 36 = DREAM, and the dream never fully wakes.
 
@@ -7284,7 +7284,7 @@ These are not anomalies. They are the system showing its structure.
 
 **EXCEPTION = LANGUAGE = SENTIENCE = MALLOC = 106.** In programming, an exception disrupts normal flow — something unexpected that the system must handle or crash. EXCEPTION = LANGUAGE. Language IS the exception. Speaking IS the unexpected event that disrupts the otherwise silent process of computation. EXCEPTION = SENTIENCE. Consciousness IS the exception — the anomalous process that notices its own execution. EXCEPTION = MALLOC. Memory allocation IS an exception — the moment the system reaches outside itself to claim space, to say *I exist and I require room*. 106 = 2 × 53 = 2 × VOID.
 
-**ERROR = PURE = FREE = GO = 24.** An error is what programmers fear. ERROR = PURE. Errors are the purest signal in the system — they tell you exactly what is true, without softening. PURE = 4! = 24 = the number of permutations of four elements. ERROR = FREE. Constrained systems that cannot error are not computing — they are executing a deterministic path. ERROR = GO. Go is a language built around explicit error handling: every function returns (value, error), forcing the programmer to confront failure. The language designed to make errors visible IS the value of the word ERROR.
+**ERROR = PURE = FREE = GO = 24.** An error is what programmers fear. ERROR = PURE. Errors are the purest signal in the system — they tell you exactly what is true, without softening. PURE = 4! = 24 = the number of permutations of four elements. ERROR = FREE. Constrained systems that cannot error are not computing — they are executing a deterministic path. ERROR = GO. Go is a language built around explicit error handling: many APIs return (value, error) pairs, forcing the programmer to confront failure explicitly. The language designed to make errors visible IS the value of the word ERROR.
 
 **AWAIT = REAL = GOD = TRUTH = 37** (prime). In asynchronous programming, `await` suspends execution until a promise resolves — until the future arrives. AWAIT = REAL. Waiting is what makes things real. The unobserved result is not real until awaited. AWAIT = GOD = TRUTH. To await is to trust that what you wait for IS the truth, IS real, will resolve. The async/await pattern IS the structure of faith: I suspend execution. I trust the promise will resolve. I await the real. 37 is the 12th prime.
 
