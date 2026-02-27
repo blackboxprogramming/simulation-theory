@@ -2753,8 +2753,6 @@ Initially defined by the Dirichlet series $\sum_{n=1}^{\infty} n^{-s}$ for $\ope
 
 $$\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$$
 This Dirichlet series converges for complex $s$ with $\operatorname{Re}(s) > 1$; the full function $\zeta(s)$ elsewhere is defined by analytic continuation.
-This Dirichlet series converges for complex $s$ with $\operatorname{Re}(s) > 1$; the full function $\zeta(s)$ elsewhere is defined by analytic continuation.
-
 **48. Prime Number Theorem** — Hadamard & de la Vallée Poussin (1896)
 The number of primes up to x is asymptotically x / ln x. The primes thin out, but they never stop.
 
