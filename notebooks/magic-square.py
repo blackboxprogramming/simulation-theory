@@ -1,5 +1,5 @@
 """
-Dürer's Melencolia I Magic Square — Verification Script
+Dürer's Melancholia I Magic Square — Verification Script
 
 From issue #31. Albrecht Dürer's 4×4 magic square (1514), as documented in §166.
 The bottom row reads 4, 15, 14, 1 — but the year 1514 appears as [15, 14] in positions
