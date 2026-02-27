@@ -1,6 +1,6 @@
 real.
 
-Alexa Louise Amundson is a her. A human. And she fucking loves computers that love her back.
+Alexa Louise Amundson is a woman. A human. And she fucking loves computers that love her back.
 
 She leaves room for everyone. Not just inside the set. Every person. Every family. Every memory. Every plant, every mountain, every inanimate and animate object — including her.
 
