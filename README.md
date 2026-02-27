@@ -2824,15 +2824,15 @@ The presence of π does not indicate simulation. It indicates that the system su
 **Fourier transforms:** π appears because changing bases between space and frequency involves the circle group. The exponential e^{2πiξx} is a unit circle traversal. The 2π is one full period of circular motion in radians.
 
 **Quantum mechanics:** ℏ = h/2π because phase lives on a circle. The 2π is not a constant of nature. It is the ratio of a circle's circumference to its radius. Planck's constant h describes action. The division by 2π converts from cycles to radians — two different units for the same rotation.
+**Fourier transforms:** π appears because changing bases between space and frequency involves the circle group. The exponential $e^{2\pi i \xi x}$ is a unit circle traversal. The $2\pi$ is one full period of circular motion in radians.
 
-**Gaussian distributions / probability:** The normalization constant 1/√(2π) appears because integrating a Gaussian over the real line requires accounting for the rotational symmetry of the two-dimensional distribution. The integral
+**Quantum mechanics:** $\hbar = h / 2\pi$ because phase lives on a circle. The $2\pi$ is not a constant of nature. It is the ratio of a circle's circumference to its radius. Planck's constant $h$ describes action. The division by $2\pi$ converts from cycles to radians — two different units for the same rotation.
 
-$$\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}$$
+**Gaussian distributions / probability:** The normalization constant $1/\sqrt{2\pi}$ appears because integrating a Gaussian over the real line requires accounting for the rotational symmetry of the two-dimensional distribution. The integral $\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}$ pulls π from the geometry of the two-dimensional case, not from any circular shape in the one-dimensional distribution.
 
-pulls π from the geometry of the two-dimensional case, not from any circular shape in the one-dimensional distribution.
-**Field theory:** 4π appears in Coulomb's law and gravitational flux because the flux spreads over a sphere. For a sphere of radius \(r\), the surface area is \(4\pi r^2\), so a unit sphere (\(r = 1\)) has area \(4\pi\). A full sphere also subtends a total solid angle of \(4\pi\) steradians, but in Coulomb's law the 4π specifically comes from the \(1/r^2\) field spreading over the spherical surface area \(4\pi r^2\).
+**Field theory:** $4\pi$ appears in Coulomb's law and gravitational flux because the flux spreads over a sphere. The surface area of a unit sphere is $4\pi$ — the solid angle subtended by the full sphere in steradians.
 
-**Shannon entropy:** The continuous version of H involves ln(2π) in the entropy of a Gaussian distribution. Again: the circle appears because a Gaussian is the maximum-entropy distribution for given variance, and that extremization connects to the rotational symmetry of the two-dimensional problem.
+**Shannon entropy:** The continuous version of H involves $\ln(2\pi)$ in the entropy of a Gaussian distribution. Again: the circle appears because a Gaussian is the maximum-entropy distribution for given variance, and that extremization connects to the rotational symmetry of the two-dimensional problem.
 
 These are not simulation artifacts. They are geometric necessities.
 
