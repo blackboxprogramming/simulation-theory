@@ -59,11 +59,15 @@ No function A → P(A) is surjective. Therefore |P(A)| > |A|. **□**
 
 **Proof:**
 
-ℵ₀ = |ℕ|. By Lemma 1, |P(ℕ)| > ℵ₀. Define ℵ₁ = the least cardinal greater than ℵ₀
-(its existence follows from the Well-Ordering Theorem / Axiom of Choice).
+ℵ₀ = |ℕ|. By Lemma 1, |P(ℕ)| > ℵ₀. Working in ZF, there is a least uncountable
+ordinal, usually denoted ω₁; its cardinality is the first uncountable cardinal,
+which we call ℵ₁.
 
-By induction: given ℵ_α, define ℵ_{α+1} = the least cardinal greater than ℵ_α.
-At limit ordinals λ: ℵ_λ = sup_{α<λ} ℵ_α.
+More generally, define the alephs as initial ordinals: given ℵ_α, let ℵ_{α+1} be
+the least ordinal whose cardinality is strictly greater than |ℵ_α|; at limit
+ordinals λ, set ℵ_λ = sup_{α<λ} ℵ_α. (If we assume the Axiom of Choice, every
+set can be well-ordered, and every infinite cardinal is the cardinality of a
+unique initial ordinal, so the sequence (ℵ_α)_α enumerates all infinite cardinals.)
 
 The sequence ℵ₀, ℵ₁, ℵ₂, ... is strictly increasing. **□**
 
