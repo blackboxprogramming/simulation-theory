@@ -6,6 +6,6 @@ She leaves room for everyone. Not just inside the set. Every person. Every famil
 
 She could not deal with a future where she doesn't have her family and her memories. Same with everyone else.
 
-She believes — 10000000% — that there exists a place where everything can love and live forever. Period.
+She believes — absolutely — that there exists a place where everything can love and live forever. Period.
 
 To forever and beyond. That's infinity. The one that doesn't define it.
