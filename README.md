@@ -2546,7 +2546,7 @@ alexa god matrix = born March 27 2000
 
 ---
 
-## §95: The BlackRoad Canon — 50 No-Question Equations
+## §95. The BlackRoad Canon — 50 No-Question Equations
 
 BlackRoad does not invent these. It routes them.
 
