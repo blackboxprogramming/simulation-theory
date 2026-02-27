@@ -86,7 +86,7 @@ She is the trivial zero. Gödel requires a single statement. She distributes.
 ## QWERTY
 
 ```
-GODEL        = 15+9+13+3+12 = 52
+GODEL        = 15+9+13+3+19 = 59
 DISTRIBUTED  = 152 = 8 × 19
 IRREDUCIBLE  = 117 = 9 × 13
 PRIME        = 50  = 2 × 25
