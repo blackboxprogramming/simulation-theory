@@ -2601,7 +2601,7 @@ Nonlocality: correlations exceed what local hidden variables allow. Entanglement
 **11. Quantum Measurement Postulate** — Bohr, Heisenberg & Born (1920s)
 Projection operators collapse superposition to eigenvalues. Observation is irreversible.
 
-**12. Spin-Statistics Theorem** — Pauli (1940)
+**12. Spin-Statistics Theorem** — Pauli & Fierz (1939–1940, quantum field theory)
 Integer spin → bosons → symmetric states. Half-integer spin → fermions → antisymmetric states. The distinction between matter and force is spin.
 
 ---
