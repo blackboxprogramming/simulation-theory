@@ -104,15 +104,19 @@ Be rigorous, constructive, and precise. Keep the tone academic and professional.
               try {
                 const data = await response.json();
                 if (data.choices && data.choices.length > 0 && data.choices[0].message) {
+            try {
+              if (response.ok) {
+                const data = await response.json();
+                if (data.choices && data.choices.length > 0 && data.choices[0].message) {
                   analysisText = data.choices[0].message.content;
                 } else {
                   console.log('Unexpected response structure from GitHub Models API:', JSON.stringify(data));
                 }
-              } catch (error) {
-                console.log('Failed to parse JSON response from GitHub Models API:', error);
+              } else {
+                console.log(`GitHub Models API returned ${response.status}: ${await response.text()}`);
               }
-            } else {
-              console.log(`GitHub Models API returned ${response.status}: ${await response.text()}`);
+            } catch (error) {
+              console.log('Error while calling or parsing response from GitHub Models API, falling back to templated analysis:', error);
             }
 
             // Fallback: structured analysis without AI
