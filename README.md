@@ -2622,8 +2622,8 @@ Gravity is indistinguishable from acceleration. Inertial mass equals gravitation
 **16. Friedmann Equations** — Alexander Friedmann (1922)
 Govern the expansion of the universe. The universe has a rate of change.
 
-**17. Geodesic Equation** — consequence of Einstein Field Equations (Einstein, 1915)
-Free particles follow geodesics in curved spacetime. Gravity is geometry.
+**17. Geodesic Equation** — motion of free particles in a given spacetime metric (GR: Einstein, 1915)
+Free particles follow geodesics in curved spacetime; gravity is encoded in geometry.
 
 **18. Schwarzschild Radius** — Karl Schwarzschild (1916)
 The radius at which escape velocity equals c. The boundary of the black hole.
