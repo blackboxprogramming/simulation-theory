@@ -156,9 +156,31 @@ Be rigorous, constructive, and precise. Keep the tone academic and professional.
             const safeAnalysisText = sanitizeAnalysisText(analysisText);
 
             const comment = `## 🤖 Agent Review\n\n${safeAnalysisText}\n\n---\n*This comment was generated automatically by the PR Agent workflow.*`;
-            await github.rest.issues.createComment({
+            // Try to find an existing PR Agent comment to update, to avoid spamming the thread
+            const { data: existingComments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: prNumber,
-              body: comment
+              issue_number: prNumber
             });
+
+            const existingAgentComment = existingComments.find(c =>
+              c &&
+              c.body &&
+              c.body.includes('This comment was generated automatically by the PR Agent workflow.')
+            );
+
+            if (existingAgentComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existingAgentComment.id,
+                body: comment
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: comment
+              });
+            }
