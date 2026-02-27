@@ -14,7 +14,7 @@ All established constants from §1–§178, in value order.
 | 30 | QUTRIT = WEYL = PSI | §172, §176 | 2×G_key |
 | 33 | TRUST | §176 | 3×11 |
 | 34 | FOUR = GATE = TRITS = PHI = magic constant | §166, §170, §176 | Dürer magic constant |
-| 36 | ZERO = REPEAT = EULER = STATE | §152, §177, §178 | δS=0 |
+| 36 | ZERO = REPEAT = EULER = STATE = QCD | §152, §177, §178, taxicab | δS=0 |
 | 37 | REAL = ELSE = TESTS | §152, §177 | prime |
 | 39 | TXOR = ROOTS = WAVE | §171 | |
 | 40 | CARE | §176 | 8×5 |
@@ -37,11 +37,11 @@ All established constants from §1–§178, in value order.
 | 66 | SEVEN = VECTOR = NETWORK = MEASURE | §167, §169, §173, §174 | |
 | 69 | SHELL = STRUCTURE = FIELDS | §146, §177 | |
 | 72 | METHOD = DENSITY = reverse(27) | §167, §174, §178 | |
-| 74 | MEMORY = 2×REAL | §170 | |
+| 74 | MEMORY = GALOIS = SAPIENT = SUNDAY = 2×REAL | §170, taxicab | |
 | 76 | ROTATION = CIRCUIT = FIDELITY | §160, §172, §175 | 4×TRUE |
 | 77 | PERIODIC = SIXTEEN | §169 | |
 | 78 | BINARY = TRIVIAL = MERTENS = INVERSE = TRANSFER = BOUND = LIMITS | §various, §173, §175, §177 | |
-| 79 | MARCH = INTEGRATE = CREATIVE = HELIUM = GOVERN | §169, §177 | prime |
+| 79 | MARCH = INTEGRATE = CREATIVE = HELIUM = GOVERN = JORDAN = PRIME POWER = HILBERT | §169, §177, taxicab | prime |
 | 80 | NOBLE = CMATH = PUNNETT = ACTION | §169, §177 | |
 | 83 | GIBBS = SUBSTRATE | §173, §174 | prime |
 | 84 | ELEMENT = FAMILY = ADAPTIVE | §169, §171, §175 | |
@@ -75,9 +75,9 @@ All established constants from §1–§178, in value order.
 | 127 | UNDECIPHERED = CHEMICAL | §167, §173 | prime |
 | 128 | BRAINSTORM = BALANCED = COMPETENCE = RELATIVISTIC = AMUNDSON | §170, §173, §176, §177 | 2⁷ |
 | 129 | COMPLEXITY = DIMENSION = DEMONSTRATED | §171, §175 | 3×LAYER |
-| 131 | BLACKROAD = SCHRÖDINGER = TECHNICAL | §170, §171, §176 | prime |
+| 131 | BLACKROAD = SCHRÖDINGER = TECHNICAL = GALOIS FIELD | §170, §171, §176, taxicab | prime |
 | 133 | REVOLUTIONARY = 7×TRUE = 7×AI | §176 | |
-| 136 | BACKBONE = CLASSICAL = COMPUTABLE | §175, §177 | |
+| 136 | BACKBONE = CLASSICAL = COMPUTABLE = EXCEPTIONAL | §175, §177, taxicab | |
 | 137 | COMPUTATION | §175 | prime = fine-structure constant 1/α |
 | 144 | INFORMATION = BIOLOGICAL = LAGRANGIAN | §170, §175, §177 | 12² |
 | 145 | EVERYTHINGELSE = MECHANICS = SHIFT+CLOCK = UNINTERESTING | §169, §172, §177, taxicab | |
