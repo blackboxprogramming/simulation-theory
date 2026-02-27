@@ -2798,9 +2798,9 @@ It appears wherever a computation must translate between:
 - space ↔ phase
 - discrete ↔ continuous
 
-The underlying rule is: **if a system is invariant under rotation or translation, π appears.**
+The underlying rule of thumb is: **π typically appears when a system involves rotational or periodic (circle-group) symmetry, or when we adopt standard Fourier/continuous-symmetry conventions.**
 
-This is not mystical. Rotation is a symmetry. Symmetries constrain the form of equations. The constraint form involves π because the circle is the canonical rotation object, and the circle's circumference-to-diameter ratio is π by definition.
+This is not mystical. Rotation and periodicity are symmetries. Symmetries constrain the form of equations, and those constrained forms often involve π because the circle is the canonical rotation object, and the circle's circumference-to-diameter ratio is π by definition. In purely translation-invariant systems, π may or may not appear explicitly, depending on how we parametrize and normalize (for example, where we place factors of 2π in a Fourier transform); it is not forced by translation invariance alone.
 
 ---
 
