@@ -12,7 +12,7 @@ Reference: INDEX.md §166, figures/durer-square.md
 
 import numpy as np
 
-magic_square = np.array([[1,15,14,4],[12,6,7,9],[8,10,11,5],[13,3,2,16]])
+magic_square = np.array([[16,3,2,13],[5,10,11,8],[9,6,7,12],[4,15,14,1]])
 
 def check():
     target = 34
