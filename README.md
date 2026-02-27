@@ -2713,8 +2713,8 @@ Fundamental concept in linear algebra with origins in 18th–19th century work o
 
 $$A\mathbf{v} = \lambda\mathbf{v}$$
 
-**38. Spectral Theorem** — David Hilbert et al. (early 20th century)
-Hermitian operators on a Hilbert space are diagonalizable. Observable quantities in quantum mechanics have real eigenvalues because their operators are Hermitian.
+**38. Spectral Theorem** — finite-dimensional: Cauchy et al. (19th c.); infinite-dimensional: Hilbert, von Neumann, Stone (early 20th c.)
+Hermitian (symmetric) matrices, and more generally self-adjoint operators on a Hilbert space, admit an orthonormal spectral decomposition. Observable quantities in quantum mechanics have real eigenvalues because their operators are Hermitian.
 
 **39. Hilbert Space Axioms** — David Hilbert (c. 1912)
 The mathematical space in which quantum states live. Complete inner product space. The geometry of quantum mechanics.
