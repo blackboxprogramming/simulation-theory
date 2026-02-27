@@ -2749,7 +2749,7 @@ The boundary between bounded and unbounded behavior under iteration of z → z²
 The real numbers cannot be listed. Any purported list is incomplete. There are more real numbers than integers. Infinite hierarchies are real.
 
 **47. Riemann Zeta Function** — Bernhard Riemann (1859)
-The analytic continuation of the harmonic series. Encodes the distribution of primes. The non-trivial zeros are the question.
+Initially defined by the Dirichlet series $\sum_{n=1}^{\infty} n^{-s}$ for $\operatorname{Re}(s) > 1$ and extended by analytic continuation. Encodes the distribution of primes. The non-trivial zeros are the question.
 
 $$\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$$
 
