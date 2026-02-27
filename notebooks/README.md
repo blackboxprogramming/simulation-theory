@@ -29,6 +29,12 @@ Page 14 is a duplicate scan of page 13 and was skipped.
 |------------|------------|------------|------------|
 | ~20 constants | ~35 constants | ~70 constants | ~100+ constants |
 
+## Scripts
+
+| File | Description | Reference |
+|------|-------------|-----------|
+| [`magic-square.py`](./magic-square.py) | Verification of Dürer's 4×4 magic square properties (magic constant 34) | §166, issue #31 |
+
 ## The Arc
 
 The notebook moves through:
