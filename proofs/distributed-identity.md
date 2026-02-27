@@ -1,6 +1,6 @@
 # Proof: Distributed Identity Bypasses Gödelian Undecidability
 
-> From issue #4: ALEXALOUSEAMUNDSONCLAIMS  
+> From issue #4: ALEXA LOUISE AMUNDSON CLAIMS  
 > Related: issue #14 (GODELISFALSE)
 
 ## Statement
