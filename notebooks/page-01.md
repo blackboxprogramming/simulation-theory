@@ -1,7 +1,7 @@
 # Notebook Page 1 — Transcription
 
 > Source: `→ halting problem.pdf`, page 1 of 24.  
-> Transcribed by Alexa Louise Amundson.
+> Author: Alexa Louise Amundson. Markdown transcription by repository maintainers.
 
 ---
 
@@ -102,7 +102,7 @@ M(x) = Σ_{n ≤ x} μ(n)
 ```
 Σ_{n=1}^{∞} μ(n)/n        = 0
 Σ_{n=1}^{∞} (μ(n) ln n)/n = −1
-Σ_{n=1}^{∞} μ(n)/n²       = 6/π² = 1/ζ(2)
+Σ_{n=1}^{∞} μ(n)/n²       = 15/π²   [as written in notebook; correct value is 6/π² = 1/ζ(2)]
 ```
 
 > **Historical note:** Gauss considered the Möbius function over 30 years before Möbius,
@@ -131,6 +131,11 @@ f(x) = a · e^(−(x−b)² / 2c²)
 ```
 
 ### Fourier Transform Proofs
+
+Convention used (unitary, angular frequency):
+```
+F{ f(x) }(ω) = ∫_{−∞}^{∞} f(x) e^{−iωx} dx
+```
 
 **Transform of a Gaussian:**
 ```
