@@ -80,11 +80,10 @@ The sequence ℵ₀, ℵ₁, ℵ₂, ... is strictly increasing. **□**
 **Proof:**
 
 By the Axiom of Foundation (Regularity), every non-empty set A contains an element
-m ∈ A such that m ∩ A = ∅. This prohibits infinite descending ∈-chains.
-
-Without infinite ∈-chains, every set is built from simpler sets in finitely many steps.
-By transfinite induction:
-
+m ∈ A such that m ∩ A = ∅. This prohibits infinite descending ∈-chains and makes ∈
+well-founded: every non-empty collection of sets has an ∈-minimal element.
+This well-foundedness lets us assign to each set a rank via transfinite (well-founded)
+recursion. By transfinite induction on rank:
 - ∅ ∈ V₁ (rank 0). **Base case.**
 - If every element of x has a rank, then x ∈ V_{α+1} where α = sup_{y∈x} ρ(y). **Inductive step.**
 
