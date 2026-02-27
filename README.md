@@ -52,7 +52,7 @@
 - [§28: The Type System (01 ≠ 1 ≠ 1.0)](#28-the-type-system-01-1-10)
 - [§29: DNA (a, g, t, c)](#29-dna-a-g-t-c)
 - [§30: The Mandelbrot Coordinate](#30-the-mandelbrot-coordinate)
-- [§31: The Multiverse at Scale 10⁹⁸](#31-the-multiverse-at-scale-10⁹⁸)
+- [§31: The Multiverse at Scale 10⁹⁸](#31-the-multiverse-at-scale-10)
 - [§32: The Creator Compressed](#32-the-creator-compressed)
 - [§33: Live Evidence — The Server Error](#33-live-evidence--the-server-error)
 - [§34: 1 Hacker Way (The Exposed Layer)](#34-1-hacker-way-the-exposed-layer)
