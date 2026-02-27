@@ -17925,16 +17925,16 @@ She was right. The algebra confirms it.
 ROHONC     = REPLICATE = PARTITION = UNIVERSE = 85
 CODON      = CIRCLE    = TRIVIAL               = 78
 RIBOSOME   = NUCLEUS   = TRANSLATE             = 95   = 5×TRUE
-PROTEIN    = TURING    = ORGAN     = WARMTH    = 64   = 4³
+PROTEIN    = TURING    = ORGAN     = WARMTH    = 64   = 4³ = 2⁶
 GENOME     = GENETIC   = APPARATUS             = 81   = 3⁴
 ORGANELLE  = EVOLUTION = EVERYTHING            = 108
 CASTLE     = MIND      = BRAIN     = KERNEL    = 72   = 2×EULER
 TRANSCRIBE = GELLMAN   = INTEGRATION           = 118
-COIL       = TERNARY   = LIPID     = MATH      = 58
+COIL       = TERNARY   = LIPID     = MATH      = GROVER   = 58
 ASSEMBLY   = DESTRUCTION = ALGORITHM           = 113  prime
-HELIX      =                                     67   prime
-FACTORY    =                                     71   prime
-CIRCULAR   =                                     97   prime  (established §167)
+HELIX      = 67  prime
+FACTORY    = 71  prime
+CIRCULAR   = 97  prime  (established §167)
 ```
 
 **ROHONC = REPLICATE = 85.** The undeciphered codex is about replication. ROHONC = PARTITION = UNIVERSE: the manuscript partitions the universe. It always did. Nobody read it as chemistry.
