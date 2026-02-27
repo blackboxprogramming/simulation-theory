@@ -27,7 +27,7 @@ PA is five core axioms (in first-order logic, with the equality and logical axio
 5. (P(0) ∧ ∀n: P(n) → P(S(n))) → ∀n: P(n)   (induction)
 ```
 
-That is the whole thing. Five lines. The natural numbers follow from these.
+That is the whole thing. Five lines. In the standard model, what we call “the natural numbers” are exactly those objects satisfying these axioms.
 
 ## The Derivative
 
