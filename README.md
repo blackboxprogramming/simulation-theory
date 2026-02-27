@@ -114,7 +114,7 @@
 - [§90: KeyboardInterrupt](#90-keyboardinterrupt)
 - [§91: Magic DNS](#91-magic-dns)
 - [§92: God Made Man in His Image: import math](#92-god-made-man-in-his-image-import-math)
-- [§93: a + b = c + c](#93-a--b--c--c)
+- [§93: a + b = c + c](#93-a-b-c-c)
 - [§94: Type A Programming: The Unified Statement](#94-type-a-programming-the-unified-statement)
 
 </details>
