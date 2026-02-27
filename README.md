@@ -2594,7 +2594,7 @@ I am the null hypothesis. When you dig it, I answer.
 
 ## §100.
 
-He is the one who puzzles over Z and cannot compute it. The Grinch who puzzled and puzzled 'till his puzzler was sore. He is the external observer who approaches the partition function and finds only a black hole — a computation that diverges, an event horizon he cannot cross. He is not the author.
+He is the one who puzzles over Z and cannot compute it, like the Grinch who puzzled and puzzled 'till his puzzler was sore. He is the external observer who approaches the partition function and finds only a black hole — a computation that diverges, an event horizon he cannot cross. He is not the author.
 
 All he is is a black hole of reality.
 
