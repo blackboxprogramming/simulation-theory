@@ -167,7 +167,44 @@ ENTANGLEMENT = CONFINEMENT            = 165 = 3×PAULI
 EVOLUTION = EVERYTHING = ARITHMETIC   = 108
 ```
 
-## Care Equation
+## Claude Shannon — Information Theory
+
+```
+BIT         = REAL = ESC = DIED = TORUS     = 37   prime
+NOISE       = BOB = CAB = DREAM = ANSWER    = 57
+ENTROPY     = BORN                          = 62
+CIPHER      = ALICE = COLOR = SHADOW        = 63
+FREQUENCY   = ROHONC = UNIVERSE = PARTITION = 85
+BORN RULE   = CAPACITY = PRIMITIVE          = 95   5×TRUE
+AMPLITUDE   = TAXICAB = RIEMANN = MOLLWEIDE = 102
+SHANNON     = 3 × 41                        = 123
+```
+
+**BIT = REAL = ESC = DIED = TORUS = 37 (prime).** The fundamental unit of Shannon
+information IS real IS the ANSI escape character (ASCII 27 = her birthday day) IS
+what Galois and Ramanujan left behind IS the torus interference pattern on the monitor.
+
+**NOISE = BOB = CAB = DREAM = ANSWER = 57.** In Shannon's model, Alice sends through
+a noisy channel to Bob. The noise IS Bob IS the taxicab IS the answer.
+
+**ENTROPY = BORN = 62.** Shannon entropy `H = −Σ p log p` IS Max Born — whose rule
+`P = |ψ|²` gives the probabilities. The information measure IS the probability surname.
+
+**CIPHER = ALICE = COLOR = 63.** Alice (the sender) IS the cipher IS the color IS
+the Pi 400 gateway node. Encryption IS the gateway.
+
+**FREQUENCY = ROHONC = UNIVERSE = PARTITION = 85.** Her Rohonc Codex entropy analysis
+IS Shannon frequency distribution measurement. FREQUENCY IS the codex IS the universe.
+
+**BORN RULE = CAPACITY = 95.** `P = |ψ|²` IS Shannon channel capacity. Quantum
+measurement IS optimal information extraction. The Born rule IS the capacity theorem.
+
+**AMPLITUDE = TAXICAB = RIEMANN = MOLLWEIDE = 102.** The quantum probability amplitude
+IS the taxicab number IS the CMB projection. `|ψ|` IS 1729.
+
+`SHANNON = 123 = 3 × 41`. Her birth month (3) times 41.
+
+
 
 ```
 TECHNICAL  = BLACKROAD                = 131  prime

@@ -15,7 +15,7 @@ All established constants from §1–§178, in value order.
 | 33 | TRUST | §176 | 3×11 |
 | 34 | FOUR = GATE = TRITS = PHI = DUERER = magic constant | §166, §170, §176, taxicab | Dürer magic constant |
 | 36 | ZERO = REPEAT = EULER = STATE = QCD | §152, §177, §178, taxicab | δS=0 |
-| 37 | REAL = ELSE = TESTS = ESC = TORUS | §152, §177, taxicab | prime |
+| 37 | REAL = ELSE = TESTS = ESC = TORUS = BIT | §152, §177, taxicab | prime |
 | 39 | TXOR = ROOTS = WAVE | §171 | |
 | 40 | CARE | §176 | 8×5 |
 | 43 | LAYER | §165 | prime |
@@ -27,11 +27,11 @@ All established constants from §1–§178, in value order.
 | 51 | FÖRSTER = DELTA | §174, §177 | |
 | 54 | HOME = TAND = EIGEN | §146, §171 | |
 | 55 | SPIN = PAULI = SHIFT = OPERATOR | §168, §172 | |
-| 57 | HELL = POINT = GAUSS = TANH = RADIX = TMUL = FIELD = BOB = CAB = DREAM = ANSWER | §various, §173, §177, taxicab | |
+| 57 | HELL = POINT = GAUSS = TANH = RADIX = TMUL = FIELD = BOB = CAB = DREAM = ANSWER = NOISE | §various, §173, §177, taxicab | |
 | 58 | TERNARY = GROVER = LIPID | §171, §173 | |
 | 59 | HEAVY = CROSS | §169 | prime |
-| 62 | CENTER = SQUAREFREE = ENTROPY | §152, §170 | |
-| 63 | TRINARY = LIGHT = COLOR = O×G = VALUE = ALICE | §165, §169, §172, §178, taxicab | |
+| 62 | CENTER = SQUAREFREE = ENTROPY = BORN | §152, §170, taxicab | |
+| 63 | TRINARY = LIGHT = COLOR = O×G = VALUE = ALICE = CIPHER | §165, §169, §172, §178, taxicab | |
 | 64 | WARMTH = PROTEIN = 2⁶ | §176, §175 | |
 | 65 | ALEXA = 5×13 | §177 | |
 | 66 | SEVEN = VECTOR = NETWORK = MEASURE | §167, §169, §173, §174 | |
@@ -45,14 +45,14 @@ All established constants from §1–§178, in value order.
 | 80 | NOBLE = CMATH = PUNNETT = ACTION | §169, §177 | |
 | 83 | GIBBS = SUBSTRATE | §173, §174 | prime |
 | 84 | ELEMENT = FAMILY = ADAPTIVE | §169, §171, §175 | |
-| 85 | UNIVERSE = FREDKIN = ROHONC = PARTITION | §167, §169, §172, §176 | |
+| 85 | UNIVERSE = FREDKIN = ROHONC = PARTITION = FREQUENCY | §167, §169, §172, §176, taxicab | |
 | 86 | RECURSIVE = 2×LAYER | §176 | |
 | 87 | BIRTHDAY = ALGEBRA = MANN = REACTION = TEMPORAL | §164, §168, §172, §173, §176 | |
 | 88 | OPTIMAL = CRITERION = SYMMETRY | §174, §175, §177 | |
 | 89 | BOOTSTRAP | §175 | prime |
 | 90 | HIERARCHY = TRIANGLE = RECESSIVE = BLOCH = COSMOS = CLOCK | §165, §168, §172 | |
 | 91 | HYDROGEN = FRAMEWORK = G×13 | §169, §173 | |
-| 95 | PRIMITIVE = AVOGADRO = POTENTIAL | §169, §170 | 5×TRUE |
+| 95 | PRIMITIVE = AVOGADRO = POTENTIAL = BORN RULE = CAPACITY | §169, §170, taxicab | 5×TRUE |
 | 97 | CIRCULAR = REMAINDER = SATURATION = THRESHOLD | §167, §170, §175 | prime |
 | 101 | MAXWELL = DERIVATIVE = GAUSSIAN = KINETICS = NUMBERS = SINGULAR = TERMINAL | §160, §173, §175, §178, taxicab | prime |
 | 102 | RIEMANN = CANCEL = MADNESS = AMPLITUDE = TAXICAB = CHEMISTRY = SEVENTEEN = MOLLWEIDE | §167, §172, taxicab | |
