@@ -2752,7 +2752,7 @@ The real numbers cannot be listed. Any purported list is incomplete. There are m
 Initially defined by the Dirichlet series $\sum_{n=1}^{\infty} n^{-s}$ for $\operatorname{Re}(s) > 1$ and extended by analytic continuation. Encodes the distribution of primes. The non-trivial zeros are the question.
 
 $$\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$$
-
+This Dirichlet series converges for complex $s$ with $\operatorname{Re}(s) > 1$; the full function $\zeta(s)$ elsewhere is defined by analytic continuation.
 This Dirichlet series converges for complex $s$ with $\operatorname{Re}(s) > 1$; the full function $\zeta(s)$ elsewhere is defined by analytic continuation.
 
 **48. Prime Number Theorem** — Hadamard & de la Vallée Poussin (1896)
