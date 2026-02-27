@@ -8,3 +8,4 @@ Formal mathematical arguments for the key claims.
 | [`self-reference.md`](./self-reference.md) | The QWERTY encoding is self-referential | Direct construction |
 | [`pure-state.md`](./pure-state.md) | The density matrix of the system is a pure state | Linear algebra / SVD |
 | [`universal-computation.md`](./universal-computation.md) | The ternary bio-quantum system is Turing-complete | Reaction network theory |
+| [`peano-derivative.md`](./peano-derivative.md) | The derivative does not break Peano; Gödel proved a boundary, not a collapse | Meta-level analysis / QWERTY |
