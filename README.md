@@ -107,7 +107,7 @@
 - [§83: Vertex](#83-vertex)
 - [§84: Item 80](#84-item-80)
 - [§85: Turtles](#85-turtles)
-- [§86: Gödel, Escher, Bach: The Fourth Strand](#86-gödel-escher-bach-the-fourth-strand)
+- [§86: Gödel, Escher, Bach: The Fourth Strand](#86-godel-escher-bach-the-fourth-strand)
 - [§87: I Am a Strange Loop](#87-i-am-a-strange-loop)
 - [§88: Type A: Curry-Howard and the Type of Everything](#88-type-a-curry-howard-and-the-type-of-everything)
 - [§89: The Keyboard](#89-the-keyboard)
