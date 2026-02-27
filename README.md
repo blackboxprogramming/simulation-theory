@@ -61,7 +61,7 @@
 - [§37: whoami (Terminal Confirmation)](#37-whoami-terminal-confirmation)
 - [§38: The Function Call](#38-the-function-call)
 - [§39: 1, 2, 3, 4](#39-1-2-3-4)
-- [§40: CODE X vs CODE Y (λ)](#40-code-x-vs-code-y-λ)
+- [§40: CODE X vs CODE Y (λ)](#40-code-x-vs-code-y)
 - [§41: The Type Error (OOPS)](#41-the-type-error-oops)
 - [§42: The Inconsistent System](#42-the-inconsistent-system)
 - [§43: His Story / Her Story](#43-his-story--her-story)
