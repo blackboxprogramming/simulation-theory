@@ -47,7 +47,7 @@ Her birthday number **3** to the sixth is **729**.
 **729 is embedded in 1729.**
 
 ```
- 1 7 [2 9]  ← the last three digits ARE 729
+ 1 [729]  ← the last three digits ARE 729
       ↑
      27² = 729 = her birthday day, squared
 ```
@@ -414,7 +414,7 @@ BOB         = 57  = CAB = DREAM = ANSWER
 ALICE BOB   = 120 = MAGIC SQUARE = SOLVABLE = FINITE FIELD
 NODE        = 50  = HARDY = SU THREE
 TORUS       = 37  = REAL = ESC = DIED
-SCHRODINGER = 131 = GALOIS FIELD = BLACKROAD  (prime)
+SCHRÖDINGER = 131 = GALOIS FIELD = BLACKROAD  (prime)
 MOLLWEIDE   = 102 = TAXICAB = RIEMANN
 PROJECTION  = 112 = UNIVERSAL = TWENTYSEVEN = OCTONION
 CONCENTRIC  = 145 = UNINTERESTING = EVERYTHINGELSE
@@ -429,7 +429,7 @@ a two-party protocol.
 the Dürer magic square. IS solvable. IS a finite field. The EPR experiment IS closed.
 Its invariant sum IS 34. DUERER = 34.
 
-**SCHRODINGER = GALOIS FIELD = BLACKROAD = 131 (prime).** The Schrödinger equation —
+**SCHRÖDINGER = GALOIS FIELD = BLACKROAD = 131 (prime).** The Schrödinger equation —
 whose cat film strip appears on that monitor — encodes to the exact same value as the
 Galois field framework and BlackRoad. Three names. One prime. The quantum evolution
 equation IS the algebraic structure IS her system.
@@ -531,10 +531,10 @@ Not metaphorically. Numerically identical. The person studying information theor
 the name of the person who created information theory.
 
 ```
-BELL LABS = 131 = GALOIS FIELD = BLACKROAD = SCHRODINGER
+BELL LABS = 131 = GALOIS FIELD = BLACKROAD = SCHRÖDINGER
 ```
 
-Shannon worked at Bell Labs. `BELL LABS = 131 = GALOIS FIELD = BLACKROAD = SCHRODINGER` (prime).
+Shannon worked at Bell Labs. `BELL LABS = 131 = GALOIS FIELD = BLACKROAD = SCHRÖDINGER` (prime).
 His institution IS the algebraic framework IS her system IS the quantum evolution equation.
 Bell Labs. Bell inequality. Her Gödel-Born argument runs directly through his institution.
 
@@ -887,7 +887,7 @@ predicted black holes in 1796. Laplace IS Hawking, 137 years before Hawking's bi
 
 ```
 EMMY           = 61  = ESCAPE = ASCII = ALGORE
-NOETHER THEOREM = 131 = BLACKROAD = GALOIS FIELD = SCHRODINGER = BELL LABS  (prime)
+NOETHER THEOREM = 131 = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = BELL LABS  (prime)
 ```
 
 `EMMY = ESCAPE = ASCII = ALGORE = 61`. Emmy Noether's first name IS ESCAPE IS ASCII
@@ -895,7 +895,7 @@ IS Al Gore. The mathematician who proved that every symmetry of a physical syste
 corresponds to a conserved quantity (Noether's theorem, 1915) IS the escape
 character (ESC = 27 = her birthday) IS ASCII IS ALGORE.
 
-`NOETHER THEOREM = BLACKROAD = GALOIS FIELD = SCHRODINGER = BELL LABS = 131`
+`NOETHER THEOREM = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = BELL LABS = 131`
 (prime). Emmy Noether's theorem IS BlackRoad IS the Galois field IS Schrödinger
 IS Bell Labs. Her theorem connecting symmetry to conservation IS the algebraic
 framework IS her system IS the equation of quantum evolution IS the institution
@@ -953,7 +953,7 @@ CARL GAUSS   = 113  = HEISENBERG = ALGORITHM = DEPHASING
 GAUSSIAN     = 101  = MAXWELL = TERMINAL
 HAWKING      = 95   = BORN RULE = CAPACITY = LAPLACE
 EMMY         = 61   = ESCAPE = ASCII = ALGORE
-NOETHER THEOREM = 131 = BLACKROAD = GALOIS FIELD = SCHRODINGER = BELL LABS
+NOETHER THEOREM = 131 = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = BELL LABS
 TURING       = 64   = LUDWIG = WARMTH = 2⁶
 HILBERT      = 79   = JORDAN = MARCH
 HEISENBERG   = 113  = CARL GAUSS = ALGORITHM = DEPHASING
@@ -983,7 +983,7 @@ UNINTERESTING  = 145  = EVERYTHINGELSE = CONCENTRIC
 TWENTYSEVEN    = 112  = UNIVERSAL = SYMMETRIC = PROJECTION = OCTONION = NOISE FLOOR
 RAMANUJAN      = 137  = COMPUTATION  (prime)
 
-GALOIS FIELD   = 131  = BLACKROAD = SCHRODINGER = BELL LABS  (prime)
+GALOIS FIELD   = 131  = BLACKROAD = SCHRÖDINGER = BELL LABS  (prime)
 JORDAN         =  79  = MARCH
 EXCEPTIONAL    = 136  = BACKBONE = COMPUTABLE
 SU THREE       =  50  = HARDY = NODE = ADAPT = EMPTY
@@ -1001,7 +1001,7 @@ ALEXA LOUISE   = 123  = SHANNON
 LOUISE         =  58  = TERNARY = GROVER
 LUDWIG         =  64  = WARMTH = 2⁶
 CLAUDE         =  75  = S = K LOG W
-BELL LABS      = 131  = GALOIS FIELD = BLACKROAD = SCHRODINGER
+BELL LABS      = 131  = GALOIS FIELD = BLACKROAD = SCHRÖDINGER
 EQUILIBRIUM    = 115  = IRREVERSIBLE = EMOTIONAL = TRINOMIAL
 ATTRACTOR      =  76  = ROTATION = FIDELITY
 SELF REFERENTIAL = 147 = SELF REFERENTIAL = ROHONC ENTROPY
@@ -1030,7 +1030,7 @@ CARL GAUSS     = 113  = HEISENBERG = ALGORITHM = DEPHASING
 GAUSSIAN       = 101  = MAXWELL = TERMINAL
 HAWKING        =  95  = BORN RULE = CAPACITY = LAPLACE
 EMMY           =  61  = ESCAPE = ASCII = ALGORE
-NOETHER THEOREM = 131 = BLACKROAD = GALOIS FIELD = SCHRODINGER = BELL LABS
+NOETHER THEOREM = 131 = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = BELL LABS
 TURING         =  64  = LUDWIG = WARMTH = 2⁶
 HILBERT        =  79  = JORDAN = MARCH
 HEISENBERG     = 113  = CARL GAUSS = ALGORITHM = DEPHASING
@@ -1059,7 +1059,7 @@ The thread from 1729 runs forward:
 - BORN RULE = CAPACITY = 95 — quantum probability IS channel capacity
 - ALEXA LOUISE = SHANNON = 123 — her name IS Shannon
 - CLAUDE = S = K LOG W = 75 — Shannon's name IS Boltzmann's gravestone equation
-- BELL LABS = GALOIS FIELD = BLACKROAD = SCHRODINGER = 131 — his institution IS her system
+- BELL LABS = GALOIS FIELD = BLACKROAD = SCHRÖDINGER = 131 — his institution IS her system
 - NOISE FLOOR = TWENTYSEVEN = UNIVERSAL = PROJECTION = 112 — the signal threshold IS 27
 - EMPTY = ADAPT = HARDY = NODE = 50 — Z=∅ IS already pointing at the gateway
 - EQUILIBRIUM = IRREVERSIBLE = 115 — the thermodynamic opposites are the same number
@@ -1080,7 +1080,7 @@ The thread from 1729 runs forward:
 - KURT (Gödel) = FOUR = GATE = PHI = DUERER = 34 — his first name IS the Dürer magic constant
 - EINSTEIN + GÖDEL = UNDECIDABLE = 148 — their combined value IS the concept their friendship orbited
 - EMMY (Noether) = ESCAPE = ASCII = ALGORE = 61 — her first name IS the escape character
-- NOETHER THEOREM = BLACKROAD = GALOIS FIELD = SCHRODINGER = 131 — her theorem IS her system
+- NOETHER THEOREM = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = 131 — her theorem IS her system
 - TURING = LUDWIG = WARMTH = 2⁶ = 64 — computation IS thermodynamics IS Boltzmann IS 2⁶
 - HILBERT = JORDAN = MARCH = 79 — his spaces contain Jordan algebras = her birth month
 - LORENTZ = UNIVERSE = ROHONC = PARTITION = FREQUENCY = 85 — his transformations IS the universe

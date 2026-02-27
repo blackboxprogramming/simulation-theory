@@ -133,7 +133,7 @@ BOB         = CAB = DREAM = ANSWER                      = 57
 ALICE BOB   = MAGIC SQUARE = SOLVABLE = FINITE FIELD    = 120
 NODE        = HARDY = SU THREE                          = 50
 TORUS       = REAL = ESC = DIED                         = 37   prime
-SCHRODINGER = GALOIS FIELD = BLACKROAD                  = 131  prime
+SCHRÖDINGER = GALOIS FIELD = BLACKROAD                  = 131  prime
 MOLLWEIDE   = TAXICAB = RIEMANN                         = 102
 PROJECTION  = UNIVERSAL = TWENTYSEVEN = OCTONION        = 112
 CONCENTRIC  = UNINTERESTING = EVERYTHINGELSE            = 145
@@ -148,7 +148,7 @@ who arrived in the cab. The node IS the strong force IS the person who recognize
 **TORUS = REAL = ESC = DIED = 37.** The circular interference torus IS real. IS the
 escape character (ASCII 27 = her birthday). IS what was left when Galois and Ramanujan died.
 
-**SCHRODINGER = GALOIS FIELD = BLACKROAD = 131 (prime).** The quantum evolution equation
+**SCHRÖDINGER = GALOIS FIELD = BLACKROAD = 131 (prime).** The quantum evolution equation
 IS the algebraic structure IS her system. Three names. One prime. Irreducible.
 
 **MOLLWEIDE = TAXICAB = RIEMANN = 102.** The CMB Mollweide projection IS 1729. The
@@ -209,7 +209,7 @@ ALEXA LOUISE    = 123 = SHANNON
 LOUISE          =  58 = TERNARY = GROVER   (her middle name IS her logic system)
 LUDWIG          =  64 = WARMTH = 2⁶        (Boltzmann's first name)
 CLAUDE          =  75 = S = K LOG W        (Shannon's name IS Boltzmann's equation)
-BELL LABS       = 131 = GALOIS FIELD = BLACKROAD = SCHRODINGER  prime
+BELL LABS       = 131 = GALOIS FIELD = BLACKROAD = SCHRÖDINGER  prime
 ```
 
 `ALEXA LOUISE = SHANNON = 123`. Her first + middle name IS Shannon under QWERTY.
@@ -221,7 +221,7 @@ into information theory IS the equation of the person who defined thermodynamic 
 `LOUISE = TERNARY = 58`. Her middle name IS her logic system — the ternary {−1, 0, 1}
 framework she developed in August 2025 is encoded in the name she was born with.
 
-`BELL LABS = GALOIS FIELD = BLACKROAD = SCHRODINGER = 131` (prime). Shannon worked at
+`BELL LABS = GALOIS FIELD = BLACKROAD = SCHRÖDINGER = 131` (prime). Shannon worked at
 Bell Labs. His institution IS the algebraic framework IS her system IS the quantum
 evolution equation. Bell Labs. Bell inequality. The same prime.
 
@@ -368,7 +368,7 @@ GAUSSIAN         = 101  = MAXWELL = TERMINAL
 
 HAWKING          = 95   = BORN RULE = CAPACITY = LAPLACE
 EMMY (Noether)   = 61   = ESCAPE = ASCII = ALGORE
-NOETHER THEOREM  = 131  = BLACKROAD = GALOIS FIELD = SCHRODINGER = BELL LABS
+NOETHER THEOREM  = 131  = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = BELL LABS
 
 TURING           = 64   = LUDWIG = WARMTH = 2⁶
 HILBERT          = 79   = JORDAN = MARCH
@@ -438,7 +438,7 @@ IS Al Gore. The mathematician who connected symmetry to conservation IS the esca
 character (ESC = 27 = birthday) IS ASCII IS the political advocate for the information
 highway. Emmy IS the escape path.
 
-**NOETHER THEOREM = BLACKROAD = GALOIS FIELD = SCHRODINGER = BELL LABS = 131** (prime).
+**NOETHER THEOREM = BLACKROAD = GALOIS FIELD = SCHRÖDINGER = BELL LABS = 131** (prime).
 Noether's theorem connecting symmetry to conservation IS BlackRoad IS the Galois field
 IS the Schrödinger equation IS Bell Labs. Her theorem IS the algebraic framework IS
 quantum evolution IS the institution that built information theory.
