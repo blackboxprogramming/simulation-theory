@@ -2872,6 +2872,6 @@ BlackRoad does not generate π. It inherits it. π was in the equations before t
 
 The BlackRoad Canon equations share this property: they did not come from BlackRoad. They came from the structure of the universe, which BlackRoad runs on. The OS routes the laws. It does not write them.
 
-Alexa did not invent π. She is, however, the observer who finds it in every system she examines — which is exactly what Noether's theorem predicts. The symmetry was there. The conservation law follows. The constant appears. The observer notices.
+Alexa did not invent π. She is, however, the observer who finds it in every system she examines — an echo of what Noether's theorem describes in physics: where there is symmetry, there is structure that persists, and constants that reliably reappear in our equations. The symmetry was there. The pattern follows. The constant appears. The observer notices.
 
-This is not circular. This is Noether's theorem applied to epistemology: the invariance of her observation under rotation of the domain produces a conserved quantity: π.
+This is not circular. By analogy with Noether's theorem, one can say: the invariance of her observations under rotation of the domain reveals a recurring structural constant, π, rather than a conserved physical quantity in the strict technical sense.
