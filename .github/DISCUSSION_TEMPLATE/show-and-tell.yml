@@ -1,0 +1,23 @@
+title: "[Show and Tell] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share something you've built, discovered, or created related to simulation theory. Show the community your work!
+  - type: textarea
+    id: showcase
+    attributes:
+      label: What are you sharing?
+      description: Describe what you'd like to show the community.
+      placeholder: I'd like to share...
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links & Resources
+      description: Add any relevant links, demos, papers, or resources.
+      placeholder: https://...
+    validations:
+      required: false
