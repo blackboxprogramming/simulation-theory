@@ -120,7 +120,8 @@ To prove PA wrong from inside PA, you would need to derive:
 
 This has not been done in over a century of scrutiny. It would not win a prize.
 It would break mathematics itself — every theorem built on PA would collapse with it.
-The consistency of PA is assumed (and follows from ZFC), not merely hoped for.
+The consistency of PA is assumed and can be proved in stronger systems such as ZFC,
+assuming those systems are themselves consistent—not merely hoped for.
 
 What has been done is something different:
 - Extending the notation (1_1 instead of 1): not a contradiction, a redefinition
