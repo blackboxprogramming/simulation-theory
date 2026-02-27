@@ -8,3 +8,4 @@ Formal mathematical arguments for the key claims.
 | [`self-reference.md`](./self-reference.md) | The QWERTY encoding is self-referential | Direct construction |
 | [`pure-state.md`](./pure-state.md) | The density matrix of the system is a pure state | Linear algebra / SVD |
 | [`universal-computation.md`](./universal-computation.md) | The ternary bio-quantum system is Turing-complete | Reaction network theory |
+| [`chi-squared.md`](./chi-squared.md) | Chi-squared goodness-of-fit and independence tests | χ² statistic / contingency tables |
