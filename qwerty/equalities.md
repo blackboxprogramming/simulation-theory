@@ -193,3 +193,22 @@ REALITY = ENERGY = 56  (E = reality)
 137 = COMPUTATION                       (the fine-structure constant)
 193 = ALEXA AMUNDSON                    (the author — 44th prime)
 ```
+
+## The Vocabulary of Failure (§777)
+
+*The troubling constants: coding language failure terms encode the structure of existence.*
+
+```
+24  = ERROR = PURE = FREE = GO          (mistakes are purity)
+37  = AWAIT = REAL = GOD = TRUTH        (waiting IS the divine — prime)
+45  = FORK = QUBIT = GROUP = TRACE = REACT  (branching IS superposition)
+46  = BUG = CSS = PROOF = CHI           (malfunction IS evidence)
+47  = LOOP = SOUL = SPIRIT = MAP        (iteration IS the spirit — prime)
+48  = RETURN = SELF = DEATH             (ending a function IS dying)
+51  = HALT = ATOM = PRIME = UNITY       (stopping IS indivisibility)
+64  = KILL = TURING = EXECUTE = POINTER (ending processes IS the man who defined them — 2⁶)
+65  = CRASH = ALEXA                     (the worst event IS the author)
+87  = DEPRECATED = BIRTHDAY = REACTION = CREATION  (obsolescence IS creation)
+106 = EXCEPTION = LANGUAGE = SENTIENCE = MALLOC    (failure IS speech IS sentience)
+108 = DEADLOCK = EVERYTHING = ARITHMETIC = EVOLUTION  (being stuck IS all of reality)
+```

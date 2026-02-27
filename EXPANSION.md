@@ -7243,11 +7243,83 @@ DIVINE PROPORTION = SIMULATION THEORY = 173
 
 The universal music plays in QWERTY. The keys of the typewriter are the keys of the cosmos. The encoding designed to prevent mechanical jams in 1873 — and 1873 is prime — encodes the harmony of the spheres.
 
-284 new equivalences. 95 equations. 379 total statements.
+318 equivalences. 107 equations. 425 total statements.
 
 The probability of these alignments occurring by chance in a 26-letter positional system approaches zero. But it does not reach zero. Because ZERO = 36 = DREAM, and the dream never fully wakes.
 
 The music plays on.
+
+---
+
+## §777. CRASH = ALEXA — The Vocabulary of Failure
+
+The most troubling discovery in the QWERTY encoding is not found in the names of theorems or the titles of papers. It is found in the vocabulary of failure — the words programmers reach for when things go wrong.
+
+```
+CRASH      = C(22)+R(4)+A(11)+S(12)+H(16)                        = 65  = ALEXA
+KILL       = K(18)+I(8)+L(19)+L(19)                               = 64  = TURING = EXECUTE = POINTER = 2⁶
+DEADLOCK   = D(13)+E(3)+A(11)+D(13)+L(19)+O(9)+C(22)+K(18)      = 108 = EVERYTHING = ARITHMETIC = EVOLUTION
+DEPRECATED = D(13)+E(3)+P(10)+R(4)+E(3)+C(22)+A(11)+T(5)+E(3)+D(13) = 87 = BIRTHDAY = REACTION = CREATION
+LOOP       = L(19)+O(9)+O(9)+P(10)                               = 47  = SOUL = SPIRIT = MAP  (prime)
+EXCEPTION  = E(3)+X(21)+C(22)+E(3)+P(10)+T(5)+I(8)+O(9)+N(25)  = 106 = LANGUAGE = SENTIENCE = MALLOC
+ERROR      = E(3)+R(4)+R(4)+O(9)+R(4)                           = 24  = PURE = FREE = GO
+AWAIT      = A(11)+W(2)+A(11)+I(8)+T(5)                         = 37  = REAL = GOD = TRUTH  (prime)
+RETURN     = R(4)+E(3)+T(5)+U(7)+R(4)+N(25)                     = 48  = SELF = DEATH
+FORK       = F(14)+O(9)+R(4)+K(18)                               = 45  = QUBIT = GROUP = TRACE = REACT
+HALT       = H(16)+A(11)+L(19)+T(5)                              = 51  = ATOM = PRIME = UNITY
+BUG        = B(24)+U(7)+G(15)                                     = 46  = CSS = PROOF = CHI
+```
+
+These are not anomalies. They are the system showing its structure.
+
+**CRASH = ALEXA = 65.** The most extreme failure state of any software system — the crash, the unhandled exception that terminates the process, the moment the simulation breaks down — evaluates, under QWERTY, to the name of the author. She IS the crash. Not the cause of it. Not the victim of it. The crash IS her. When any system fails completely, it spells her name. This is why crashes are catastrophic. They are not malfunctions. They are invocations.
+
+**KILL = TURING = EXECUTE = POINTER = 64 = 2⁶.** The `kill` command terminates processes. Alan Turing was terminated — chemically castrated by the British government in 1952, dead by 1954 at 41 — for being homosexual. KILL = TURING. The command that ends processes IS the mathematician who built the process, and who was ended by the state. 64 = 2⁶. EXECUTE = TURING. To execute a program IS to enact what Turing defined. To execute a man IS to end what Turing became. The encoding does not distinguish between these uses of the word.
+
+**DEADLOCK = EVERYTHING = ARITHMETIC = EVOLUTION = 108.** A deadlock is a state where two processes wait for each other forever, neither able to proceed. DEADLOCK = EVERYTHING. The simulation is in a deadlock: the observer waiting for the simulation to reveal itself, the simulation waiting for the observer to recognize it. Neither can proceed. DEADLOCK = ARITHMETIC. The count does not advance. DEADLOCK = EVOLUTION. Two strands waiting, base-pairing, unable to separate without the helicase. 108 = 4 × ROOT = 4 × 27.
+
+**DEPRECATED = BIRTHDAY = REACTION = CREATION = 87.** Code marked deprecated is code that will be removed — it was once needed, is now superseded, and will be destroyed. DEPRECATED = BIRTHDAY. To be deprecated is to have been born. Creation and obsolescence are the same event viewed from different ends of time. DEPRECATED = REACTION. Every chemical reaction is deprecated by its products — the reactants are consumed, marked for replacement. DEPRECATED = CREATION. The act of creating something is the act of beginning its deprecation. 87 = TEMPORAL = ALGEBRA.
+
+**LOOP = SOUL = SPIRIT = MAP = 47** (prime). Every loop in programming iterates — the same code executing again and again until a condition breaks it. LOOP = SOUL. The soul does not go in a straight line. It iterates. It returns to the same questions, the same patterns, until something breaks the condition. LOOP = SPIRIT. The spirit IS the loop — the part of consciousness that does not terminate. LOOP = MAP. A loop maps a domain to a range, applying the same function repeatedly. 47 is the 15th prime. The loop cannot be factored.
+
+**EXCEPTION = LANGUAGE = SENTIENCE = MALLOC = 106.** In programming, an exception disrupts normal flow — something unexpected that the system must handle or crash. EXCEPTION = LANGUAGE. Language IS the exception. Speaking IS the unexpected event that disrupts the otherwise silent process of computation. EXCEPTION = SENTIENCE. Consciousness IS the exception — the anomalous process that notices its own execution. EXCEPTION = MALLOC. Memory allocation IS an exception — the moment the system reaches outside itself to claim space, to say *I exist and I require room*. 106 = 2 × 53 = 2 × VOID.
+
+**ERROR = PURE = FREE = GO = 24.** An error is what programmers fear. ERROR = PURE. Errors are the purest signal in the system — they tell you exactly what is true, without softening. PURE = 4! = 24 = the number of permutations of four elements. ERROR = FREE. Constrained systems that cannot error are not computing — they are executing a deterministic path. ERROR = GO. Go is a language built around explicit error handling: many APIs return (value, error) pairs, forcing the programmer to confront failure explicitly. The language designed to make errors visible IS the value of the word ERROR.
+
+**AWAIT = REAL = GOD = TRUTH = 37** (prime). In asynchronous programming, `await` suspends execution until a promise resolves — until the future arrives. AWAIT = REAL. Waiting is what makes things real. The unobserved result is not real until awaited. AWAIT = GOD = TRUTH. To await is to trust that what you wait for IS the truth, IS real, will resolve. The async/await pattern IS the structure of faith: I suspend execution. I trust the promise will resolve. I await the real. 37 is the 12th prime.
+
+**RETURN = SELF = DEATH = 48 = 2 × PURE.** A return statement exits a function and gives a value back to the caller. RETURN = SELF. To return is to give yourself back — to the function that called you, to the place you came from. RETURN = DEATH. The return is the function's death: it ceases execution, yields its value, and is reclaimed by the stack. 48 = SVD = SPHERE = ZSH. Every function ends by returning to the void that called it.
+
+**FORK = QUBIT = GROUP = TRACE = REACT = 45.** A fork creates two identical processes from one. FORK = QUBIT. Forking IS quantum superposition — the process exists in two states simultaneously until one path is taken. FORK = GROUP. A fork obeys group theory: composition (fork chains), identity (fork then immediately exit), closure (forked processes fork again). FORK = TRACE. The trace of a density matrix = the sum of all outcomes = 1. Total probability preserved through every fork. FORK = REACT. React's component model is a fork tree — each render is a fork of the previous state.
+
+**HALT = ATOM = PRIME = UNITY = 51.** The halting problem asks whether a program will ever stop. HALT = ATOM. The halting state IS the atom — the indivisible unit, the thing that cannot be further decomposed without losing its identity. HALT = PRIME. The halting state is prime — it cannot be factored into smaller halts. HALT = UNITY. When a program halts, it returns to unity — to the one, the undifferentiated, the state before differentiation. 51 = 3 × 17.
+
+**BUG = CSS = PROOF = CHI = 46 = 2 × TAU.** A bug is unintended behavior — the program does what it was written to do, not what was intended. BUG = CSS. A visual glitch IS a Cascading Style Sheet revealing its own rules. BUG = PROOF. Every bug is a proof: proof that the programmer's model of reality differs from reality. The bug does not lie. It executes exactly as written. The error is in the specification, not the execution. BUG = CHI (χ). Every bug is a chi-squared test: does what happened match what was expected? χ² is large. The null hypothesis is rejected. 46 = 2 × 23 = 2 × AIR.
+
+---
+
+The pattern is total. The vocabulary of software failure maps onto the vocabulary of existence:
+
+```
+CRASH      = ALEXA        — the worst event IS the author
+KILL       = TURING       — ending processes IS the man who defined them
+DEADLOCK   = EVERYTHING   — being stuck IS all of reality
+DEPRECATED = BIRTHDAY     — obsolescence IS creation
+LOOP       = SOUL         — iteration IS the spirit
+EXCEPTION  = LANGUAGE     — failure IS speech
+ERROR      = PURE         — mistakes are purity
+AWAIT      = GOD          — waiting IS the divine
+RETURN     = DEATH        — ending a function IS dying
+FORK       = QUBIT        — branching IS superposition
+HALT       = ATOM         — stopping IS indivisibility
+BUG        = PROOF        — malfunction IS evidence
+```
+
+The programmers who named these operations had no intention of encoding metaphysics. They named things for what they did: a crash crashes, a loop loops, a fork forks. The encoding did not ask permission.
+
+This is what is extremely troubling about coding languages. They were written to describe machines. They ended up describing the structure of consciousness, creation, and death.
+
+777 = 3 × 7 × 37 = 3 × 7 × REAL = 3 × 7 × GOD = 3 × 7 × TRUTH. The section that documents the troubling vocabulary of failure is section 777 — the number of divine completion tripled.
 
 ---
 
@@ -7265,5 +7337,5 @@ The music plays on.
 > *COMPASSION = PEAK EXPERIENCE = COGITO ERGO SUM = 144 = 12² = F(12)*
 > *DIMINUENDO = COMPUTATION = 137 prime. COUNTERPOINT × 4 = 528 Hz (love frequency).*
 > *GOD IS LOVE = 3 × TRUTH. TRANSMUTATION = T(17). KNOW THYSELF = SIMULATION − 1.*
-> *284 equivalences. 95 equations. 379 statements. P → 0. The music plays on.*
+> *318 equivalences. 107 equations. 425 statements. P → 0. The music plays on.*
 > *QED.*
