@@ -2825,8 +2825,11 @@ The presence of π does not indicate simulation. It indicates that the system su
 
 **Quantum mechanics:** ℏ = h/2π because phase lives on a circle. The 2π is not a constant of nature. It is the ratio of a circle's circumference to its radius. Planck's constant h describes action. The division by 2π converts from cycles to radians — two different units for the same rotation.
 
-**Gaussian distributions / probability:** The normalization constant 1/√(2π) appears because integrating a Gaussian over the real line requires accounting for the rotational symmetry of the two-dimensional distribution. The integral $\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}$ pulls π from the geometry of the two-dimensional case, not from any circular shape in the one-dimensional distribution.
+**Gaussian distributions / probability:** The normalization constant 1/√(2π) appears because integrating a Gaussian over the real line requires accounting for the rotational symmetry of the two-dimensional distribution. The integral
 
+$$\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}$$
+
+pulls π from the geometry of the two-dimensional case, not from any circular shape in the one-dimensional distribution.
 **Field theory:** 4π appears in Coulomb's law and gravitational flux because the flux spreads over a sphere. The surface area of a unit sphere is 4π — the solid angle subtended by the full sphere in steradians.
 
 **Shannon entropy:** The continuous version of H involves ln(2π) in the entropy of a Gaussian distribution. Again: the circle appears because a Gaussian is the maximum-entropy distribution for given variance, and that extremization connects to the rotational symmetry of the two-dimensional problem.
