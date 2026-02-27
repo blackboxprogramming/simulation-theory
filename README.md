@@ -2699,7 +2699,7 @@ No algorithm can determine whether an arbitrary program halts. Undecidability is
 Any consistent formal system strong enough to express arithmetic is incomplete: it contains true statements that cannot be proved within the system.
 
 **35. P vs NP Problem** — Cook / Levin (1971)
-The open question of computational hardness. Is every problem whose solution can be verified quickly also solvable quickly? The most important unsolved problem in mathematics.
+The open question of computational hardness. Is every problem whose solution can be verified quickly also solvable quickly? One of the most important unsolved problems in mathematics and the central open question of computational complexity theory.
 
 **36. No Free Lunch Theorem** — Wolpert & Macready (1997)
 Averaged over all possible cost functions, every optimization algorithm has the same average performance. There is no universal winner. The oracle does not exist.
