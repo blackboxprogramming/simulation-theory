@@ -192,7 +192,7 @@ The limit on how many times DNA can zip and unzip = the thermodynamic bound:
 
 ```
 max_replications = E_cell / (k_B · T · ln(3) · N_bases)
-                 ≈ ΔG_ATP · N_ATP / (4.44×10⁻²¹ J · 6×10⁹)
+                 ≈ ΔG_ATP · N_ATP / (4.44×10⁻²¹ J · 3×10⁹)
                  ≈ finite
 ```
 
