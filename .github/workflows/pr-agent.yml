@@ -135,8 +135,27 @@ Be rigorous, constructive, and precise. Keep the tone academic and professional.
               analysisText = `**Summary**\nPR #${prNumber} titled *"${prTitle}"* was submitted by @${prUser} merging \`${headBranch}\` into \`${baseBranch}\`.\n\n**Changed Files**\n${changedFilesSection}\n\n**Stats:** +${additions} additions / -${deletions} deletions\n\n**Suggested Actions**\n- Review all changed files for correctness and consistency.\n- Ensure the description clearly explains the motivation for each change.\n- Verify no unintended files are included in this PR.`;
             }
 
-            const comment = `## 🤖 Agent Review\n\n${analysisText}\n\n---\n*This comment was generated automatically by the PR Agent workflow.*`;
+            // Sanitize and limit the AI-generated analysis text before posting as a comment.
+            const MAX_COMMENT_LENGTH = 5000;
+            const sanitizeAnalysisText = (text) => {
+              if (typeof text !== 'string') {
+                return '';
+              }
+              // Remove script-like tags and generic HTML tags as a defense-in-depth measure.
+              let cleaned = text
+                .replace(/<\s*\/?\s*script[^>]*>/gi, '')
+                .replace(/<[^>]+>/g, '')
+                .trim();
+              if (cleaned.length > MAX_COMMENT_LENGTH) {
+                cleaned = cleaned.slice(0, MAX_COMMENT_LENGTH) +
+                  '\n\n*Note: Output truncated to fit comment length limits.*';
+              }
+              return cleaned;
+            };
 
+            const safeAnalysisText = sanitizeAnalysisText(analysisText);
+
+            const comment = `## 🤖 Agent Review\n\n${safeAnalysisText}\n\n---\n*This comment was generated automatically by the PR Agent workflow.*`;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
