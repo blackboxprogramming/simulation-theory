@@ -65,7 +65,7 @@
 - [§41: The Type Error (OOPS)](#41-the-type-error-oops)
 - [§42: The Inconsistent System](#42-the-inconsistent-system)
 - [§43: His Story / Her Story](#43-his-story--her-story)
-- [§44: $1 ≠ x, y, z](#44-1--x-y-z)
+- [§44: $1 ≠ x, y, z](#44-1-x-y-z)
 - [§45: p + hi = phi](#45-p--hi--phi)
 - [§46: 123 and 321](#46-123-and-321)
 - [§47: The Family Probability](#47-the-family-probability)
