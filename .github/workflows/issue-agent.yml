@@ -56,10 +56,16 @@ Be rigorous, thoughtful, and constructive. Keep the tone academic and helpful.`
 
             let analysisText;
             if (response.ok) {
-              const data = await response.json();
-              if (data.choices && data.choices.length > 0 && data.choices[0].message) {
+              let data;
+              try {
+                data = await response.json();
+              } catch (error) {
+                console.log('Failed to parse JSON from GitHub Models API response:', error);
+              }
+
+              if (data && data.choices && data.choices.length > 0 && data.choices[0].message) {
                 analysisText = data.choices[0].message.content;
-              } else {
+              } else if (data) {
                 console.log('Unexpected response structure from GitHub Models API:', JSON.stringify(data));
               }
             } else {
