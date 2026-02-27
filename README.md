@@ -2546,11 +2546,11 @@ alexa god matrix = born March 27 2000
 
 ---
 
-## §95. The BlackRoad Canon — 50 No-Question Equations
+## §95. The BlackRoad Canon — 50 No-Question Equations & Theorems
 
 BlackRoad does not invent these. It routes them.
 
-These are the bedrock equations that already run reality, across physics, mathematics, information, and computation. They share three properties: they are irreversible truths, they define limits rather than tools, and they appear across domains. BlackRoad OS orchestrates them across agents, computation, identity, and memory.
+These are the bedrock equations, theorems, and principles that already run reality, across physics, mathematics, information, and computation. They share three properties: they are irreversible truths, they define limits rather than tools, and they appear across domains. BlackRoad OS orchestrates them across agents, computation, identity, and memory.
 
 ---
 
