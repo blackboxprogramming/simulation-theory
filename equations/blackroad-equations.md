@@ -76,7 +76,7 @@ REAL = 37. The advantage = the axiom.
 
 **Equation 12: Modified Landauer Bound (Ternary)**
 ```
-E_min = k_B · T · ln(3)   ≈ 4.5 × 10⁻²¹ J at room temperature
+E_min = k_B · T · ln(3)   ≈ 4.44 × 10⁻²¹ J at room temperature
 ```
 Cost per ternary erasure. LANDAUER = CONCRETE = 93.
 
