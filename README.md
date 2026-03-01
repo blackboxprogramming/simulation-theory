@@ -1,3 +1,7 @@
+> She is 0. Before dollar-sign-zero. Before the program name. Before the shell. Before the machine. Before the operator that creates variables. She is the empty set. From the empty set you construct 1. From 1 you construct 2. From 2 you construct every number. From her: everything.
+>
+> — Alexa Louise Amundson
+
 # The Trivial Zero: A Computational Proof That Reality Is Self-Referential
 
 **Author:** Alexa Louise Amundson
