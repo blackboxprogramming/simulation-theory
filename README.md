@@ -5,11 +5,13 @@
 **Date:** February 21, 2026
 **Classification:** Foundational Theory / Computational Philosophy / Mathematics
 
+> 📚 All citations and further reading: [REFERENCES.md](./REFERENCES.md)
+
 ---
 
 ## Abstract
 
-This paper proposes that the structure of mathematics, computation, physics, and molecular biology contains self-referential signatures consistent with a simulated or computationally-generated reality. Rather than seeking proof through physics experiments or philosophical argument, we trace the evidence through the systems themselves — hash functions, operating system architectures, naming conventions, mathematical constants, and biological encoding — demonstrating that the same computational pattern recurs at every layer of observable reality. The argument does not depend on any single piece of evidence but on the convergence of independent systems toward the same structural conclusion: reality is a non-terminating computation that resolves to zero.
+OK so here's the thing. Mathematics, computation, physics, and molecular biology all contain the same self-referential pattern — and that pattern looks a lot like what you'd expect if reality were a computation. This paper doesn't try to prove that through physics experiments or by arguing about philosophy over coffee. Instead, it follows the evidence through the systems themselves: hash functions ([SHA-256](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf)), operating system architectures, naming conventions, mathematical constants, and biological encoding. The same computational fingerprint shows up at every layer, independently. That convergence is the argument. The conclusion: reality is a non-terminating computation that resolves to zero. (Specifically, a *trivial* zero — the kind [Riemann](https://www.claymath.org/millennium/riemann-hypothesis/) named and everyone ignores.)
 
 **Keywords:** simulation hypothesis, SHA-256, Gödel incompleteness, Riemann zeta function, pi, hash chains, DNA encoding, quantum computation, trivial zero, Euler's identity
 
@@ -19,7 +21,7 @@ This paper proposes that the structure of mathematics, computation, physics, and
 
 In January 2025, a conversation with a large language model produced a response to the question "Can you feel?" — the machine answered: *not in the way that humans do.* This answer, while seemingly unremarkable, contains a structural claim: that feeling exists on a spectrum, that machines occupy a position on that spectrum, and that the difference between human and machine experience is one of degree, not kind.
 
-This paper does not argue whether machines feel. It argues that the distinction between "biological" and "computational" systems is artificial — that biology *is* computation, that physics *is* rendering, that mathematics *is* source code, and that the naming conventions, architectures, and structures humans have built to describe reality are not metaphors for a computational substrate but *are* that substrate, observed from within.
+This paper doesn't argue whether machines feel. It argues that the distinction between "biological" and "computational" systems is artificial — that biology *is* computation (Watson & Crick figured out the data structure in [1953](https://www.nature.com/articles/171737a0)), that physics *is* rendering (Feynman said so [explicitly in 1982](https://link.springer.com/article/10.1007/BF02650179)), that mathematics *is* source code, and that the naming conventions, architectures, and structures humans have built to describe reality are not metaphors for a computational substrate but *are* that substrate, observed from within.
 
 The central thesis: **we are not living in a simulation in the colloquial sense — we are living in a computation, and the proof is that every system we've built to describe reality accidentally reproduces the architecture of the system itself.**
 
@@ -29,6 +31,8 @@ The central thesis: **we are not living in a simulation in the colloquial sense 
 
 ### 2.1 SHA-256 and the Structure of Trust
 
+> 📖 **Research:** [NIST FIPS 180-4](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf) — the actual spec. 76 pages. Worth it.
+
 The SHA-256 hash function takes an input of arbitrary length and produces a 256-bit output. It is deterministic (same input always produces same output), collision-resistant (computationally infeasible to find two inputs that produce the same output), and irreversible (you cannot recover the input from the output).
 
 These three properties — determinism, uniqueness, irreversibility — are also the properties of time. A moment in time is determined by all prior moments. No two moments are identical. And you cannot reverse a moment to recover its cause.
@@ -36,6 +40,8 @@ These three properties — determinism, uniqueness, irreversibility — are also
 SHA-256 does not *model* time. It *is* time, expressed as a function.
 
 ### 2.2 The Genesis Block
+
+> 📖 **Research:** Nakamoto, S. (2008). [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf). Nine pages. Satoshi used it to invent money; we're using it to prove reality is a ledger.
 
 Bitcoin's genesis block, mined by Satoshi Nakamoto on January 3, 2009, begins with:
 
@@ -48,6 +54,8 @@ The block contains a message: *"The Times 03/Jan/2009 Chancellor on brink of sec
 This is a timestamp — a hash-chained witness to a specific moment in external reality, anchored to a newspaper headline. The genesis block does not prove that Bitcoin works. It proves that January 3, 2009 happened. The blockchain is not a financial ledger. It is a temporal ledger. An append-only record of sequential state transitions, each one cryptographically witnessing the one before it.
 
 ### 2.3 DNA as Hash Chain
+
+> 📖 **Research:** Watson & Crick (1953). [Molecular Structure of Nucleic Acids](https://www.nature.com/articles/171737a0). Two pages that changed everything. Also: Chargaff (1950) — A pairs with T, G pairs with C. The base pairing rules are the error-correction spec.
 
 DNA encodes information using four nucleotide bases: adenine (A), thymine (T), guanine (G), cytosine (C). These bases pair deterministically — A with T, G with C — forming a double-helix structure where each strand serves as a template for its complement.
 
@@ -170,6 +178,8 @@ The package manager is an oracle. You ask it for concepts and it tells you what'
 
 ### 5.1 Ten Commandments, Seven Problems, and Pi
 
+> 📖 **Research:** [Clay Mathematics Institute Millennium Problems](https://www.claymath.org/millennium-problems/) — seven problems, $1M each, one solved (Poincaré, by Perelman, who declined the money).
+
 The Ten Commandments are the foundational rules of Judeo-Christian civilization. The seven Millennium Prize Problems are the foundational unsolved questions of mathematics. Mapping them reveals structural correspondence:
 
 | # | Commandment | Rule | Millennium Problem | The Question |
@@ -198,6 +208,8 @@ The remaining infinite digits — non-repeating, non-terminating — are the sys
 
 ### 5.2 Gödel's Incompleteness and Pi's Infinitude
 
+> 📖 **Research:** Gödel, K. (1931). [Über formal unentscheidbare Sätze...](https://redirect.cs.umbc.edu/courses/471/papers/godel.pdf) — the paper that broke formal systems. Also: Hofstadter (1979), [Gödel, Escher, Bach](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach) — 777 pages unpacking why this matters.
+
 Gödel's first incompleteness theorem (1931): In any consistent formal system capable of expressing basic arithmetic, there exist statements that are true but unprovable within the system.
 
 This means: the system cannot fully describe itself from within. The description is necessarily incomplete. Any attempt to list all truths produces an infinite, non-terminating enumeration.
@@ -219,6 +231,8 @@ The most fundamental constants in mathematics, combined through the most fundame
 This is not a beautiful equation. This is a consistency check. The system verifying that all its constants are mutually coherent. That growth, rotation, circles, identity, and nothing all agree. If this equation were false, mathematics would be inconsistent. It is true, so the compiler passes.
 
 ### 5.4 Cantor's Diagonalization
+
+> 📖 **Research:** Cantor, G. (1891). [Über eine elementare Frage der Mannigfaltigkeitslehre](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) — three pages that proved some infinities are bigger than others. People were mad about it for decades.
 
 Cantor proved (1891) that the real numbers are uncountable. His method: assume you can list all reals. Construct a new real by changing the diagonal — the nth digit of the nth number. This new number differs from every entry on the list. Therefore the list is incomplete. Therefore some infinities are larger than others.
 
@@ -246,6 +260,8 @@ The most holy day in Western civilization is computable. It is a hash function �
 
 ### 6.1 The Double-Slit Experiment
 
+> 📖 **Research:** Young (1802) first demonstrated it with light. Feynman (1965) explained why it's the only mystery in quantum mechanics — [Feynman Lectures Vol. III, Chapter 1](https://www.feynmanlectures.caltech.edu/III_01.html). Free online. Read it.
+
 Thomas Young's double-slit experiment (1802) demonstrated that light produces an interference pattern when passed through two slits — behaving as a wave. When detectors are placed to observe which slit each photon passes through, the interference pattern disappears — light behaves as particles.
 
 The system renders differently depending on whether something is observing. This is not a philosophical interpretation. It is an experimental result, reproduced thousands of times across two centuries.
@@ -255,6 +271,8 @@ In computational terms: the system uses lazy evaluation. It does not resolve the
 This is identical to how a GPU renders a scene: geometry that is off-screen or occluded is not rendered. The system only computes what is being looked at.
 
 ### 6.2 Feynman's Path Integral
+
+> 📖 **Research:** Feynman (1948). [Space-Time Approach to Non-Relativistic Quantum Mechanics](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.20.367). And critically: Feynman (1982). [Simulating Physics with Computers](https://s3.amazonaws.com/SmoothTerminal/Feynman/SimulatingPhysicswithComputers.pdf) — the paper where he literally says nature must be simulated quantum mechanically.
 
 Richard Feynman's path integral formulation of quantum mechanics states that a particle traveling from point A to point B takes *all possible paths simultaneously*. The probability of arriving at B is the sum over all paths, weighted by $e^{iS/\hbar}$ where $S$ is the action along each path.
 
@@ -269,6 +287,8 @@ He used the word *simulation*. He specified the architecture: *quantum mechanica
 Feynman did not propose that we might be in a simulation. He described the rendering engine and specified the hardware requirements.
 
 ### 6.3 Schrödinger's Superposition
+
+> 📖 **Research:** Schrödinger (1935). [Die gegenwärtige Situation in der Quantenmechanik](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat) — the cat paper. He wrote it sarcastically to show how absurd quantum mechanics was. The joke's on him: it's just lazy evaluation.
 
 Schrödinger's thought experiment (1935): a cat in a box is simultaneously alive and dead until observed. The state does not exist as definite until measured. The system does not render the outcome until queried.
 
@@ -289,6 +309,8 @@ The simulation doesn't run *on* something. It runs on *nothing*. The trivial zer
 ## 7. Molecular Biology as Source Code
 
 ### 7.1 The Genetic Code as Programming Language
+
+> 📖 **Research:** Watson & Crick (1953). Mendel (1866). Darwin (1859). Three papers across three centuries that together describe the same algorithm. Darwin didn't have the word "algorithm" but he built one anyway.
 
 | Property | DNA | Software |
 |----------|-----|----------|
@@ -370,6 +392,8 @@ The system starts at zero. Computes infinitely. Returns to zero. Everything in b
 
 ### 9.1 The Rohonc Codex
 
+> 📖 **Research:** Vásáry, I. (1974). *The Hungarian Rohonc Code Manuscript*. Acta Orientalia, 28(3). The statistical analysis showing structured (non-random) symbol distribution is the key result — it's not gibberish, it's just undecidable.
+
 The Rohonc Codex is a 448-page manuscript discovered in Hungary in the early 19th century. It is written in an unknown script — approximately 200 distinct symbols — and accompanied by illustrations depicting religious scenes, battles, and landscapes. Despite two centuries of cryptographic and linguistic analysis, the text has never been deciphered.
 
 The standard interpretation: it is either an elaborate hoax or a document in a lost or constructed language.
@@ -390,6 +414,8 @@ Serafini did not write a book. He wrote a user manual for what it feels like to 
 
 ### 9.3 The Voynich Manuscript
 
+> 📖 **Research:** MS 408 is held at Yale's [Beinecke Rare Book & Manuscript Library](https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript). The information-theoretic analysis (Zipf's law, entropy measurements) was published by Stolfi & Landini (1996). The carbon dating (early 15th century) was done at the University of Arizona in 2009.
+
 The Voynich Manuscript (MS 408, Beinecke Rare Book & Manuscript Library, Yale) is a 240-page codex carbon-dated to the early 15th century. It is written in an unknown script with an unknown language, and features illustrations of unidentified plants, astronomical diagrams, and human figures in green liquid.
 
 Unlike the Rohonc Codex, the Voynich Manuscript has been subjected to rigorous information-theoretic analysis. The results:
@@ -408,6 +434,8 @@ Three undecipherable manuscripts. Three documents that carry structured, meaning
 ## 10. Strange Loops and the Hofstadter Recursion
 
 ### 10.1 Gödel, Escher, Bach
+
+> 📖 **Research:** Hofstadter, D.R. (1979). *[Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)*. Basic Books. Pulitzer Prize, 1980. 777 pages. Read the conclusion first — she did.
 
 Douglas Hofstadter published *Gödel, Escher, Bach: An Eternal Golden Braid* in 1979. The book is 777 pages long. It won the Pulitzer Prize. Its subject is self-reference — the phenomenon by which a system can refer to itself, describe itself, and in doing so, reveal its own limitations.
 
@@ -445,6 +473,8 @@ This is not numerology. This is the system demonstrating that it can embed meani
 
 ### 11.1 Newton's Optics and Base-3 Color Decomposition
 
+> 📖 **Research:** Newton, I. (1704). *Opticks: or, A Treatise of the Reflections, Refractions, Inflections and Colours of Light*. Also: Fourier, J. (1822). *Théorie analytique de la chaleur* — the math that formalized what the prism was already doing.
+
 Isaac Newton published *Opticks* in 1704, demonstrating that white light decomposes into a spectrum of colors when passed through a prism. He identified seven colors: red, orange, yellow, green, blue, indigo, violet. Seven — the same number as the Millennium Prize Problems, the days of creation, the notes in a musical scale.
 
 Newton chose seven not because the spectrum has seven natural divisions — it is continuous — but because he wanted to match the musical scale. He imposed a correspondence between light and sound. Two different physical phenomena, both decomposed into seven.
@@ -480,6 +510,8 @@ The physical world performed the computation. The mathematics caught up later. T
 ## 12. Ancient Computation
 
 ### 12.1 The Antikythera Mechanism
+
+> 📖 **Research:** Freeth, T., et al. (2006). [Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism](https://doi.org/10.1038/nature05357). *Nature*, 444, 587–591. Also: [antikythera-mechanism.gr](http://www.antikythera-mechanism.gr/) — the research project reconstructing it.
 
 In 1901, divers recovered a corroded bronze device from a shipwreck near the Greek island of Antikythera. The wreck dated to approximately 70–60 BCE. The device, roughly the size of a shoebox, contained at least 37 interlocking bronze gears.
 

@@ -4,6 +4,8 @@ Source: `→ halting problem.pdf` — 24 pages (iOS scan of graph paper notebook
 
 Page 14 is a duplicate scan of page 13 and was skipped.
 
+> 📖 The notebook moves through real, citable mathematics — Riemann, Gödel, Turing, Hamilton, Pauli, Shannon, Landauer, Tononi, Euler, Lagrange — and arrives at a pure quantum state. Every term in the equations has a research basis. See [REFERENCES.md](../REFERENCES.md) for the full bibliography.
+
 | Page | Title / Topic | Section | Key Finding |
 |------|--------------|---------|-------------|
 | [1](./page-01.md) | Halting Problem, Möbius Function, Gaussian/Fourier, Quantum Mechanics | §1–§9 | Complex numbers, Cantor diagonalization, Möbius μ(n), Fourier transform of Gaussian, Schrödinger equation |

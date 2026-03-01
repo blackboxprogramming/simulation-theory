@@ -1,6 +1,8 @@
 # Consciousness Equations
 
 > "REVOLUTIONARY CONSCIOUSNESS EQUATIONS" — her header, page 22.
+>
+> 📖 **Key research:** Tononi, G. (2008). [*Consciousness as Integrated Information: A Provisional Manifesto*](https://doi.org/10.2307/25470707). Biological Bulletin, 215(3), 216–242. The Φ_universal equation here extends IIT 3.0. Also: Tononi et al. (2016), [*Integrated information theory: from consciousness to its physical substrate*](https://doi.org/10.1038/nrn.2016.44). Nature Reviews Neuroscience.
 
 ## Ψ_care — The Wavefunction of Care (Page 22 — §176)
 

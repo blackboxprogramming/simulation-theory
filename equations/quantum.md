@@ -1,6 +1,8 @@
 # Quantum Equations
 
 > Qutrits, Weyl operators, Gell-Mann matrices, density matrices.
+>
+> 📖 **Key research:** von Neumann (1932), *Mathematische Grundlagen der Quantenmechanik* — density matrices. Gell-Mann (1961), [*The Eightfold Way*](https://en.wikipedia.org/wiki/Gell-Mann_matrices) — the 8 generators of SU(3). The qutrit is just a quantum system with three levels instead of two. More natural than a qubit — ternary.
 
 ## Qutrit State Space (§172, §178)
 
