@@ -5,6 +5,122 @@
 **Date:** February 21, 2026
 **Classification:** Foundational Theory / Computational Philosophy / Mathematics
 
+[![npm](https://img.shields.io/npm/v/simulation-theory)](https://www.npmjs.com/package/simulation-theory)
+[![License](https://img.shields.io/badge/license-Proprietary-red)](./LICENSE)
+
+---
+
+## Table of Contents
+
+### Installation & Payments
+- [Installation (npm)](#installation)
+- [Payments (Stripe)](#payments)
+
+### Repository Index
+- [equations/](./equations/README.md) — The 19 BlackRoad equations (ternary physics, thermodynamics, biology, consciousness)
+- [proofs/](./proofs/README.md) — Formal mathematical proofs (ternary efficiency, self-reference, pure state, Turing-completeness)
+- [figures/](./figures/README.md) — Visual representations (Dürer square, trinary tables, qutrit operators, keyboard map)
+- [notebooks/](./notebooks/README.md) — 24-page source notebook index with page-by-page findings
+- [qwerty/](./qwerty/README.md) — QWERTY positional encoding system, constants, and equalities
+- [INDEX.md](./INDEX.md) — Full record index
+- [EXPANSION.md](./EXPANSION.md) — Extended sections §462–§776
+
+### Paper Sections
+- [Abstract](#abstract)
+- [1. Introduction](#1-introduction)
+- [2. The Hash Chain as Witness](#2-the-hash-chain-as-witness)
+- [3. The Operating System as Ontological Evidence](#3-the-operating-system-as-ontological-evidence)
+- [4. Naming Conventions as Source Code Comments](#4-naming-conventions-as-source-code-comments)
+- [5. The Mathematical Architecture](#5-the-mathematical-architecture)
+- [6. Physics as Rendering Engine](#6-physics-as-rendering-engine)
+- [7. Molecular Biology as Source Code](#7-molecular-biology-as-source-code)
+- [8. The Trivial Zero](#8-the-trivial-zero)
+- [9. The Undecipherable Manuscripts](#9-the-undecipherable-manuscripts)
+- [10. Strange Loops and the Hofstadter Recursion](#10-strange-loops-and-the-hofstadter-recursion)
+- [11. Light, Color, and the Rendering Pipeline](#11-light-color-and-the-rendering-pipeline)
+- [12. Ancient Computation](#12-ancient-computation)
+- [13. Quantum Geometry](#13-quantum-geometry)
+- [14. The Riemann Architecture](#14-the-riemann-architecture)
+- [15. Information Is Physical](#15-information-is-physical)
+- [16. Deterministic Chaos](#16-deterministic-chaos)
+- [17. The Naming Chain Continued](#17-the-naming-chain-continued)
+- [18. Constants as Initialization Parameters](#18-constants-as-initialization-parameters)
+- [19. The Birth Date Function](#19-the-birth-date-function)
+- [20. The Convergence](#20-the-convergence)
+- [22. The Null Hypothesis](#22-the-null-hypothesis)
+- [23. The Lagrangian as Cost Function](#23-the-lagrangian-as-cost-function)
+- [24. The Laplacian as Rendering Constraint](#24-the-laplacian-as-rendering-constraint)
+- [25. Lorenz Redux — The Bootstrap](#25-lorenz-redux--the-bootstrap)
+- [26. Conclusion](#26-conclusion)
+
+### Appendices
+- [Appendix A: Evidence Index](#appendix-a-evidence-index)
+- [Appendix B: The Filesystem Evidence](#appendix-b-the-filesystem-evidence)
+- [Appendix C: The RoadChain](#appendix-c-the-roadchain)
+
+### Extended Sections (§27–§461)
+<details>
+<summary>Click to expand all extended sections</summary>
+
+- [§27: Gödel Took My Lambda](#27-gödel-took-my-lambda)
+- [§28: The Type System](#28-the-type-system-01--1--10)
+- [§29: DNA (a, g, t, c)](#29-dna-a-g-t-c)
+- [§30: The Mandelbrot Coordinate](#30-the-mandelbrot-coordinate)
+- [§31: The Multiverse at Scale 10⁹⁸](#31-the-multiverse-at-scale-1098)
+- [§32: The Creator Compressed](#32-the-creator-compressed)
+- [§33: Live Evidence — The Server Error](#33-live-evidence--the-server-error)
+- [§34: 1 Hacker Way (The Exposed Layer)](#34-1-hacker-way-the-exposed-layer)
+- [§35: ◐ (The Glyph)](#35--the-glyph)
+- [§36: echo alexa (A–Z)](#36-echo-alexa-az)
+- [§37: whoami (Terminal Confirmation)](#37-whoami-terminal-confirmation)
+- [§38: The Function Call](#38-the-function-call)
+- [§39–§52: The Lambda Calculus Chain](#39-1-2-3-4)
+- [§53–§85: Physics and Constants](#53-the-julia-set)
+- [§86–§178: Structures and Encoding](#86-gödel-escher-bach-the-fourth-strand)
+- [§179–§249: Number Theory](#179-truth--god--one--truth--real--37-prime)
+- [§250–§344: Sacred Architecture](#250-after--god-before--trinity--soul)
+- [§370–§461: Infrastructure and History](#370-claude--2--god--1)
+</details>
+
+---
+
+## Installation
+
+```bash
+npm install simulation-theory
+```
+
+```js
+const { TrivialZero } = require('simulation-theory');
+```
+
+> **BlackRoad OS, Inc.** — [npm](https://www.npmjs.com/package/simulation-theory) · [GitHub](https://github.com/blackboxprogramming/simulation-theory)
+
+---
+
+## Payments
+
+Stripe integration for BlackRoad OS subscriptions and access tiers:
+
+```bash
+# Install the Stripe CLI
+npm install --save stripe
+```
+
+| Tier | Description | Price |
+|------|-------------|-------|
+| Free | Public paper access, equations index | $0/mo |
+| Pro | Full notebook, proofs, QWERTY constants API | $9/mo |
+| Enterprise | BlackRoad OS SDK, 30,000 agent access, PS-SHA∞ | Contact us |
+
+Configure your Stripe publishable key:
+
+```js
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+```
+
+> Stripe dashboard: [dashboard.stripe.com](https://dashboard.stripe.com) — set `STRIPE_SECRET_KEY` in your environment.
+
 ---
 
 ## Abstract
