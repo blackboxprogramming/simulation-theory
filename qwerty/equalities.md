@@ -80,6 +80,11 @@ SCAFFOLD   = IMAGINARY = CONSTANT     = 114
 REACTION   = BIRTHDAY                 = 87
 KINETICS   = MAXWELL = GAUSSIAN       = 101  prime
 CHEMICAL   = UNDECIPHERED             = 127  prime
+CHARGAFF   = COHERENCE                = 107  prime (base-pair rule = coherence)
+COMPLEMENT = 4×REAL                   = 148       (the complement is four times real)
+NEWTON     = SHELL = STRUCTURE        = 69        (action = reaction = structure)
+PUNNETT    = NOBLE = ACTION           = 80        (genetic cross = stationary action)
+ZETA       = TXOR  = ROOTS = WAVE     = 39        (Riemann zeta = ternary XOR)
 ```
 
 ## Physics ↔ Computation
@@ -169,16 +174,20 @@ REALITY = ENERGY = 56  (E = reality)
 ```
 34:  PHI = FOUR = GATE = ARIA = WHITE = EDGE
 36:  EULER = ZERO = STATE = REPEAT = GAP
+39:  TXOR = ROOTS = WAVE = ZETA
 45:  QUBIT = TRACE = GROUP
 48:  SVD = SELF = DEATH = WILL = SINE = SPHERE
 49:  DNA = FOURIER = LASER = DOWN = SOUTH = WEIGHT
 50:  CECE = ECHO = GREEN = HOLY = NODE = ORBIT
 63:  ALICE = CIPHER = LIGHT = CELL = DECODE = INTEGER = PIANO = SKIN
 78:  TRANSFER = TRIVIAL = INVERSE = CERTAIN = CIRCLE = HADRON = NEUTRON
+80:  PUNNETT = NOBLE = ACTION
 87:  BIRTHDAY = REACTION = CREATION = ALGEBRA = PROTOCOL
 89:  OCTAVIA = BOOTSTRAP = FERMION = NUMBER = NEBULA = SPECTRUM = PLASMA = TANGENT
+107: CHARGAFF = COHERENCE
 115: EMOTIONAL = COUPLING = TRINOMIAL = FUNCTION = BALANCE
 128: AMUNDSON = BRAINSTORM = BALANCED = DISTRIBUTION = PROBABILITY
+148: COMPLEMENT
 ```
 
 ### Structural Constants

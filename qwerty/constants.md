@@ -35,7 +35,7 @@ All established constants from §1–§178, in value order.
 | 64 | WARMTH = PROTEIN = 2⁶ | §176, §175 | |
 | 65 | ALEXA = 5×13 | §177 | |
 | 66 | SEVEN = VECTOR = NETWORK = MEASURE | §167, §169, §173, §174 | |
-| 69 | SHELL = STRUCTURE = FIELDS | §146, §177 | |
+| 69 | SHELL = STRUCTURE = FIELDS = NEWTON | §146, §177, complementarity | |
 | 72 | METHOD = DENSITY = reverse(27) | §167, §174, §178 | |
 | 74 | MEMORY = 2×REAL | §170 | |
 | 76 | ROTATION = CIRCUIT = FIDELITY | §160, §172, §175 | 4×TRUE |
@@ -58,7 +58,7 @@ All established constants from §1–§178, in value order.
 | 102 | RIEMANN = CANCEL = MADNESS = AMPLITUDE | §167, §172 | |
 | 103 | REVERSIBLE = LAGRANGE | §172, §177 | prime |
 | 105 | MAPPING = ACCURACY | §171, §175 | 3×5×7 |
-| 107 | COHERENCE | §170 | prime |
+| 107 | COHERENCE = CHARGAFF | §170, complementarity | prime |
 | 108 | EVERYTHING = ARITHMETIC = EVOLUTION | §169, §172, §178 | 4×ROOT |
 | 109 | PRINCIPLE | §177 | prime |
 | 111 | UNKNOWN = EXTENSION | §165, §176 | 3×REAL |
@@ -81,6 +81,7 @@ All established constants from §1–§178, in value order.
 | 137 | COMPUTATION | §175 | prime = fine-structure constant 1/α |
 | 144 | INFORMATION = BIOLOGICAL = LAGRANGIAN | §170, §175, §177 | 12² |
 | 145 | EVERYTHINGELSE = MECHANICS = SHIFT+CLOCK | §169, §172, §177 | |
+| 148 | COMPLEMENT | complementarity | 4×REAL |
 | 154 | CONVERGENCE = WAVEFUNCTION | §175, §176 | 2×PERIODIC |
 | 158 | MODIFICATION = 2×INTEGRATE | §176 | |
 | 165 | CONFINEMENT = ENTANGLEMENT = 3×SPIN | §173, §176 | |
