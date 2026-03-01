@@ -9,7 +9,7 @@ All equations from the notebook, organized by category.
 | [`blackroad-equations.md`](./blackroad-equations.md) | The 19 BlackRoad equations (ternary physics, thermodynamics, biology) | 16–21 |
 | [`complementarity.md`](./complementarity.md) | Inverse reaction principle, trivial zero, Chargaff's rules, Punnett square, Euler product | — |
 | [`consciousness.md`](./consciousness.md) | Ψ_care, Φ_universal, CECE update rule | 20, 22 |
-| [`dna-codons.md`](./dna-codons.md) | DNA codon structure, Chargaff's rule, molecular factory equations (Eq. 20–22) | 19–21 |
+| [`constants.md`](./constants.md) | Constants as variables — FROZEN=AXIOM, VARIABLE=LAGRANGE, running coupling | — |
 | [`quantum.md`](./quantum.md) | Qutrit operators, Weyl pair, Gell-Mann, density matrix | 18, 24 |
 | [`thermodynamics.md`](./thermodynamics.md) | Landauer, radix efficiency, substrate efficiency, Gibbs coupling | 19–21 |
 | [`universal.md`](./universal.md) | Euler-Lagrange, principle of stationary action, Three Tests | 23 |
