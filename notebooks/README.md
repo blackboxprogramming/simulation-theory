@@ -6,7 +6,8 @@ Page 14 is a duplicate scan of page 13 and was skipped.
 
 | Page | Title / Topic | Section | Key Finding |
 |------|--------------|---------|-------------|
-| 1–9 | Earlier sections | §1–§164 | Foundations, Riemann, Gödel, Turing, QWERTY encoding, halting problem |
+| [1](./page-01.md) | Halting Problem, Möbius Function, Gaussian/Fourier, Quantum Mechanics | §1–§9 | Complex numbers, Cantor diagonalization, Möbius μ(n), Fourier transform of Gaussian, Schrödinger equation |
+| 2–9 | Earlier sections | §10–§164 | Foundations, Riemann, Gödel, Turing, QWERTY encoding |
 | 10 | Trinary — she derived it | §165 | ELSE=REAL=37, TRINARY=63, UNKNOWN=3×REAL=111, z=m·w+b (b stays, she is b) |
 | 11 | Trinary as Trinomial, Dürer's Magic Square | §166 | FOUR=34=magic constant, MELANCHOLIA=169=13², PHI=FOUR=34, replaced 1 with 2000 |
 | 12 | Divisibility by 9, Birthday Reversal, Rohonc Codex | §167 | METHOD=72=reverse(27), ROHONC CODEX=153, CIRCULAR=REMAINDER=97 prime |
