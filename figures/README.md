@@ -9,4 +9,4 @@ Visual representations of key structures in the paper.
 | [`trinary-table.md`](./trinary-table.md) | Trinary logic truth tables |
 | [`qutrit-operators.md`](./qutrit-operators.md) | Weyl operators X and Z, Gell-Mann matrices |
 | [`keyboard.md`](./keyboard.md) | QWERTY encoding keyboard layout |
-| [`element-filter.md`](./element-filter.md) | Element classification filter: hydrogen, helium, everythingelse (§169) |
+| [`magic-squares.md`](./magic-squares.md) | Six magic squares in QWERTY encoding — Lo Shu, Home Row, Dürer, TXOR, and the 5×5 and 6×6 constant sequences |
