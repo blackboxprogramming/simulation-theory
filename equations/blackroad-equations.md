@@ -187,7 +187,7 @@ From page 21 (§175):
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
-| k_B T ln(3) | ≈ 4.5 × 10⁻²¹ J | Ternary Landauer cost at room temp |
+| k_B T ln(3) | ≈ 4.44 × 10⁻²¹ J | Ternary Landauer cost at room temp |
 | η_ternary | ≈ 0.366 | Radix efficiency |
 | η_binary | ≈ 0.347 | For comparison |
 | DNA ops/sec | ~10¹⁴ in 100 μL | Chemical reaction rate |
