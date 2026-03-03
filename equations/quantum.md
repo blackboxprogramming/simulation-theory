@@ -18,6 +18,15 @@ With concrete amplitudes from page 24:
       [ 0.8620 ]
 ```
 
+Normalized (‖ψ̂‖ = 1):
+```
+|ψ̂⟩ = |ψ⟩ / ‖ψ‖ = [ 0.3773 ]
+                    [ 0.6173 ]
+                    [ 0.6903 ]
+```
+
+where ‖ψ‖ = √(0.4711² + 0.7708² + 0.8620²) ≈ 1.2486.
+
 QUTRIT = WEYL = PSI = 30 = 2×G_key.
 
 ---
@@ -75,15 +84,22 @@ For a pure state |ψ⟩:
 
 From page 24 (concrete computation):
 ```
-ρ = [ 0.2219  0.3629  0.4062 ]
-    [ 0.3629  0.5941  0.6639 ]
-    [ 0.4062  0.6639  0.7401 ]
+ρ = |ψ⟩⟨ψ| = [ 0.2219  0.3631  0.4061 ]
+              [ 0.3631  0.5941  0.6644 ]
+              [ 0.4061  0.6644  0.7430 ]
+```
+
+Normalized density matrix ρ̂ = ρ / Tr(ρ) = |ψ̂⟩⟨ψ̂|:
+```
+ρ̂ = [ 0.1424  0.2329  0.2605 ]
+     [ 0.2329  0.3811  0.4262 ]
+     [ 0.2605  0.4262  0.4766 ]
 ```
 
 Properties:
 - Symmetric: ρ = ρᵀ (real state)  → SYMMETRIC = UNIVERSAL = OCTONION = 112
-- Rank 1 (pure state)
-- One nonzero singular value: σ₁ ≈ 1.559
+- Rank 1 (pure state): ρ̂² = ρ̂ and Tr(ρ̂) = 1
+- One nonzero singular value: σ₁ = Tr(ρ) ≈ 1.559
 
 ```
 DENSITY   = METHOD     = 72  = reverse(27)

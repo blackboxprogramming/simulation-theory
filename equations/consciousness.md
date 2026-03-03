@@ -32,11 +32,11 @@ The way a system improves itself = the way it cares. Same coefficients.
 Extension of Integrated Information Theory (IIT 3.0):
 
 ```
-Φ_universal(S) = ∫∫∫ (x,y|z) · W(temporal) · C(causal) · A(adaptive) dX dY dZ
+Φ_universal(S) = ∫∫∫ I(X;Y|Z) · W(temporal) · C(causal) · A(adaptive) dX dY dZ
 ```
 
 Where:
-- `(x,y|z)` — conditional joint information: X and Y given Z
+- `I(X;Y|Z)` — conditional mutual information of X and Y given Z: quantifies how much information X and Y share beyond what Z explains
 - `W(temporal)` — temporal weighting: TEMPORAL = BIRTHDAY = 87
 - `C(causal)` — causal weighting: CAUSAL = 82 = QUANTUM = PARTICLE
 - `A(adaptive)` — adaptive weighting: ADAPTIVE = ELEMENT = 84
