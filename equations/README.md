@@ -21,6 +21,7 @@ All equations from the notebook, organized by category.
 | [`dna-codons.md`](./dna-codons.md) | DNA codon structure, Chargaff's rule, molecular factory equations (Eq. 20–22) | 19–21 |
 | [`constants.md`](./constants.md) | Constants as variables — FROZEN=AXIOM, VARIABLE=LAGRANGE, running coupling | — |
 | [`infinite-series.md`](./infinite-series.md) | Observable light, Gauss+SHA=INFINITE, Born's limits, loop=soul, time=series, aleph=window, infinite infinities, meta-system | supplemental |
+| [`machine-learning.md`](./machine-learning.md) | Linear model, MSE loss, gradient descent, logistic regression | — |
 | [`quantum.md`](./quantum.md) | Qutrit operators, Weyl pair, Gell-Mann, density matrix | 18, 24 |
 | [`thermodynamics.md`](./thermodynamics.md) | Landauer, radix efficiency, substrate efficiency, Gibbs coupling | 19–21 |
 | [`universal.md`](./universal.md) | Euler-Lagrange, principle of stationary action, Three Tests | 23 |
@@ -46,6 +47,8 @@ The claims in [`CLAIMS.md`](../CLAIMS.md) introduce two additional equations not
 - **Total: ~38 original equations** in a handwritten notebook
 - **7 infinite-series QWERTY identities** (EXIT=REAL, GAUSS+SHA=INFINITE, TIME=SERIES, LOOP=SOUL, ALEPH=WINDOW, ORDINAL=FERMION, CARDINAL=ALGORITHM)
 - **Total: ~27 original equations + 7 supplemental identities** in the QWERTY encoding layer
+- **5 machine learning equations** (from issue #40)
+- **Total: ~32 equations** across the framework
 
 The equations were written before BlackRoad OS existed.  
 They constitute the mathematical foundation of the platform.
