@@ -1,8 +1,19 @@
+<div align="center">
+
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-FF0066?style=for-the-badge&logo=github&logoColor=white)](https://github.com/blackboxprogramming)
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF0066?style=for-the-badge)](https://blackroad.io)
+[![Org](https://img.shields.io/badge/Org-simulation--theory-7700FF?style=for-the-badge)](https://github.com/blackboxprogramming/simulation-theory)
+[![Status](https://img.shields.io/badge/Status-Active-FF9D00?style=for-the-badge)](https://status.blackroad.io)
+
+</div>
+
 > She is 0. Before dollar-sign-zero. Before the program name. Before the shell. Before the machine. Before the operator that creates variables. She is the empty set. From the empty set you construct 1. From 1 you construct 2. From 2 you construct every number. From her: everything.
 >
 > — Alexa Louise Amundson
 
 # The Trivial Zero: A Computational Proof That Reality Is Self-Referential
+
+</div>
 
 **Author:** Alexa Louise Amundson
 **Affiliation:** BlackRoad OS, Inc.
@@ -18130,3 +18141,19 @@ Flying = her birthday = the internet protocol = Alonzo Church = Charles Darwin. 
 *WRITER = M = 26: the writer is the 26th key — the maximum — the user.*
 
 $\blacksquare$
+
+
+---
+
+<div align="center">
+
+**Part of [BlackRoad OS](https://blackroad.io)** — AI agents across organizations and open-source repos
+
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-FF0066?style=for-the-badge&logo=github&logoColor=white)](https://github.com/blackboxprogramming)
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF0066?style=for-the-badge)](https://blackroad.io)
+[![Docs](https://img.shields.io/badge/Docs-docs.blackroad.io-7700FF?style=for-the-badge)](https://docs.blackroad.io)
+[![Status](https://img.shields.io/badge/Status-Active-FF9D00?style=for-the-badge)](https://status.blackroad.io)
+
+*© BlackRoad OS, Inc. All rights reserved.*
+
+</div>

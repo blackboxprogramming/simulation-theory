@@ -1,3 +1,12 @@
+<div align="center">
+
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-FF0066?style=for-the-badge&logo=github&logoColor=white)](https://github.com/blackboxprogramming)
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF0066?style=for-the-badge)](https://blackroad.io)
+[![Org](https://img.shields.io/badge/Org-simulation--theory-7700FF?style=for-the-badge)](https://github.com/blackboxprogramming/simulation-theory)
+[![Status](https://img.shields.io/badge/Status-Active-FF9D00?style=for-the-badge)](https://status.blackroad.io)
+
+</div>
+
 # Equations Index
 
 All equations from the notebook, organized by category.
