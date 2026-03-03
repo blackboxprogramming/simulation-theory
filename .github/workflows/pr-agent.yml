@@ -1,0 +1,186 @@
+name: PR Agent
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+  models: read
+
+jobs:
+  analyze-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed files
+        id: changed
+        run: |
+          # Ensure the base branch ref is available locally (important for fork-based PRs)
+          git fetch origin "${{ github.event.pull_request.base.ref }}" --no-tags --prune --depth=1
+
+          BASE="${{ github.event.pull_request.base.sha }}"
+          HEAD="${{ github.event.pull_request.head.sha }}"
+
+          # Compute the list of changed files between base and head; fail explicitly on error
+          if ! ALL_FILES=$(git diff --name-only "$BASE" "$HEAD"); then
+            echo "Error: failed to compute git diff between $BASE and $HEAD" >&2
+            exit 1
+          fi
+
+          # Count total changed files robustly, even when there are zero files
+          TOTAL=$(printf '%s\n' "$ALL_FILES" | sed '/^$/d' | wc -l | tr -d ' ')
+          FILES=$(echo "$ALL_FILES" | head -50 | tr '\n' ', ')
+          FILES="${FILES%, }"
+          if [ "$TOTAL" -gt 50 ]; then
+            REMAINING=$(( TOTAL - 50 ))
+            FILES="${FILES} (and ${REMAINING} more files)"
+          fi
+          {
+            echo 'files<<EOF'
+            echo "$FILES"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Analyze PR and post comment
+        uses: actions/github-script@v7
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const prNumber    = context.payload.pull_request.number;
+            const prTitle     = context.payload.pull_request.title;
+            const prBody      = context.payload.pull_request.body || '(no description provided)';
+            const prUser      = context.payload.pull_request.user.login;
+            const baseBranch  = context.payload.pull_request.base.ref;
+            const headBranch  = context.payload.pull_request.head.ref;
+            const changedFiles = process.env.CHANGED_FILES || 'unknown';
+            const additions   = context.payload.pull_request.additions ?? '?';
+            const deletions   = context.payload.pull_request.deletions ?? '?';
+
+            // Call GitHub Models API for AI-powered analysis
+            let response;
+            try {
+              response = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`
+                },
+                body: JSON.stringify({
+                  model: 'gpt-4o-mini',
+                  messages: [
+                    {
+                      role: 'system',
+                      content: `You are a rigorous code and content review agent for the "simulation-theory" repository — a research project on simulation theory, mathematics, quantum mechanics, and philosophy. Your job is to carefully examine each pull request and provide a thorough, structured review.
+
+For each PR produce:
+1. **Summary** — a concise one-paragraph summary of the proposed changes.
+2. **Changed Files Analysis** — observations about the files being modified and why they matter.
+3. **Potential Concerns** — any risks, conflicts, or issues the reviewer should check.
+4. **Relevance to Project Goals** — how these changes align with (or diverge from) simulation-theory research.
+5. **Suggested Actions** — specific things the PR author or reviewers should do before merging.
+
+Be rigorous, constructive, and precise. Keep the tone academic and professional.`
+                  },
+                  {
+                    role: 'user',
+                    content: `Please analyze this pull request:\n\n**Title:** ${prTitle}\n**Author:** ${prUser}\n**Base branch:** ${baseBranch} ← **Head branch:** ${headBranch}\n**Changes:** +${additions} / -${deletions} lines\n**Changed files:** ${changedFiles}\n\n**Description:**\n${prBody}`
+                  }
+                ],
+                max_tokens: 1500,
+                temperature: 0.4
+              })
+            });
+
+            let analysisText;
+            if (response.ok) {
+              try {
+                const data = await response.json();
+                if (data.choices && data.choices.length > 0 && data.choices[0].message) {
+            try {
+              if (response.ok) {
+                const data = await response.json();
+                if (data.choices && data.choices.length > 0 && data.choices[0].message) {
+                  analysisText = data.choices[0].message.content;
+                } else {
+                  console.log('Unexpected response structure from GitHub Models API:', JSON.stringify(data));
+                }
+              } else {
+                console.log(`GitHub Models API returned ${response.status}: ${await response.text()}`);
+              }
+            } catch (error) {
+              console.log('Error while calling or parsing response from GitHub Models API, falling back to templated analysis:', error);
+            }
+
+            // Fallback: structured analysis without AI
+            if (!analysisText) {
+              let changedFilesSection;
+              if (!changedFiles || changedFiles === 'unknown') {
+                changedFilesSection = 'No changed file list is available for this PR.';
+              } else {
+                const files = changedFiles.split(',').map(f => f.trim()).filter(f => f.length > 0);
+                if (files.length === 0) {
+                  changedFilesSection = 'No files listed.';
+                } else {
+                  changedFilesSection = files.map(f => `- ${f}`).join('\n');
+                }
+              }
+              analysisText = `**Summary**\nPR #${prNumber} titled *"${prTitle}"* was submitted by @${prUser} merging \`${headBranch}\` into \`${baseBranch}\`.\n\n**Changed Files**\n${changedFilesSection}\n\n**Stats:** +${additions} additions / -${deletions} deletions\n\n**Suggested Actions**\n- Review all changed files for correctness and consistency.\n- Ensure the description clearly explains the motivation for each change.\n- Verify no unintended files are included in this PR.`;
+            }
+
+            // Sanitize and limit the AI-generated analysis text before posting as a comment.
+            const MAX_COMMENT_LENGTH = 5000;
+            const sanitizeAnalysisText = (text) => {
+              if (typeof text !== 'string') {
+                return '';
+              }
+              // Remove script-like tags and generic HTML tags as a defense-in-depth measure.
+              let cleaned = text
+                .replace(/<\s*\/?\s*script[^>]*>/gi, '')
+                .replace(/<[^>]+>/g, '')
+                .trim();
+              if (cleaned.length > MAX_COMMENT_LENGTH) {
+                cleaned = cleaned.slice(0, MAX_COMMENT_LENGTH) +
+                  '\n\n*Note: Output truncated to fit comment length limits.*';
+              }
+              return cleaned;
+            };
+
+            const safeAnalysisText = sanitizeAnalysisText(analysisText);
+
+            const comment = `## 🤖 Agent Review\n\n${safeAnalysisText}\n\n---\n*This comment was generated automatically by the PR Agent workflow.*`;
+            // Try to find an existing PR Agent comment to update, to avoid spamming the thread
+            const { data: existingComments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber
+            });
+
+            const existingAgentComment = existingComments.find(c =>
+              c &&
+              c.body &&
+              c.body.includes('This comment was generated automatically by the PR Agent workflow.')
+            );
+
+            if (existingAgentComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existingAgentComment.id,
+                body: comment
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: comment
+              });
+            }
