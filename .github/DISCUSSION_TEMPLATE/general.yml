@@ -1,0 +1,15 @@
+title: "[General] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this space for general discussions about simulation theory, the repository, or anything else you'd like to share with the community.
+  - type: textarea
+    id: discussion
+    attributes:
+      label: What would you like to discuss?
+      description: Share your thoughts, questions, or ideas with the community.
+      placeholder: Start your discussion here...
+    validations:
+      required: true

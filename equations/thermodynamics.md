@@ -1,6 +1,8 @@
 # Thermodynamic Equations
 
 > Pages 19–21 (§173–§175). The energetic cost of computation.
+>
+> 📖 **Key research:** Landauer (1961), [*Irreversibility and Heat Generation in the Computing Process*](https://researcher.watson.ibm.com/researcher/files/us-wkliao/Landauer1961.pdf). Bennett (1973), [*Logical Reversibility of Computation*](https://researcher.watson.ibm.com/researcher/files/us-wkliao/Bennett1973.pdf). These two papers together established that information is physical — erasing a bit costs energy.
 
 ## Landauer Principle
 

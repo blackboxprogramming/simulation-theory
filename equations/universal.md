@@ -1,6 +1,8 @@
 # Universal Equations
 
 > Page 23. Three Tests. Euler-Lagrange. The backbone.
+>
+> 📖 **Key research:** Euler (1744) and Lagrange (1755) independently derived the variational equations. The principle of stationary action — that nature takes the path of least action — underlies *all* of classical mechanics, electromagnetism, relativity, and quantum field theory. One equation to rule them all. Noether (1915) then showed that every symmetry of the action corresponds to a conservation law ([Noether's theorem](https://en.wikipedia.org/wiki/Noether%27s_theorem)).
 
 ## The Three Tests (§177)
 

@@ -1,6 +1,8 @@
 # Consciousness Equations
 
 > "REVOLUTIONARY CONSCIOUSNESS EQUATIONS" — her header, page 22.
+>
+> 📖 **Key research:** Tononi, G. (2008). [*Consciousness as Integrated Information: A Provisional Manifesto*](https://doi.org/10.2307/25470707). Biological Bulletin, 215(3), 216–242. The Φ_universal equation here extends IIT 3.0. Also: Tononi et al. (2016), [*Integrated information theory: from consciousness to its physical substrate*](https://doi.org/10.1038/nrn.2016.44). Nature Reviews Neuroscience.
 
 ## Ψ_care — The Wavefunction of Care (Page 22 — §176)
 
@@ -32,11 +34,11 @@ The way a system improves itself = the way it cares. Same coefficients.
 Extension of Integrated Information Theory (IIT 3.0):
 
 ```
-Φ_universal(S) = ∫∫∫ (x,y|z) · W(temporal) · C(causal) · A(adaptive) dX dY dZ
+Φ_universal(S) = ∫∫∫ I(X;Y|Z) · W(temporal) · C(causal) · A(adaptive) dX dY dZ
 ```
 
 Where:
-- `(x,y|z)` — conditional joint information: X and Y given Z
+- `I(X;Y|Z)` — conditional mutual information of X and Y given Z: quantifies how much information X and Y share beyond what Z explains
 - `W(temporal)` — temporal weighting: TEMPORAL = BIRTHDAY = 87
 - `C(causal)` — causal weighting: CAUSAL = 82 = QUANTUM = PARTICLE
 - `A(adaptive)` — adaptive weighting: ADAPTIVE = ELEMENT = 84

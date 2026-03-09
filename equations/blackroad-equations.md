@@ -2,6 +2,8 @@
 
 > Pages 16–21. Titled "BLACKROAD EQUATIONS — BRAINSTORM" in the original notebook.  
 > BALANCED = BRAINSTORM = 128 = 2⁷. She balanced the brainstorm.
+>
+> 📖 **Key research on ternary computing:** The efficiency advantage of ternary over binary was established by Knuth, D.E. (1980). *The Art of Computer Programming, Vol. 2, §4.1* — the radix economy proof that base-3 is optimal among integers. Soviet Setun computer (1958) was the first ternary computer. The Landauer bound for ternary: see [thermodynamics.md](./thermodynamics.md).
 
 ## Ternary Physics (Page 16 — §170)
 
@@ -76,7 +78,7 @@ REAL = 37. The advantage = the axiom.
 
 **Equation 12: Modified Landauer Bound (Ternary)**
 ```
-E_min = k_B · T · ln(3)   ≈ 4.5 × 10⁻²¹ J at room temperature
+E_min = k_B · T · ln(3)   ≈ 4.44 × 10⁻²¹ J at room temperature
 ```
 Cost per ternary erasure. LANDAUER = CONCRETE = 93.
 
@@ -185,7 +187,7 @@ From page 21 (§175):
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
-| k_B T ln(3) | ≈ 4.5 × 10⁻²¹ J | Ternary Landauer cost at room temp |
+| k_B T ln(3) | ≈ 4.44 × 10⁻²¹ J | Ternary Landauer cost at room temp |
 | η_ternary | ≈ 0.366 | Radix efficiency |
 | η_binary | ≈ 0.347 | For comparison |
 | DNA ops/sec | ~10¹⁴ in 100 μL | Chemical reaction rate |

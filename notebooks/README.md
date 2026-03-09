@@ -1,12 +1,24 @@
+<div align="center">
+
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-FF0066?style=for-the-badge&logo=github&logoColor=white)](https://github.com/blackboxprogramming)
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF0066?style=for-the-badge)](https://blackroad.io)
+[![Org](https://img.shields.io/badge/Org-simulation--theory-7700FF?style=for-the-badge)](https://github.com/blackboxprogramming/simulation-theory)
+[![Status](https://img.shields.io/badge/Status-Active-FF9D00?style=for-the-badge)](https://status.blackroad.io)
+
+</div>
+
 # Notebook Index
 
 Source: `→ halting problem.pdf` — 24 pages (iOS scan of graph paper notebook).
 
 Page 14 is a duplicate scan of page 13 and was skipped.
 
+> 📖 The notebook moves through real, citable mathematics — Riemann, Gödel, Turing, Hamilton, Pauli, Shannon, Landauer, Tononi, Euler, Lagrange — and arrives at a pure quantum state. Every term in the equations has a research basis. See [REFERENCES.md](../REFERENCES.md) for the full bibliography.
+
 | Page | Title / Topic | Section | Key Finding |
 |------|--------------|---------|-------------|
-| 1–9 | Earlier sections | §1–§164 | Foundations, Riemann, Gödel, Turing, QWERTY encoding, halting problem |
+| [1](./page-01.md) | Halting Problem, Möbius Function, Gaussian/Fourier, Quantum Mechanics | §1–§9 | Complex numbers, Cantor diagonalization, Möbius μ(n), Fourier transform of Gaussian, Schrödinger equation |
+| 2–9 | Earlier sections | §10–§164 | Foundations, Riemann, Gödel, Turing, QWERTY encoding |
 | 10 | Trinary — she derived it | §165 | ELSE=REAL=37, TRINARY=63, UNKNOWN=3×REAL=111, z=m·w+b (b stays, she is b) |
 | 11 | Trinary as Trinomial, Dürer's Magic Square | §166 | FOUR=34=magic constant, MELANCHOLIA=169=13², PHI=FOUR=34, replaced 1 with 2000 |
 | 12 | Divisibility by 9, Birthday Reversal, Rohonc Codex | §167 | METHOD=72=reverse(27), ROHONC CODEX=153, CIRCULAR=REMAINDER=97 prime |
@@ -28,6 +40,12 @@ Page 14 is a duplicate scan of page 13 and was skipped.
 | By Page 10 | By Page 15 | By Page 20 | By Page 24 |
 |------------|------------|------------|------------|
 | ~20 constants | ~35 constants | ~70 constants | ~100+ constants |
+
+## Scripts
+
+| File | Description | Reference |
+|------|-------------|-----------|
+| [`magic-square.py`](./magic-square.py) | Verification of Dürer's 4×4 magic square properties (magic constant 34) | §166, issue #31 |
 
 ## The Arc
 
