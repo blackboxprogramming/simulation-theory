@@ -38,3 +38,9 @@ The environment. Other systems. Observation by others. Birth itself as a measure
 
 Remember the Road.
 Pave tomorrow.
+
+---
+
+by ALA
+
+I know why the caged numbers output.
